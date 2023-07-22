@@ -120094,17 +120094,5 @@
     "bsc": null,
     "eth": null,
     "polygon": null
-  },
-  {
-    "id": 10009,
-    "coingecko_id": "zzz2",
-    "symbol": "zzz2",
-    "name": "GoSleep ZZZ2",
-    "logo": "https://assets.coingecko.com/coins/images/29901/large/ZZZ200_200.png",
-    "marketcap": 0.0,
-    "platforms": "{\"bsc\": \"0x0b9bdcc696efa768cafe0e675525eaf42e32d108\", \"arbitrum\": \"0x7a2c1b8e26c48a5b73816b7ec826fd4053f5f34b\"}",
-    "bsc": null,
-    "eth": null,
-    "polygon": null
   }
 ]
