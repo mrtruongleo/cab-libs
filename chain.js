@@ -1,6 +1,5 @@
-[
-    {
-        "chain": "eth",
+const chain = {
+    "eth": {
         "name": "Ethereum Mainnet",
         "type": "mainnet",
         "evm": true,
@@ -29,8 +28,7 @@
         "gecko_terminal_chain_id": "eth",
         "dexscreener_chain_id": "ethereum"
     },
-    {
-        "chain": "bsc",
+    "bsc": {
         "name": "Binance Smartchain Mainnet",
         "type": "mainnet",
         "evm": true,
@@ -57,8 +55,7 @@
         "gecko_terminal_chain_id": "bsc",
         "dexscreener_chain_id": "bsc"
     },
-    {
-        "chain": "polygon",
+    "polygon": {
         "name": "Polygon Mainnet",
         "type": "mainnet",
         "evm": true,
@@ -86,8 +83,7 @@
         "gecko_terminal_chain_id": "polygon",
         "dexscreener_chain_id": "polygon_pos"
     },
-    {
-        "chain": "ethereum classic mainnet",
+    "ethereum classic mainnet": {
         "name": "Ethereum Classic Mainnet",
         "rpc": [
             "https://www.ethercluster.com/etc"
@@ -111,8 +107,7 @@
         "gecko_terminal_chain_id": "ethereum_classic",
         "dexscreener_chain_id": "ethereumclassic"
     },
-    {
-        "chain": "avalanche",
+    "avalanche": {
         "name": "Avalanche C-Chain",
         "type": "mainnet",
         "evm": true,
@@ -139,8 +134,7 @@
         "gecko_terminal_chain_id": "avax",
         "dexscreener_chain_id": "avalanche"
     },
-    {
-        "chain": "fantom",
+    "fantom": {
         "name": "Fantom Opera",
         "type": "mainnet",
         "evm": true,
@@ -167,8 +161,7 @@
         "gecko_terminal_chain_id": "ftm",
         "dexscreener_chain_id": "fantom"
     },
-    {
-        "chain": "optimism",
+    "optimism": {
         "name": "Optimis",
         "type": "mainnet",
         "evm": true,
@@ -202,8 +195,7 @@
         "gecko_terminal_chain_id": "optimism",
         "dexscreener_chain_id": "optimism"
     },
-    {
-        "chain": "arbitrum",
+    "arbitrum": {
         "name": "Arbitrum",
         "type": "mainnet",
         "evm": true,
@@ -237,9 +229,9 @@
         "gecko_terminal_chain_id": "arbitrum",
         "dexscreener_chain_id": "arbitrum"
     },
-    {
-        "chain": "zksync",
+    "zksync": {
         "name": "Zksync Era Mainnet",
+        "chain": "zksync",
         "type": "mainnet",
         "evm": true,
         "id": 324,
@@ -262,9 +254,9 @@
         "gecko_terminal_chain_id": "zksync",
         "dexscreener_chain_id": "zksync"
     },
-    {
-        "chain": "metis",
+    "metis-andromeda": {
         "name": "Metis Andromeda Mainnet",
+        "chain": "metis",
         "type": "mainnet",
         "evm": true,
         "id": 1088,
@@ -285,8 +277,7 @@
             }
         ]
     },
-    {
-        "chain": "kcc mainnet",
+    "kcc mainnet": {
         "name": "KCC Mainnet",
         "rpc": [
             "https://rpc-mainnet.kcc.network",
@@ -312,8 +303,7 @@
         "gecko_terminal_chain_id": "kcc",
         "dexscreener_chain_id": "kcc"
     },
-    {
-        "chain": "celo mainnet",
+    "celo mainnet": {
         "name": "Celo Mainnet",
         "rpc": [
             "https://forno.celo.org",
@@ -342,8 +332,7 @@
         "gecko_terminal_chain_id": "celo",
         "dexscreener_chain_id": "celo"
     },
-    {
-        "chain": "moonbeam",
+    "moonbeam": {
         "name": "Moonbeam",
         "rpc": [
             "https://rpc.api.moonbeam.network",
@@ -368,8 +357,7 @@
         "gecko_terminal_chain_id": "glmr",
         "dexscreener_chain_id": "moonbeam"
     },
-    {
-        "chain": "moonriver",
+    "moonriver": {
         "name": "Moonriver",
         "rpc": [
             "https://rpc.api.moonriver.moonbeam.network",
@@ -394,8 +382,7 @@
         "gecko_terminal_chain_id": "movr",
         "dexscreener_chain_id": "moonriver"
     },
-    {
-        "chain": "filecoin - mainnet",
+    "filecoin - mainnet": {
         "name": "Filecoin - Mainnet",
         "rpc": [
             "https://api.node.glif.io/",
@@ -441,8 +428,7 @@
         "gecko_terminal_chain_id": "filecoin",
         "dexscreener_chain_id": "filecoin"
     },
-    {
-        "chain": "evmos",
+    "evmos": {
         "name": "Evmos",
         "rpc": [
             "https://eth.bd.evmos.org:8545",
@@ -471,9 +457,9 @@
         "gecko_terminal_chain_id": "evmos",
         "dexscreener_chain_id": "evmos"
     },
-    {
-        "chain": "ethereumpow",
+    "ethereumpow": {
         "name": "Ethereum POW",
+        "chain": "ethereumpow",
         "type": "mainnet",
         "id": 10001,
         "evm": true,
@@ -495,8 +481,7 @@
         "gecko_terminal_chain_id": "ethw",
         "dexscreener_chain_id": "ethereumpow"
     },
-    {
-        "chain": "mumbai",
+    "mumbai": {
         "name": "Polygon Mumbai Testnet",
         "type": "testnet",
         "evm": true,
@@ -521,8 +506,7 @@
         "gecko_terminal_chain_id": null,
         "dexscreener_chain_id": null
     },
-    {
-        "chain": "btc-testnet",
+    "btc-testnet": {
         "name": "btc-testnet",
         "type": "testnet",
         "network": "btc",
@@ -548,8 +532,7 @@
         "gecko_terminal_chain_id": "zksync",
         "dexscreener_chain_id": "zksync"
     },
-    {
-        "chain": "btc",
+    "btc": {
         "name": "btc",
         "type": "mainnet",
         "evm": null,
@@ -573,8 +556,7 @@
             }
         ]
     },
-    {
-        "chain": "solana",
+    "solana": {
         "name": "Solana Mainnet",
         "type": "mainnet",
         "evm": null,
@@ -598,8 +580,7 @@
         "gecko_terminal_chain_id": "solana",
         "dexscreener_chain_id": "solana"
     },
-    {
-        "chain": "solana-devnet",
+    "solana-devnet": {
         "name": "Solana Devnet",
         "type": "devnet",
         "evm": null,
@@ -624,8 +605,7 @@
         "gecko_terminal_chain_id": "solana",
         "dexscreener_chain_id": "solana"
     },
-    {
-        "chain": "solana-testnet",
+    "solana-testnet": {
         "name": "Solana Testnet",
         "type": "testnet",
         "evm": null,
@@ -650,4 +630,13 @@
         "gecko_terminal_chain_id": "solana",
         "dexscreener_chain_id": "solana"
     }
-]
+}
+
+let res = []
+for (const key in chain){
+    res.push({
+        chain: key,
+        ...chain[key]
+    })
+}
+console.log(JSON.stringify(res))
