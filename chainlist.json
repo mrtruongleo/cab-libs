@@ -5,6 +5,7 @@
         "type": "mainnet",
         "evm": true,
         "id": 1,
+        "hexId": "0x1",
         "api": "HEB7P838NC1N7I9IQBPAZPMT3DMED3R3DB",
         "endpoint": "https://api.etherscan.io/api",
         "rpc": [
@@ -35,6 +36,7 @@
         "type": "mainnet",
         "evm": true,
         "id": 56,
+        "hexId": "0x38",
         "api": "3RU5G7XWW2HTNN1JYBZ6R9U1SB8S4EMDWD",
         "endpoint": "https://api.bscscan.com/api",
         "rpc": [
@@ -63,6 +65,7 @@
         "type": "mainnet",
         "evm": true,
         "id": 137,
+        "hexId": "0x89",
         "api": "17C74Z48VI5N3V3M32SW25M2FDYENVTWHI",
         "endpoint": "https://api.polygonscan.com/api",
         "rpc": [
@@ -93,6 +96,7 @@
             "https://www.ethercluster.com/etc"
         ],
         "id": 61,
+        "hexId": "0x3d",
         "explorers": [
             {
                 "name": "blockscout",
@@ -117,6 +121,7 @@
         "type": "mainnet",
         "evm": true,
         "id": 43114,
+        "hexId": "0xa86a",
         "api": "GPCQNPZ85MXFJITIMQEJJJKAS5ZSU4HVMC",
         "endpoint": "https://api.snowtrace.io/api",
         "rpc": [
@@ -145,6 +150,7 @@
         "type": "mainnet",
         "evm": true,
         "id": 250,
+        "hexId": "0xfa",
         "api": "66CEFIFTIZP85KN5DT7GC3HD3S38BV8W9E",
         "endpoint": "https://api.ftmscan.com/api",
         "rpc": [
@@ -173,6 +179,7 @@
         "type": "mainnet",
         "evm": true,
         "id": 10,
+        "hexId": "0xa",
         "logo_id": "optimism",
         "api": "CVF99ZWFQYTM5X3UMEFQ44XVWXZGIN65IE",
         "endpoint": "https://api-optimistic.etherscan.io/api",
@@ -208,6 +215,7 @@
         "type": "mainnet",
         "evm": true,
         "id": 42161,
+        "hexId": "0xa4b1",
         "logo_id": "arbitrum",
         "api": "FB95NR6U118D2A58FZ4WEE6ND91IWJNK3H",
         "endpoint": "https://api.arbiscan.io/api",
@@ -243,6 +251,7 @@
         "type": "mainnet",
         "evm": true,
         "id": 324,
+        "hexId": "0x144",
         "logo_id": "zksync",
         "rpc": [
             "https://mainnet.era.zksync.io"
@@ -294,6 +303,7 @@
             "https://public-rpc.blockpi.io/http/kcc"
         ],
         "id": 321,
+        "hexId": "0x141",
         "explorers": [
             {
                 "name": "KCC Explorer",
@@ -320,6 +330,7 @@
             "wss://forno.celo.org/ws"
         ],
         "id": 42220,
+        "hexId": "0xa4ec",
         "explorers": [
             {
                 "name": "Celoscan",
@@ -350,6 +361,7 @@
             "wss://wss.api.moonbeam.network"
         ],
         "id": 1284,
+        "hexId": "0x504",
         "explorers": [
             {
                 "name": "moonscan",
@@ -376,6 +388,7 @@
             "wss://wss.api.moonriver.moonbeam.network"
         ],
         "id": 1285,
+        "hexId": "0x505",
         "explorers": [
             {
                 "name": "moonscan",
@@ -403,6 +416,7 @@
             "https://filecoin-mainnet.chainstacklabs.com/rpc/v1"
         ],
         "id": 314,
+        "hexId": "0x13a",
         "explorers": [
             {
                 "name": "Filfox",
@@ -449,6 +463,7 @@
             "https://evmos-evm.publicnode.com"
         ],
         "id": 9001,
+        "hexId": "0x2329",
         "explorers": [
             {
                 "name": "Evmos EVM Explorer (Escan)",
@@ -476,6 +491,7 @@
         "name": "Ethereum POW",
         "type": "mainnet",
         "id": 10001,
+        "hexId": "0x2711",
         "evm": true,
         "rpc": [
             "https://mainnet.ethereumpow.org"
@@ -501,6 +517,7 @@
         "type": "testnet",
         "evm": true,
         "id": 80001,
+        "hexId": "0x13881",
         "rpc": [
             "https://rpc.ankr.com/polygon_mumbai",
             "https://rpc-mumbai.maticvigil.com",
