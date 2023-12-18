@@ -272,7 +272,7 @@
         "dexscreener_chain_id": "zksync"
     },
     {
-        "chain": "metis",
+        "chain": "metis-andromeda",
         "name": "Metis Andromeda Mainnet",
         "type": "mainnet",
         "evm": true,
