@@ -650,5 +650,182 @@
     ],
     "gecko_terminal_chain_id": "solana",
     "dexscreener_chain_id": "solana"
+  },
+  {
+    "chain": "cosmos",
+    "name": "Cosmos (Atom)",
+    "type": "mainnet",
+    "network": "cosmos",
+    "rpc": [
+      "https://rpc-cosmoshub.blockapsis.com",
+      "https://cosmos-rpc.publicnode.com"
+    ],
+    "rest": [
+      "https://lcd-cosmoshub.blockapsis.com",
+      "https://cosmos-rest.publicnode.com"
+    ],
+    "token_info": {
+      "name": "Cosmos",
+      "symbol": "ATOM",
+      "decimals": 6,
+      "coingecko_id": "cosmos"
+    },
+    "native_token": {
+      "name": "Cosmos",
+      "symbol": "ATOM",
+      "decimals": 6,
+      "coingecko_id": "cosmos"
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/cosmos/"
+      }
+    ]
+  },
+  {
+    "chain": "dydx",
+    "name": "DYDX chain",
+    "type": "mainnet",
+    "network": "cosmos",
+    "rpc": [
+      "https://community.nuxian-node.ch:6797/dydx/trpc",
+      "https://dydx-rpc.publicnode.com",
+      "https://dydx-mainnet-full-rpc.public.blastapi.io"
+    ],
+    "rest": [
+      "https://dydx-mainnet-full-lcd.public.blastapi.io/",
+      "https://api.dydx.nodestake.top/",
+      "https://community.nuxian-node.ch:6797/dydx/crpc"
+    ],
+    "token_info": {
+      "name": "DYDX Protocol",
+      "symbol": "DYDX",
+      "decimals": 18,
+      "coingecko_id": "dydx"
+    },
+    "native_token": {
+      "name": "DYDX Protocol",
+      "symbol": "DYDX",
+      "decimals": 18,
+      "coingecko_id": "dydx"
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/dydx/"
+      }
+    ]
+  },
+  {
+    "chain": "celestia",
+    "name": "Celestia chain",
+    "type": "mainnet",
+    "network": "cosmos",
+    "rpc": [
+      "https://rpc.lunaroasis.net",
+      "https://celestia-rpc.publicnode.com",
+      "http://celestia.rpc.nodersteam.com:29657",
+      "https://celestia-rpc.polkachu.com",
+      "https://celestia.rpc.stakin-nodes.com"
+    ],
+    "rest": [
+      "https://celestia-rest.publicnode.com",
+      "http://celestia.rpc.nodersteam.com:1617",
+      "https://api.lunaroasis.net",
+      "https://celestia.api.kjnodes.com"
+    ],
+    "token_info": {
+      "name": "CELESTIA",
+      "symbol": "TIA",
+      "decimals": 6,
+      "coingecko_id": "celestia"
+    },
+    "native_token": {
+      "name": "CELESTIA",
+      "symbol": "TIA",
+      "decimals": 6,
+      "coingecko_id": "celestia"
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/celestia/"
+      }
+    ]
+  },
+  {
+    "chain": "inj",
+    "name": "Injective chain",
+    "type": "mainnet",
+    "network": "cosmos",
+    "rpc": [
+      "https://injective-rpc.publicnode.com",
+      "https://injective-rpc.quickapi.com",
+      "https://injective-rpc.polkachu.com",
+      "https://injective-mainnet-rpc.autostake.com",
+      "https://rpc-injective.whispernode.com"
+    ],
+    "rest": [
+      "https://injective-rest.publicnode.com",
+      "https://injective-lcd.quickapi.com",
+      "https://injective-api.w3coins.io",
+      "https://injective-api.polkachu.com"
+    ],
+    "token_info": {
+      "name": "Injective",
+      "symbol": "INJ",
+      "decimals": 18,
+      "coingecko_id": "injective-protocol"
+    },
+    "native_token": {
+      "name": "Injective",
+      "symbol": "INJ",
+      "decimals": 18,
+      "coingecko_id": "injective-protocol"
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/injective/"
+      }
+    ]
+  },
+  {
+    "chain": "band",
+    "name": "Band chain",
+    "type": "mainnet",
+    "network": "cosmos",
+    "rpc": [
+      "https://band-rpc.w3coins.io",
+      "https://band-rpc.ibs.team",
+      "https://band-rpc.stake-town.com",
+      "https://bandchain-mainnet-rpc.autostake.com",
+      "https://rpc-band-01.stakeflow.io"
+    ],
+    "rest": [
+      "https://band-api.w3coins.io",
+      "https://band-api.stake-town.com",
+      "https://band-api.ibs.team",
+      "https://api-band.cosmos-spaces.cloud"
+    ],
+    "token_info": {
+      "name": "Band Protocol",
+      "symbol": "BAND",
+      "decimals": 6,
+      "coingecko_id": "band-protocol"
+    },
+    "native_token": {
+      "name": "Band Protocol",
+      "symbol": "BAND",
+      "decimals": 6,
+      "coingecko_id": "band-protocol"
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/band/"
+      }
+    ]
   }
 ]
