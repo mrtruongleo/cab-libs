@@ -401,54 +401,6 @@
     "dexscreener_chain_id": "moonriver"
   },
   {
-    "chain": "filecoin - mainnet",
-    "name": "Filecoin - Mainnet",
-    "rpc": [
-      "https://api.node.glif.io/",
-      "https://rpc.ankr.com/filecoin",
-      "https://filecoin-mainnet.chainstacklabs.com/rpc/v1"
-    ],
-    "id": 314,
-    "hexId": "0x13a",
-    "explorers": [
-      {
-        "name": "Filfox",
-        "url": "https://filfox.info/en",
-        "standard": "none"
-      },
-      {
-        "name": "Explorer 2",
-        "url": "https://beryx.zondax.ch"
-      },
-      {
-        "name": "Explorer 3",
-        "url": "https://explorer.glif.io"
-      },
-      {
-        "name": "Explorer 4",
-        "url": "https://dev.storage"
-      },
-      {
-        "name": "Explorer 5",
-        "url": "https://filscan.io"
-      },
-      {
-        "name": "Explorer 6",
-        "url": "https://filscout.io/en"
-      }
-    ],
-    "type": "mainnet",
-    "network": "evm",
-    "native_token": {
-      "name": "filecoin",
-      "symbol": "FIL",
-      "decimals": 18,
-      "coingecko_id": "filecoin"
-    },
-    "gecko_terminal_chain_id": "filecoin",
-    "dexscreener_chain_id": "filecoin"
-  },
-  {
     "chain": "evmos",
     "name": "Evmos",
     "rpc": [
