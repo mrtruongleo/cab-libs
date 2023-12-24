@@ -23,7 +23,7 @@
     "explorers": [
       {
         "name": "etherscan",
-        "url": "https://etherscan.io",
+        "url": "https://etherscan.io/tx/",
         "standard": "EIP3091"
       }
     ],
@@ -53,7 +53,7 @@
     "explorers": [
       {
         "name": "bscscan",
-        "url": "https://bscscan.com/"
+        "url": "https://bscscan.com/tx/"
       }
     ],
     "gecko_terminal_chain_id": "bsc",
@@ -83,7 +83,7 @@
     "explorers": [
       {
         "name": "polygonscan",
-        "url": "https://polygonscan.com/"
+        "url": "https://polygonscan.com/tx/"
       }
     ],
     "gecko_terminal_chain_id": "polygon",
@@ -98,7 +98,7 @@
     "explorers": [
       {
         "name": "blockscout",
-        "url": "https://blockscout.com/etc/mainnet",
+        "url": "https://blockscout.com/etc/mainnet/tx/",
         "standard": "none"
       }
     ],
@@ -136,7 +136,7 @@
     "explorers": [
       {
         "name": "snowtrace",
-        "url": "https://snowtrace.io/"
+        "url": "https://snowtrace.io/tx/"
       }
     ],
     "gecko_terminal_chain_id": "avax",
@@ -165,7 +165,7 @@
     "explorers": [
       {
         "name": "ftmscan",
-        "url": "https://ftmscan.com/"
+        "url": "https://ftmscan.com/tx/"
       }
     ],
     "gecko_terminal_chain_id": "ftm",
@@ -201,7 +201,7 @@
     "explorers": [
       {
         "name": "optimisscan",
-        "url": "https://optimistic.etherscan.io/"
+        "url": "https://optimistic.etherscan.io/tx/"
       }
     ],
     "gecko_terminal_chain_id": "optimism",
@@ -237,7 +237,7 @@
     "explorers": [
       {
         "name": "arbiscan",
-        "url": "https://arbiscan.io/"
+        "url": "https://arbiscan.io/tx/"
       }
     ],
     "gecko_terminal_chain_id": "arbitrum",
@@ -261,7 +261,7 @@
     "explorers": [
       {
         "name": "zksync",
-        "url": "https://explorer.zksync.io/"
+        "url": "https://explorer.zksync.io/tx/"
       }
     ],
     "gecko_terminal_chain_id": "zksync",
@@ -286,7 +286,7 @@
     "explorers": [
       {
         "name": "Metis Explorer",
-        "url": "https://andromeda-explorer.metis.io/"
+        "url": "https://andromeda-explorer.metis.io/tx/"
       }
     ]
   },
@@ -303,7 +303,7 @@
     "explorers": [
       {
         "name": "KCC Explorer",
-        "url": "https://explorer.kcc.io/en",
+        "url": "https://explorer.kcc.io/en/tx/",
         "standard": "EIP3091"
       }
     ],
@@ -327,12 +327,12 @@
     "explorers": [
       {
         "name": "Celoscan",
-        "url": "https://celoscan.io",
+        "url": "https://celoscan.io/tx/",
         "standard": "EIP3091"
       },
       {
         "name": "Explorer 2",
-        "url": "https://explorer.celo.org"
+        "url": "https://explorer.celo.org/tx/"
       }
     ],
     "type": "mainnet",
@@ -358,7 +358,7 @@
     "explorers": [
       {
         "name": "moonscan",
-        "url": "https://moonbeam.moonscan.io",
+        "url": "https://moonbeam.moonscan.io/tx/",
         "standard": "none"
       }
     ],
@@ -385,7 +385,7 @@
     "explorers": [
       {
         "name": "moonscan",
-        "url": "https://moonriver.moonscan.io",
+        "url": "https://moonriver.moonscan.io/tx/",
         "standard": "none"
       }
     ],
@@ -412,12 +412,12 @@
     "explorers": [
       {
         "name": "Evmos EVM Explorer (Escan)",
-        "url": "https://escan.live",
+        "url": "https://escan.live/tx/",
         "standard": "none"
       },
       {
         "name": "Explorer 2",
-        "url": "https://www.mintscan.io/evmos"
+        "url": "https://www.mintscan.io/evmos/tx/"
       }
     ],
     "type": "mainnet",
@@ -448,7 +448,7 @@
     "explorers": [
       {
         "name": "oklink",
-        "url": "https://www.oklink.com/ethw/"
+        "url": "https://www.oklink.com/ethw/tx/"
       }
     ],
     "gecko_terminal_chain_id": "ethw",
@@ -475,7 +475,7 @@
     "explorers": [
       {
         "name": "polygonscan",
-        "url": "https://mumbai.polygonscan.com/"
+        "url": "https://mumbai.polygonscan.com/tx/"
       }
     ],
     "gecko_terminal_chain_id": null,
@@ -501,7 +501,7 @@
     "explorers": [
       {
         "name": "Blockcypher",
-        "url": "https://live.blockcypher.com/btc-testnet/"
+        "url": "https://live.blockcypher.com/btc-testnet/tx/"
       }
     ],
     "gecko_terminal_chain_id": "zksync",
@@ -528,7 +528,7 @@
     "explorers": [
       {
         "name": "Blockcypher",
-        "url": "https://live.blockcypher.com/btc/"
+        "url": "https://live.blockcypher.com/btc/tx/"
       }
     ]
   },
@@ -549,7 +549,7 @@
     "explorers": [
       {
         "name": "Solscan",
-        "url": "https://solscan.io/"
+        "url": "https://solscan.io/tx/"
       }
     ],
     "gecko_terminal_chain_id": "solana",
@@ -573,7 +573,7 @@
     "explorers": [
       {
         "name": "Solscan",
-        "url": "https://solscan.io/"
+        "url": "https://solscan.io/tx/"
       }
     ],
     "gecko_terminal_chain_id": "solana",
@@ -597,7 +597,7 @@
     "explorers": [
       {
         "name": "Solscan",
-        "url": "https://solscan.io/"
+        "url": "https://solscan.io/tx/"
       }
     ],
     "gecko_terminal_chain_id": "solana",
@@ -631,7 +631,7 @@
     "explorers": [
       {
         "name": "MinScan",
-        "url": "https://www.mintscan.io/cosmos/"
+        "url": "https://www.mintscan.io/cosmos/tx/"
       }
     ]
   },
@@ -665,7 +665,7 @@
     "explorers": [
       {
         "name": "MinScan",
-        "url": "https://www.mintscan.io/dydx/"
+        "url": "https://www.mintscan.io/dydx/tx/"
       }
     ]
   },
@@ -702,7 +702,7 @@
     "explorers": [
       {
         "name": "MinScan",
-        "url": "https://www.mintscan.io/celestia/"
+        "url": "https://www.mintscan.io/celestia/tx/"
       }
     ]
   },
@@ -739,7 +739,7 @@
     "explorers": [
       {
         "name": "MinScan",
-        "url": "https://www.mintscan.io/injective/"
+        "url": "https://www.mintscan.io/injective/tx/"
       }
     ]
   },
@@ -776,7 +776,7 @@
     "explorers": [
       {
         "name": "MinScan",
-        "url": "https://www.mintscan.io/band/"
+        "url": "https://www.mintscan.io/band/tx/"
       }
     ]
   }
