@@ -40,6 +40,7 @@
     "api": "3RU5G7XWW2HTNN1JYBZ6R9U1SB8S4EMDWD",
     "endpoint": "https://api.bscscan.com/api",
     "rpc": [
+      "https://bsc-dataseed4.defibit.io",
       "https://endpoints.omniatech.io/v1/bsc/mainnet/public",
       "https://binance.llamarpc.com",
       "https://bsc-dataseed.binance.org",
