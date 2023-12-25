@@ -41,10 +41,10 @@
     "endpoint": "https://api.bscscan.com/api",
     "rpc": [
       "https://binance.llamarpc.com",
+      "https://endpoints.omniatech.io/v1/bsc/mainnet/public",
       "https://bsc-dataseed.binance.org",
       "https://bsc-dataseed1.binance.org",
-      "https://1rpc.io/bnb",
-      "https://endpoints.omniatech.io/v1/bsc/mainnet/public"
+      "https://1rpc.io/bnb"
     ],
     "native_token": {
       "name": "Binance Coin",
