@@ -485,9 +485,36 @@
     "dexscreener_chain_id": null
   },
   {
+    "chain": "btc-testnet",
+    "name": "btc-testnet",
+    "type": "testnet",
+    "network": "btc",
+    "token_info": {
+      "name": "Bitcoin Test",
+      "symbol": "BTC",
+      "decimals": 8,
+      "coingecko_id": "bitcoin"
+    },
+    "native_token": {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "decimals": 8,
+      "coingecko_id": "bitcoin"
+    },
+    "explorers": [
+      {
+        "name": "Blockcypher",
+        "url": "https://live.blockcypher.com/btc-testnet/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "zksync",
+    "dexscreener_chain_id": "zksync"
+  },
+  {
     "chain": "btc",
     "name": "btc",
     "type": "mainnet",
+
     "network": "btc",
     "token_info": {
       "name": "Bitcoin",
@@ -512,8 +539,57 @@
     "chain": "solana",
     "name": "Solana Mainnet",
     "type": "mainnet",
+
     "network": "solana",
     "rpc": ["https://api.mainnet-beta.solana.com"],
+    "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "native_token": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "coingecko_id": "solana"
+    },
+    "explorers": [
+      {
+        "name": "Solscan",
+        "url": "https://solscan.io/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "solana",
+    "dexscreener_chain_id": "solana"
+  },
+  {
+    "chain": "solana-devnet",
+    "name": "Solana Devnet",
+    "type": "devnet",
+
+    "network": "solana",
+    "cluster": "?cluster=devnet",
+    "rpc": ["https://api.devnet.solana.com"],
+    "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "native_token": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "coingecko_id": "solana"
+    },
+    "explorers": [
+      {
+        "name": "Solscan",
+        "url": "https://solscan.io/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "solana",
+    "dexscreener_chain_id": "solana"
+  },
+  {
+    "chain": "solana-testnet",
+    "name": "Solana Testnet",
+    "type": "testnet",
+
+    "network": "solana",
+    "cluster": "?cluster=testnet",
+    "rpc": ["https://api.testnet.solana.com"],
     "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "native_token": {
       "name": "Solana",
