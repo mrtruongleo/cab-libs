@@ -553,7 +553,8 @@
       "name": "Cosmos",
       "symbol": "ATOM",
       "decimals": 6,
-      "coingecko_id": "cosmos"
+      "coingecko_id": "cosmos",
+      "denom": "uatom"
     },
     "explorers": [
       {
@@ -587,7 +588,8 @@
       "name": "DYDX Protocol",
       "symbol": "DYDX",
       "decimals": 18,
-      "coingecko_id": "dydx-chain"
+      "coingecko_id": "dydx-chain",
+      "denom": "adydx"
     },
     "explorers": [
       {
@@ -624,7 +626,8 @@
       "name": "CELESTIA",
       "symbol": "TIA",
       "decimals": 6,
-      "coingecko_id": "celestia"
+      "coingecko_id": "celestia",
+      "denom": "utia"
     },
     "explorers": [
       {
@@ -661,7 +664,8 @@
       "name": "Injective",
       "symbol": "INJ",
       "decimals": 18,
-      "coingecko_id": "injective-protocol"
+      "coingecko_id": "injective-protocol",
+      "denom": "inj"
     },
     "explorers": [
       {
@@ -698,7 +702,8 @@
       "name": "Band Protocol",
       "symbol": "BAND",
       "decimals": 6,
-      "coingecko_id": "band-protocol"
+      "coingecko_id": "band-protocol",
+      "denom": "uband"
     },
     "explorers": [
       {
