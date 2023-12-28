@@ -324,7 +324,7 @@
   {
     "chain": "celo mainnet",
     "name": "Celo Mainnet",
-    "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
+    "rpc": ["https://forno.celo.org"],
     "id": 42220,
     "hexId": "0xa4ec",
     "explorers": [
