@@ -352,10 +352,7 @@
   {
     "chain": "moonbeam",
     "name": "Moonbeam",
-    "rpc": [
-      "https://rpc.api.moonbeam.network",
-      "wss://wss.api.moonbeam.network"
-    ],
+    "rpc": ["https://rpc.api.moonbeam.network"],
     "id": 1284,
     "hexId": "0x504",
     "explorers": [
@@ -379,10 +376,7 @@
   {
     "chain": "moonriver",
     "name": "Moonriver",
-    "rpc": [
-      "https://rpc.api.moonriver.moonbeam.network",
-      "wss://wss.api.moonriver.moonbeam.network"
-    ],
+    "rpc": ["https://rpc.api.moonriver.moonbeam.network"],
     "id": 1285,
     "hexId": "0x505",
     "explorers": [
