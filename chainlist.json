@@ -529,6 +529,7 @@
     "name": "Cosmos (Atom)",
     "type": "mainnet",
     "network": "cosmos",
+    "canMemo": true,
     "rpc": [
       "https://rpc-cosmoshub.blockapsis.com",
       "https://cosmos-rpc.publicnode.com"
@@ -562,6 +563,7 @@
     "name": "DYDX chain",
     "type": "mainnet",
     "network": "cosmos",
+    "canMemo": true,
     "rpc": [
       "https://community.nuxian-node.ch:6797/dydx/trpc",
       "https://dydx-rpc.publicnode.com",
@@ -597,6 +599,7 @@
     "name": "Celestia chain",
     "type": "mainnet",
     "network": "cosmos",
+    "canMemo": true,
     "rpc": [
       "https://rpc.lunaroasis.net",
       "https://celestia-rpc.publicnode.com",
@@ -635,6 +638,7 @@
     "name": "Injective chain",
     "type": "mainnet",
     "network": "cosmos",
+    "canMemo": true,
     "rpc": [
       "https://injective-rpc.publicnode.com",
       "https://injective-rpc.quickapi.com",
@@ -673,6 +677,7 @@
     "name": "Band chain",
     "type": "mainnet",
     "network": "cosmos",
+    "canMemo": true,
     "rpc": [
       "https://band-rpc.w3coins.io",
       "https://band-rpc.ibs.team",
