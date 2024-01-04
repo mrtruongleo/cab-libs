@@ -549,7 +549,9 @@
       "symbol": "ATOM",
       "decimals": 6,
       "coingecko_id": "cosmos",
-      "denom": "uatom"
+      "denom": "uatom",
+      "gasPrice": "0.025",
+      "simulateGasMultiply": 1.2
     },
     "explorers": [
       {
@@ -585,7 +587,9 @@
       "symbol": "DYDX",
       "decimals": 18,
       "coingecko_id": "dydx-chain",
-      "denom": "adydx"
+      "denom": "adydx",
+      "gasPrice": "12500000000",
+      "simulateGasMultiply": 1.2
     },
     "explorers": [
       {
@@ -624,7 +628,9 @@
       "symbol": "TIA",
       "decimals": 6,
       "coingecko_id": "celestia",
-      "denom": "utia"
+      "denom": "utia",
+      "gasPrice": "0.002",
+      "simulateGasMultiply": 1.2
     },
     "explorers": [
       {
@@ -663,7 +669,9 @@
       "symbol": "INJ",
       "decimals": 18,
       "coingecko_id": "injective-protocol",
-      "denom": "inj"
+      "denom": "inj",
+      "gasPrice": "160000000",
+      "simulateGasMultiply": 1.2
     },
     "explorers": [
       {
@@ -702,7 +710,9 @@
       "symbol": "BAND",
       "decimals": 6,
       "coingecko_id": "band-protocol",
-      "denom": "uband"
+      "denom": "uband",
+      "gasPrice": "0.025",
+      "simulateGasMultiply": 1.2
     },
     "explorers": [
       {
