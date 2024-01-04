@@ -551,7 +551,7 @@
       "coingecko_id": "cosmos",
       "denom": "uatom",
       "gasPrice": "0.025",
-      "simulateGasMultiply": 1.2
+      "simulateGasMultiply": 1.4
     },
     "explorers": [
       {
@@ -589,7 +589,7 @@
       "coingecko_id": "dydx-chain",
       "denom": "adydx",
       "gasPrice": "12500000000",
-      "simulateGasMultiply": 1.2
+      "simulateGasMultiply": 1.4
     },
     "explorers": [
       {
@@ -630,7 +630,7 @@
       "coingecko_id": "celestia",
       "denom": "utia",
       "gasPrice": "0.002",
-      "simulateGasMultiply": 1.2
+      "simulateGasMultiply": 1.4
     },
     "explorers": [
       {
@@ -671,7 +671,7 @@
       "coingecko_id": "injective-protocol",
       "denom": "inj",
       "gasPrice": "160000000",
-      "simulateGasMultiply": 1.2
+      "simulateGasMultiply": 1.4
     },
     "explorers": [
       {
@@ -712,7 +712,7 @@
       "coingecko_id": "band-protocol",
       "denom": "uband",
       "gasPrice": "0.025",
-      "simulateGasMultiply": 1.2
+      "simulateGasMultiply": 1.4
     },
     "explorers": [
       {
