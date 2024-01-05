@@ -531,8 +531,8 @@
     "network": "cosmos",
     "canMemo": true,
     "rpc": [
-      "https://rpc-cosmoshub.blockapsis.com",
-      "https://cosmos-rpc.publicnode.com"
+      "https://cosmos-rpc.publicnode.com",
+      "https://rpc-cosmoshub.blockapsis.com"
     ],
     "rest": [
       "https://lcd-cosmoshub.blockapsis.com",
