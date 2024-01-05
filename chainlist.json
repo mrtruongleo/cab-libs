@@ -556,7 +556,8 @@
         {
           "validator": "Cosmos Station",
           "validatorAddress": "cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn",
-          "commission": "0"
+          "commission": "0",
+          "apr": "14.05"
         }
       ]
     },
@@ -601,7 +602,8 @@
         {
           "validator": "Cosmos Station",
           "validatorAddress": "dydxvaloper1vl5ty47uwpfv4mcutwv4zam09mvvvdgy09n0l5",
-          "commission": "5"
+          "commission": "5",
+          "apr": "10.71"
         }
       ]
     },
@@ -649,7 +651,8 @@
         {
           "validator": "Cosmos Station",
           "validatorAddress": "celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw",
-          "commission": "5"
+          "commission": "5",
+          "apr": "15.46"
         }
       ]
     },
@@ -692,7 +695,15 @@
       "coingecko_id": "injective-protocol",
       "denom": "inj",
       "gasPrice": "160000000",
-      "simulateGasMultiply": 1.4
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "injvaloper1rvqzf9u2uxttmshn302anlknfgsatrh5v7fl7e",
+          "commission": "8.9",
+          "apr": "14.48"
+        }
+      ]
     },
     "explorers": [
       {
@@ -733,7 +744,15 @@
       "coingecko_id": "band-protocol",
       "denom": "uband",
       "gasPrice": "0.025",
-      "simulateGasMultiply": 1.4
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "bandvaloper17d3uhcjlh4jyqcep82jfsrg8avsngklxxan5tg",
+          "commission": "12",
+          "apr": "10.13"
+        }
+      ]
     },
     "explorers": [
       {
