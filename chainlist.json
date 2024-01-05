@@ -551,7 +551,14 @@
       "coingecko_id": "cosmos",
       "denom": "uatom",
       "gasPrice": "0.025",
-      "simulateGasMultiply": 1.4
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn",
+          "commission": "0"
+        }
+      ]
     },
     "explorers": [
       {
@@ -589,7 +596,14 @@
       "coingecko_id": "dydx-chain",
       "denom": "adydx",
       "gasPrice": "12500000000",
-      "simulateGasMultiply": 1.4
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "dydxvaloper1vl5ty47uwpfv4mcutwv4zam09mvvvdgy09n0l5",
+          "commission": "5"
+        }
+      ]
     },
     "explorers": [
       {
@@ -630,7 +644,14 @@
       "coingecko_id": "celestia",
       "denom": "utia",
       "gasPrice": "0.002",
-      "simulateGasMultiply": 1.4
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw",
+          "commission": "5"
+        }
+      ]
     },
     "explorers": [
       {
