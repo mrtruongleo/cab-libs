@@ -767,8 +767,8 @@
     ]
   },
   {
-    "chain": "btc-testnet",
-    "name": "btc-testnet",
+    "chain": "btcTestnet",
+    "name": "btc testnet",
     "type": "testnet",
     "network": "btc",
     "token_info": {
