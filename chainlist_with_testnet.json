@@ -506,9 +506,7 @@
         "name": "Blockcypher",
         "url": "https://live.blockcypher.com/btc-testnet/tx/"
       }
-    ],
-    "gecko_terminal_chain_id": "zksync",
-    "dexscreener_chain_id": "zksync"
+    ]
   },
   {
     "chain": "btc",
