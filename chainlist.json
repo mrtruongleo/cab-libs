@@ -714,6 +714,55 @@
     ]
   },
   {
+    "chain": "sei",
+    "name": "Sei Network",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "rpc": [
+      "https://sei-rpc.lavenderfive.com:443",
+      "https://sei-rpc.polkachu.com",
+      "https://sei-rpc.brocha.in",
+      "https://rpc-sei.stingray.plus",
+      "https://sei.rpc.kjnodes.com"
+    ],
+    "rest": [
+      "https://sei-rest.brocha.in",
+      "https://sei.api.kjnodes.com",
+      "https://api-sei.stingray.plus"
+    ],
+    "token_info": {
+      "name": "Sei Network",
+      "symbol": "SEI",
+      "decimals": 6,
+      "coingecko_id": "sei-network"
+    },
+    "native_token": {
+      "name": "Sei Network",
+      "symbol": "SEI",
+      "decimals": 6,
+      "coingecko_id": "sei-network",
+      "denom": "usei",
+      "gasPrice": "0.1",
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "seivaloper1hnkkqnzwmyw652muh6wfea7xlfgplnyj0ku4w4",
+          "commission": "5",
+          "apr": "0",
+          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/moniker/seivaloper1xhxnad3c86q3d8ggsyu24j7r0y5k3ef4uhh9e2.png"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/sei/tx/"
+      }
+    ]
+  },
+  {
     "chain": "band",
     "name": "Band chain",
     "type": "mainnet",
