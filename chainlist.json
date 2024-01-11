@@ -768,7 +768,10 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
-    "rpc": ["https://neutron-rpc.publicnode.com:443"],
+    "rpc": [
+      "grpc-neutron.cosmostation.io:443",
+      "https://neutron-rpc.publicnode.com:443"
+    ],
     "rest": ["https://neutron-rest.publicnode.com"],
     "token_info": {
       "name": "NeuTron Network",
