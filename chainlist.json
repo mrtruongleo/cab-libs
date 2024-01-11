@@ -763,6 +763,45 @@
     ]
   },
   {
+    "chain": "neutron",
+    "name": "NeuTron Network",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "rpc": ["https://neutron-rpc.publicnode.com:443"],
+    "rest": ["https://neutron-rest.publicnode.com"],
+    "token_info": {
+      "name": "NeuTron Network",
+      "symbol": "NTRN",
+      "decimals": 6,
+      "coingecko_id": "neutron-3"
+    },
+    "native_token": {
+      "name": "NeuTron Network",
+      "symbol": "NTRN",
+      "decimals": 6,
+      "coingecko_id": "neutron-3",
+      "denom": "untrn",
+      "gasPrice": "0.84",
+      "simulateGasMultiply": 1.5,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "neutronvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4eptfc8er",
+          "commission": "0",
+          "apr": "0",
+          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/neutron/tx/"
+      }
+    ]
+  },
+  {
     "chain": "band",
     "name": "Band chain",
     "type": "mainnet",
