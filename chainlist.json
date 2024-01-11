@@ -805,6 +805,45 @@
     ]
   },
   {
+    "chain": "juno",
+    "name": "Juno Network",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "rpc": ["https://juno-rpc.publicnode.com:443"],
+    "rest": ["https://juno-rest.publicnode.com"],
+    "token_info": {
+      "name": "Juno Network",
+      "symbol": "JUNO",
+      "decimals": 6,
+      "coingecko_id": "juno-network"
+    },
+    "native_token": {
+      "name": "Juno Network",
+      "symbol": "JUNO",
+      "decimals": 6,
+      "coingecko_id": "juno-network",
+      "denom": "ujuno",
+      "gasPrice": "0.1",
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "junovaloper1t8ehvswxjfn3ejzkjtntcyrqwvmvuknzmvtaaa",
+          "commission": "0",
+          "apr": "0",
+          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/neutron/tx/"
+      }
+    ]
+  },
+  {
     "chain": "band",
     "name": "Band chain",
     "type": "mainnet",
