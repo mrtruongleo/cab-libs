@@ -830,8 +830,8 @@
         {
           "validator": "Cosmos Station",
           "validatorAddress": "junovaloper1t8ehvswxjfn3ejzkjtntcyrqwvmvuknzmvtaaa",
-          "commission": "0",
-          "apr": "0",
+          "commission": "5",
+          "apr": "16.07",
           "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
         }
       ]
