@@ -844,6 +844,45 @@
     ]
   },
   {
+    "chain": "mantle",
+    "name": "AssetMantle Network",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "rpc": ["https://asset-mantle-rpc.publicnode.com:443"],
+    "rest": ["https://asset-mantle-rest.publicnode.com"],
+    "token_info": {
+      "name": "Asset Mantle Network",
+      "symbol": "MNTL",
+      "decimals": 6,
+      "coingecko_id": "assetmantle"
+    },
+    "native_token": {
+      "name": "Asset Mantle Network",
+      "symbol": "MNTL",
+      "decimals": 6,
+      "coingecko_id": "assetmantle",
+      "denom": "umntl",
+      "gasPrice": "0.01",
+      "simulateGasMultiply": 1.5,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "mantlevaloper1cw3dwtw5h49vh83uayzda5l7jyu7k83wqwht0x",
+          "commission": "10",
+          "apr": "99.73",
+          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/asset-mantle/tx/"
+      }
+    ]
+  },
+  {
     "chain": "band",
     "name": "Band chain",
     "type": "mainnet",
