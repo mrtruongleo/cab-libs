@@ -883,6 +883,45 @@
     ]
   },
   {
+    "chain": "kyve",
+    "name": "Kyve Network",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "rpc": ["https://rpc-eu-1.kyve.network", "https://rpc-kyve.ecostake.com"],
+    "rest": ["https://api-eu-1.kyve.network", "https://rest-kyve.ecostake.com"],
+    "token_info": {
+      "name": "Kyve Network",
+      "symbol": "KYVE",
+      "decimals": 6,
+      "coingecko_id": "kyve-network"
+    },
+    "native_token": {
+      "name": "Kyve Network",
+      "symbol": "KYVE",
+      "decimals": 6,
+      "coingecko_id": "kyve-network",
+      "denom": "ukyve",
+      "gasPrice": "0.02",
+      "simulateGasMultiply": 1.5,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "kyvevaloper17xuyhz7s5hkwglmkf3qsrlyr3wk9qvqz5c4mul",
+          "commission": "5",
+          "apr": "26.96",
+          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/kyve/tx/"
+      }
+    ]
+  },
+  {
     "chain": "band",
     "name": "Band chain",
     "type": "mainnet",
