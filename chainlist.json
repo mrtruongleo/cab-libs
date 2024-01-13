@@ -555,7 +555,7 @@
           "validatorAddress": "cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn",
           "commission": "0",
           "apr": "14.05",
-          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
         }
       ]
     },
@@ -602,7 +602,7 @@
           "validatorAddress": "dydxvaloper1vl5ty47uwpfv4mcutwv4zam09mvvvdgy09n0l5",
           "commission": "5",
           "apr": "10.71",
-          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
         }
       ]
     },
@@ -622,12 +622,14 @@
     "rpc": [
       "https://rpc.lunaroasis.net",
       "https://celestia-rpc.publicnode.com",
+      "https://public-celestia-rpc.numia.xyz",
       "http://celestia.rpc.nodersteam.com:29657",
       "https://celestia-rpc.polkachu.com",
       "https://celestia.rpc.stakin-nodes.com"
     ],
     "rest": [
       "https://celestia-rest.publicnode.com",
+      "https://public-celestia-lcd.numia.xyz",
       "http://celestia.rpc.nodersteam.com:1617",
       "https://api.lunaroasis.net",
       "https://celestia.api.kjnodes.com"
@@ -652,7 +654,7 @@
           "validatorAddress": "celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw",
           "commission": "5",
           "apr": "15.46",
-          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
         }
       ]
     },
@@ -671,6 +673,7 @@
     "canMemo": true,
     "rpc": [
       "https://injective-rpc.publicnode.com",
+      "https://injective-rpc.quickapi.com:443",
       "https://injective-rpc.quickapi.com",
       "https://injective-rpc.polkachu.com",
       "https://injective-mainnet-rpc.autostake.com",
@@ -702,7 +705,7 @@
           "validatorAddress": "injvaloper1rvqzf9u2uxttmshn302anlknfgsatrh5v7fl7e",
           "commission": "8.9",
           "apr": "14.48",
-          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
         }
       ]
     },
@@ -751,7 +754,7 @@
           "validatorAddress": "seivaloper1hnkkqnzwmyw652muh6wfea7xlfgplnyj0ku4w4",
           "commission": "5",
           "apr": "0",
-          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
         }
       ]
     },
@@ -769,10 +772,13 @@
     "network": "cosmos",
     "canMemo": true,
     "rpc": [
-      "grpc-neutron.cosmostation.io:443",
+      "https://rpc-lb.neutron.org",
       "https://neutron-rpc.publicnode.com:443"
     ],
-    "rest": ["https://neutron-rest.publicnode.com"],
+    "rest": [
+      "https://rest-lb.neutron.org",
+      "https://neutron-rest.publicnode.com"
+    ],
     "token_info": {
       "name": "NeuTron Network",
       "symbol": "NTRN",
@@ -793,7 +799,7 @@
           "validatorAddress": "neutronvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4eptfc8er",
           "commission": "0",
           "apr": "0",
-          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
         }
       ]
     },
@@ -810,8 +816,14 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
-    "rpc": ["https://juno-rpc.publicnode.com:443"],
-    "rest": ["https://juno-rest.publicnode.com"],
+    "rpc": [
+      "https://juno-rpc.publicnode.com:443",
+      "https://rpc-juno.whispernode.com:443"
+    ],
+    "rest": [
+      "https://juno-rest.publicnode.com",
+      "https://lcd-juno.itastakers.com"
+    ],
     "token_info": {
       "name": "Juno Network",
       "symbol": "JUNO",
@@ -832,7 +844,7 @@
           "validatorAddress": "junovaloper1t8ehvswxjfn3ejzkjtntcyrqwvmvuknzmvtaaa",
           "commission": "5",
           "apr": "16.07",
-          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
         }
       ]
     },
@@ -849,8 +861,14 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
-    "rpc": ["https://asset-mantle-rpc.publicnode.com:443"],
-    "rest": ["https://asset-mantle-rest.publicnode.com"],
+    "rpc": [
+      "https://rpc.assetmantle.one",
+      "https://asset-mantle-rpc.publicnode.com:443"
+    ],
+    "rest": [
+      "https://rest.assetmantle.one",
+      "https://asset-mantle-rest.publicnode.com"
+    ],
     "token_info": {
       "name": "Asset Mantle Network",
       "symbol": "MNTL",
@@ -871,7 +889,7 @@
           "validatorAddress": "mantlevaloper1cw3dwtw5h49vh83uayzda5l7jyu7k83wqwht0x",
           "commission": "10",
           "apr": "99.73",
-          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
         }
       ]
     },
@@ -910,7 +928,7 @@
           "validatorAddress": "kyvevaloper17xuyhz7s5hkwglmkf3qsrlyr3wk9qvqz5c4mul",
           "commission": "5",
           "apr": "26.96",
-          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
         }
       ]
     },
@@ -928,17 +946,14 @@
     "network": "cosmos",
     "canMemo": true,
     "rpc": [
-      "https://band-rpc.w3coins.io",
+      "http://rpc.laozi1.bandchain.org:80",
       "https://band-rpc.ibs.team",
-      "https://band-rpc.stake-town.com",
-      "https://bandchain-mainnet-rpc.autostake.com",
-      "https://rpc-band-01.stakeflow.io"
+      "https://rpc-bandchain-ia.cosmosia.notional.ventures"
     ],
     "rest": [
-      "https://band-api.w3coins.io",
+      "https://laozi1.bandchain.org/api",
       "https://band-api.stake-town.com",
-      "https://band-api.ibs.team",
-      "https://api-band.cosmos-spaces.cloud"
+      "https://band-api.ibs.team"
     ],
     "token_info": {
       "name": "Band Protocol",
@@ -960,7 +975,7 @@
           "validatorAddress": "bandvaloper17d3uhcjlh4jyqcep82jfsrg8avsngklxxan5tg",
           "commission": "12",
           "apr": "10.13",
-          "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/moniker/celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw.png"
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
         }
       ]
     },

@@ -1,0 +1,12 @@
+[
+  {
+    "version": 2.1,
+    "description": "Base version of Cab Wallet in React Native language",
+    "release_date": "2023-01-01"
+  },
+  {
+    "version": 2.2,
+    "description": "Update UI, fix not refeshing solana token balance in main wallet",
+    "release_date": "2024-01-13"
+  }
+]
