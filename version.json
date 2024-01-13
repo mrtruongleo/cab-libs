@@ -12,5 +12,10 @@
       "- Adding search function in main wallet & select wallet"
     ],
     "release_date": "2024-01-13"
+  },
+  {
+    "version": 2.21,
+    "description": ["- Fix bugs", "- Update settings"],
+    "release_date": "2024-01-13"
   }
 ]
