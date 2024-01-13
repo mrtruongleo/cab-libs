@@ -19,7 +19,7 @@
     "release_date": "2024-01-13"
   },
   {
-    "version": 2.23,
+    "version": 2.22,
     "description": [
       "- Fix bugs",
       "- Update assets tab to view all tokens balance and value across all wallets"
