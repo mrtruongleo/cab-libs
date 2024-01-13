@@ -12,14 +12,5 @@
       "- Adding search function in main wallet & select wallet"
     ],
     "release_date": "2024-01-13"
-  },
-  {
-    "version": 2.21,
-    "description": [
-      "- Fix bugs",
-      "- Update Solana tokens balance turn to 0 when pull to refresh in main wallet",
-      "- Adding search function in main wallet & select wallet"
-    ],
-    "release_date": "2024-01-13"
   }
 ]
