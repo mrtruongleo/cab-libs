@@ -527,6 +527,8 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
+    "bench32Prefix": "cosmos",
+    "slip44": 118,
     "rpc": [
       "https://cosmos-rpc.publicnode.com",
       "https://rpc-cosmoshub.blockapsis.com"
@@ -572,6 +574,8 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
+    "bench32Prefix": "dydx",
+    "slip44": 118,
     "rpc": [
       "https://community.nuxian-node.ch:6797/dydx/trpc",
       "https://dydx-rpc.publicnode.com",
@@ -619,6 +623,8 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
+    "bench32Prefix": "celestia",
+    "slip44": 118,
     "rpc": [
       "https://rpc.lunaroasis.net",
       "https://celestia-rpc.publicnode.com",
@@ -671,6 +677,8 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
+    "bench32Prefix": "inj",
+    "slip44": 118,
     "rpc": [
       "https://injective-rpc.publicnode.com",
       "https://injective-rpc.quickapi.com:443",
@@ -722,6 +730,8 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
+    "bench32Prefix": "sei",
+    "slip44": 118,
     "rpc": [
       "https://sei-rpc.lavenderfive.com:443",
       "https://sei-rpc.polkachu.com",
@@ -771,6 +781,8 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
+    "bench32Prefix": "neutron",
+    "slip44": 118,
     "rpc": [
       "https://rpc-lb.neutron.org",
       "https://neutron-rpc.publicnode.com:443"
@@ -816,6 +828,8 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
+    "bench32Prefix": "juno",
+    "slip44": 118,
     "rpc": [
       "https://juno-rpc.publicnode.com:443",
       "https://rpc-juno.whispernode.com:443"
@@ -861,6 +875,8 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
+    "bench32Prefix": "mantle",
+    "slip44": 118,
     "rpc": [
       "https://rpc.assetmantle.one",
       "https://asset-mantle-rpc.publicnode.com:443"
@@ -906,6 +922,8 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
+    "bench32Prefix": "kyve",
+    "slip44": 118,
     "rpc": ["https://rpc-eu-1.kyve.network", "https://rpc-kyve.ecostake.com"],
     "rest": ["https://api-eu-1.kyve.network", "https://rest-kyve.ecostake.com"],
     "token_info": {
@@ -945,6 +963,8 @@
     "type": "mainnet",
     "network": "cosmos",
     "canMemo": true,
+    "bench32Prefix": "band",
+    "slip44": 494,
     "rpc": [
       "http://rpc.laozi1.bandchain.org:80",
       "https://band-rpc.ibs.team",
