@@ -16,8 +16,16 @@ export const joinAll = () => {
       final.push(js);
     });
   });
-
-  fs.writeFile(`FINAL3.json`, JSON.stringify(final, null, 2), (e) => {
+  if (fs.readFileSync("chainlist.json")) {
+    const data = fs.readFileSync("chainlist.json", "utf8");
+    fs.writeFile(`chainlist-bk.json`, data, (e) => {
+      if (e) {
+        console.error("error: ", e);
+      }
+      console.log("Backup last chainlist.json to chainlist-bk.json");
+    });
+  }
+  fs.writeFile(`chainlist.json`, JSON.stringify(final, null, 2), (e) => {
     if (e) {
       console.error("error: ", e);
     }

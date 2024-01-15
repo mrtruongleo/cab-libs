@@ -1,0 +1,1033 @@
+[
+  {
+    "chain": "eth",
+    "name": "Ethereum Mainnet",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 1,
+    "hexId": "0x1",
+    "api": "HEB7P838NC1N7I9IQBPAZPMT3DMED3R3DB",
+    "endpoint": "https://api.etherscan.io/api",
+    "rpc": [
+      "https://eth.llamarpc.com",
+      "https://ethereum.publicnode.com",
+      "https://api.mycryptoapi.com/eth",
+      "https://eth-rpc.gateway.pokt.network"
+    ],
+    "native_token": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "coingecko_id": "ethereum"
+    },
+    "explorers": [
+      {
+        "name": "etherscan",
+        "url": "https://etherscan.io/tx/",
+        "standard": "EIP3091"
+      }
+    ],
+    "gecko_terminal_chain_id": "eth",
+    "dexscreener_chain_id": "ethereum"
+  },
+  {
+    "chain": "bsc",
+    "name": "Binance Smartchain Mainnet",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 56,
+    "hexId": "0x38",
+    "api": "3RU5G7XWW2HTNN1JYBZ6R9U1SB8S4EMDWD",
+    "endpoint": "https://api.bscscan.com/api",
+    "rpc": [
+      "https://endpoints.omniatech.io/v1/bsc/mainnet/public",
+      "https://bsc-dataseed4.defibit.io",
+      "https://binance.llamarpc.com",
+      "https://bsc-dataseed.binance.org",
+      "https://bsc-dataseed1.binance.org",
+      "https://1rpc.io/bnb"
+    ],
+    "native_token": {
+      "name": "Binance Coin",
+      "symbol": "BNB",
+      "decimals": 18,
+      "coingecko_id": "binancecoin"
+    },
+    "explorers": [
+      {
+        "name": "bscscan",
+        "url": "https://bscscan.com/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "bsc",
+    "dexscreener_chain_id": "bsc"
+  },
+  {
+    "chain": "polygon",
+    "name": "Polygon Mainnet",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 137,
+    "hexId": "0x89",
+    "api": "17C74Z48VI5N3V3M32SW25M2FDYENVTWHI",
+    "endpoint": "https://api.polygonscan.com/api",
+    "rpc": [
+      "https://rpc-mainnet.maticvigil.com",
+      "https://polygon.llamarpc.com",
+      "https://polygon-bor.publicnode.com",
+      "https://1rpc.io/matic"
+    ],
+    "native_token": {
+      "name": "Matic Network",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "coingecko_id": "matic-network"
+    },
+    "explorers": [
+      {
+        "name": "polygonscan",
+        "url": "https://polygonscan.com/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "polygon",
+    "dexscreener_chain_id": "polygon_pos"
+  },
+  {
+    "chain": "ethereum classic mainnet",
+    "name": "Ethereum Classic Mainnet",
+    "rpc": ["https://www.ethercluster.com/etc"],
+    "id": 61,
+    "hexId": "0x3d",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.com/etc/mainnet/tx/",
+        "standard": "none"
+      }
+    ],
+    "type": "mainnet",
+    "network": "evm",
+    "native_token": {
+      "name": "Ethereum Classic Ether",
+      "symbol": "ETC",
+      "decimals": 18,
+      "coingecko_id": "ethereum-classic"
+    },
+    "gecko_terminal_chain_id": "ethereum_classic",
+    "dexscreener_chain_id": "ethereumclassic"
+  },
+  {
+    "chain": "avalanche",
+    "name": "Avalanche C-Chain",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 43114,
+    "hexId": "0xa86a",
+    "api": "GPCQNPZ85MXFJITIMQEJJJKAS5ZSU4HVMC",
+    "endpoint": "https://api.snowtrace.io/api",
+    "rpc": [
+      "https://avalanche-evm.publicnode.com",
+      "https://rpc.ankr.com/avalanche",
+      "https://endpoints.omniatech.io/v1/avax/mainnet/public"
+    ],
+    "native_token": {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18,
+      "coingecko_id": "avalanche-2"
+    },
+    "explorers": [
+      {
+        "name": "snowtrace",
+        "url": "https://snowtrace.io/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "avax",
+    "dexscreener_chain_id": "avalanche"
+  },
+  {
+    "chain": "fantom",
+    "name": "Fantom Opera",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 250,
+    "hexId": "0xfa",
+    "api": "66CEFIFTIZP85KN5DT7GC3HD3S38BV8W9E",
+    "endpoint": "https://api.ftmscan.com/api",
+    "rpc": [
+      "https://1rpc.io/ftm",
+      "https://rpc3.fantom.network",
+      "https://rpc.ankr.com/fantom"
+    ],
+    "native_token": {
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18,
+      "coingecko_id": "fantom"
+    },
+    "explorers": [
+      {
+        "name": "ftmscan",
+        "url": "https://ftmscan.com/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "ftm",
+    "dexscreener_chain_id": "fantom"
+  },
+  {
+    "chain": "optimism",
+    "name": "Optimis",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 10,
+    "hexId": "0xa",
+    "logo_id": "optimism",
+    "api": "CVF99ZWFQYTM5X3UMEFQ44XVWXZGIN65IE",
+    "endpoint": "https://api-optimistic.etherscan.io/api",
+    "rpc": [
+      "https://1rpc.io/op",
+      "https://endpoints.omniatech.io/v1/op/mainnet/public",
+      "https://mainnet.optimism.io"
+    ],
+    "token_info": {
+      "name": "Optimism",
+      "symbol": "OP",
+      "decimals": 18,
+      "coingecko_id": "optimism"
+    },
+    "native_token": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "coingecko_id": "ethereum"
+    },
+    "explorers": [
+      {
+        "name": "optimisscan",
+        "url": "https://optimistic.etherscan.io/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "optimism",
+    "dexscreener_chain_id": "optimism"
+  },
+  {
+    "chain": "arbitrum",
+    "name": "Arbitrum",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 42161,
+    "hexId": "0xa4b1",
+    "logo_id": "arbitrum",
+    "api": "FB95NR6U118D2A58FZ4WEE6ND91IWJNK3H",
+    "endpoint": "https://api.arbiscan.io/api",
+    "rpc": [
+      "https://endpoints.omniatech.io/v1/arbitrum/one/public",
+      "https://1rpc.io/arb",
+      "https://arbitrum-one.public.blastapi.io"
+    ],
+    "token_info": {
+      "name": "Arbitrum",
+      "symbol": "ARB",
+      "decimals": 18,
+      "coingecko_id": "arbitrum"
+    },
+    "native_token": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "coingecko_id": "ethereum"
+    },
+    "explorers": [
+      {
+        "name": "arbiscan",
+        "url": "https://arbiscan.io/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "arbitrum",
+    "dexscreener_chain_id": "arbitrum"
+  },
+  {
+    "chain": "zksync",
+    "name": "Zksync Era Mainnet",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 324,
+    "hexId": "0x144",
+    "logo_id": "zksync",
+    "rpc": ["https://mainnet.era.zksync.io"],
+    "native_token": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "coingecko_id": "ethereum"
+    },
+    "explorers": [
+      {
+        "name": "zksync",
+        "url": "https://explorer.zksync.io/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "zksync",
+    "dexscreener_chain_id": "zksync"
+  },
+  {
+    "chain": "metis-andromeda",
+    "name": "Metis Andromeda Mainnet",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 1088,
+    "rpc": [
+      "https://andromeda.metis.io/?owner=1088",
+      "https://metis-rpc.gateway.pokt.network"
+    ],
+    "native_token": {
+      "name": "Metis",
+      "symbol": "METIS",
+      "decimals": 18,
+      "coingecko_id": "metis-token"
+    },
+    "explorers": [
+      {
+        "name": "Metis Explorer",
+        "url": "https://andromeda-explorer.metis.io/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "kcc mainnet",
+    "name": "KCC Mainnet",
+    "rpc": [
+      "https://rpc-mainnet.kcc.network",
+      "https://kcc.mytokenpocket.vip",
+      "https://public-rpc.blockpi.io/http/kcc"
+    ],
+    "id": 321,
+    "hexId": "0x141",
+    "explorers": [
+      {
+        "name": "KCC Explorer",
+        "url": "https://explorer.kcc.io/en/tx/",
+        "standard": "EIP3091"
+      }
+    ],
+    "type": "mainnet",
+    "network": "evm",
+    "native_token": {
+      "name": "KuCoin Token",
+      "symbol": "KCS",
+      "decimals": 18,
+      "coingecko_id": "kucoin-shares"
+    },
+    "gecko_terminal_chain_id": "kcc",
+    "dexscreener_chain_id": "kcc"
+  },
+  {
+    "chain": "celo mainnet",
+    "name": "Celo Mainnet",
+    "rpc": ["https://forno.celo.org"],
+    "id": 42220,
+    "hexId": "0xa4ec",
+    "explorers": [
+      {
+        "name": "Celoscan",
+        "url": "https://celoscan.io/tx/",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Explorer 2",
+        "url": "https://explorer.celo.org/tx/"
+      }
+    ],
+    "type": "mainnet",
+    "network": "evm",
+    "native_token": {
+      "name": "CELO",
+      "symbol": "CELO",
+      "decimals": 18,
+      "coingecko_id": "celo"
+    },
+    "gecko_terminal_chain_id": "celo",
+    "dexscreener_chain_id": "celo"
+  },
+  {
+    "chain": "moonbeam",
+    "name": "Moonbeam",
+    "rpc": ["https://rpc.api.moonbeam.network"],
+    "id": 1284,
+    "hexId": "0x504",
+    "explorers": [
+      {
+        "name": "moonscan",
+        "url": "https://moonbeam.moonscan.io/tx/",
+        "standard": "none"
+      }
+    ],
+    "type": "mainnet",
+    "network": "evm",
+    "native_token": {
+      "name": "Glimmer",
+      "symbol": "GLMR",
+      "decimals": 18,
+      "coingecko_id": "moonbeam"
+    },
+    "gecko_terminal_chain_id": "glmr",
+    "dexscreener_chain_id": "moonbeam"
+  },
+  {
+    "chain": "moonriver",
+    "name": "Moonriver",
+    "rpc": ["https://rpc.api.moonriver.moonbeam.network"],
+    "id": 1285,
+    "hexId": "0x505",
+    "explorers": [
+      {
+        "name": "moonscan",
+        "url": "https://moonriver.moonscan.io/tx/",
+        "standard": "none"
+      }
+    ],
+    "type": "mainnet",
+    "network": "evm",
+    "native_token": {
+      "name": "Moonriver",
+      "symbol": "MOVR",
+      "decimals": 18,
+      "coingecko_id": "moonriver"
+    },
+    "gecko_terminal_chain_id": "movr",
+    "dexscreener_chain_id": "moonriver"
+  },
+  {
+    "chain": "evmos",
+    "name": "Evmos",
+    "rpc": ["https://evmos-evm.publicnode.com"],
+    "id": 9001,
+    "hexId": "0x2329",
+    "explorers": [
+      {
+        "name": "Evmos EVM Explorer (Escan)",
+        "url": "https://escan.live/tx/",
+        "standard": "none"
+      },
+      {
+        "name": "Explorer 2",
+        "url": "https://www.mintscan.io/evmos/tx/"
+      }
+    ],
+    "type": "mainnet",
+    "network": "evm",
+    "native_token": {
+      "name": "Evmos",
+      "symbol": "EVMOS",
+      "decimals": 18,
+      "coingecko_id": "evmos"
+    },
+    "gecko_terminal_chain_id": "evmos",
+    "dexscreener_chain_id": "evmos"
+  },
+  {
+    "chain": "ethereumpow",
+    "name": "Ethereum POW",
+    "type": "mainnet",
+    "id": 10001,
+    "hexId": "0x2711",
+    "network": "evm",
+    "rpc": ["https://mainnet.ethereumpow.org"],
+    "native_token": {
+      "name": "ETH POW",
+      "symbol": "ETHW",
+      "decimals": 18,
+      "coingecko_id": "ethereum-pow-iou"
+    },
+    "explorers": [
+      {
+        "name": "oklink",
+        "url": "https://www.oklink.com/ethw/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "ethw",
+    "dexscreener_chain_id": "ethereumpow"
+  },
+  {
+    "chain": "mumbai",
+    "name": "Polygon Mumbai Testnet",
+    "type": "testnet",
+    "network": "evm",
+    "id": 80001,
+    "hexId": "0x13881",
+    "rpc": [
+      "https://rpc.ankr.com/polygon_mumbai",
+      "https://rpc-mumbai.maticvigil.com",
+      "https://matic-testnet-archive-rpc.bwarelabs.com"
+    ],
+    "native_token": {
+      "name": "Matic Network",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "coingecko_id": "matic-network"
+    },
+    "explorers": [
+      {
+        "name": "polygonscan",
+        "url": "https://mumbai.polygonscan.com/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": null,
+    "dexscreener_chain_id": null
+  },
+  {
+    "chain": "btc",
+    "name": "btc",
+    "type": "mainnet",
+    "network": "btc",
+    "token_info": {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "decimals": 8,
+      "coingecko_id": "bitcoin"
+    },
+    "native_token": {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "decimals": 8,
+      "coingecko_id": "bitcoin"
+    },
+    "explorers": [
+      {
+        "name": "Blockcypher",
+        "url": "https://live.blockcypher.com/btc/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "solana",
+    "name": "Solana Mainnet",
+    "type": "mainnet",
+    "network": "solana",
+    "rpc": ["https://api.mainnet-beta.solana.com"],
+    "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "native_token": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "coingecko_id": "solana"
+    },
+    "explorers": [
+      {
+        "name": "Solscan",
+        "url": "https://solscan.io/tx/"
+      }
+    ],
+    "gecko_terminal_chain_id": "solana",
+    "dexscreener_chain_id": "solana"
+  },
+  {
+    "chain": "cosmos",
+    "name": "Cosmos (Atom)",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bench32Prefix": "cosmos",
+    "slip44": 118,
+    "rpc": [
+      "https://cosmos-rpc.publicnode.com",
+      "https://rpc-cosmoshub.blockapsis.com"
+    ],
+    "rest": [
+      "https://lcd-cosmoshub.blockapsis.com",
+      "https://cosmos-rest.publicnode.com"
+    ],
+    "token_info": {
+      "name": "Cosmos",
+      "symbol": "ATOM",
+      "decimals": 6,
+      "coingecko_id": "cosmos"
+    },
+    "native_token": {
+      "name": "Cosmos",
+      "symbol": "ATOM",
+      "decimals": 6,
+      "coingecko_id": "cosmos",
+      "denom": "uatom",
+      "gasPrice": "0.025",
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn",
+          "commission": "0",
+          "apr": "14.05",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/cosmos/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "dydx",
+    "name": "DYDX chain",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bench32Prefix": "dydx",
+    "slip44": 118,
+    "rpc": [
+      "https://community.nuxian-node.ch:6797/dydx/trpc",
+      "https://dydx-rpc.publicnode.com",
+      "https://dydx-mainnet-full-rpc.public.blastapi.io"
+    ],
+    "rest": [
+      "https://dydx-mainnet-full-lcd.public.blastapi.io/",
+      "https://api.dydx.nodestake.top/",
+      "https://community.nuxian-node.ch:6797/dydx/crpc"
+    ],
+    "token_info": {
+      "name": "DYDX Protocol",
+      "symbol": "DYDX",
+      "decimals": 18,
+      "coingecko_id": "dydx-chain"
+    },
+    "native_token": {
+      "name": "DYDX Protocol",
+      "symbol": "DYDX",
+      "decimals": 18,
+      "coingecko_id": "dydx-chain",
+      "denom": "adydx",
+      "gasPrice": "12500000000",
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "dydxvaloper1vl5ty47uwpfv4mcutwv4zam09mvvvdgy09n0l5",
+          "commission": "5",
+          "apr": "10.71",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/dydx/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "celestia",
+    "name": "Celestia chain",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bench32Prefix": "celestia",
+    "slip44": 118,
+    "rpc": [
+      "https://rpc.lunaroasis.net",
+      "https://celestia-rpc.publicnode.com",
+      "https://public-celestia-rpc.numia.xyz",
+      "http://celestia.rpc.nodersteam.com:29657",
+      "https://celestia-rpc.polkachu.com",
+      "https://celestia.rpc.stakin-nodes.com"
+    ],
+    "rest": [
+      "https://celestia-rest.publicnode.com",
+      "https://public-celestia-lcd.numia.xyz",
+      "http://celestia.rpc.nodersteam.com:1617",
+      "https://api.lunaroasis.net",
+      "https://celestia.api.kjnodes.com"
+    ],
+    "token_info": {
+      "name": "CELESTIA",
+      "symbol": "TIA",
+      "decimals": 6,
+      "coingecko_id": "celestia"
+    },
+    "native_token": {
+      "name": "CELESTIA",
+      "symbol": "TIA",
+      "decimals": 6,
+      "coingecko_id": "celestia",
+      "denom": "utia",
+      "gasPrice": "0.002",
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw",
+          "commission": "5",
+          "apr": "15.46",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/celestia/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "inj",
+    "name": "Injective chain",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bench32Prefix": "inj",
+    "slip44": 118,
+    "rpc": [
+      "https://injective-rpc.publicnode.com",
+      "https://injective-rpc.quickapi.com:443",
+      "https://injective-rpc.quickapi.com",
+      "https://injective-rpc.polkachu.com",
+      "https://injective-mainnet-rpc.autostake.com",
+      "https://rpc-injective.whispernode.com"
+    ],
+    "rest": [
+      "https://injective-rest.publicnode.com",
+      "https://injective-lcd.quickapi.com",
+      "https://injective-api.w3coins.io",
+      "https://injective-api.polkachu.com"
+    ],
+    "token_info": {
+      "name": "Injective",
+      "symbol": "INJ",
+      "decimals": 18,
+      "coingecko_id": "injective-protocol"
+    },
+    "native_token": {
+      "name": "Injective",
+      "symbol": "INJ",
+      "decimals": 18,
+      "coingecko_id": "injective-protocol",
+      "denom": "inj",
+      "gasPrice": "160000000",
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "injvaloper1rvqzf9u2uxttmshn302anlknfgsatrh5v7fl7e",
+          "commission": "8.9",
+          "apr": "14.48",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/injective/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "sei",
+    "name": "Sei Network",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bench32Prefix": "sei",
+    "slip44": 118,
+    "rpc": [
+      "https://sei-rpc.lavenderfive.com:443",
+      "https://sei-rpc.polkachu.com",
+      "https://sei-rpc.brocha.in",
+      "https://rpc-sei.stingray.plus",
+      "https://sei.rpc.kjnodes.com"
+    ],
+    "rest": [
+      "https://sei-rest.brocha.in",
+      "https://sei.api.kjnodes.com",
+      "https://api-sei.stingray.plus"
+    ],
+    "token_info": {
+      "name": "Sei Network",
+      "symbol": "SEI",
+      "decimals": 6,
+      "coingecko_id": "sei-network"
+    },
+    "native_token": {
+      "name": "Sei Network",
+      "symbol": "SEI",
+      "decimals": 6,
+      "coingecko_id": "sei-network",
+      "denom": "usei",
+      "gasPrice": "0.1",
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "seivaloper1hnkkqnzwmyw652muh6wfea7xlfgplnyj0ku4w4",
+          "commission": "5",
+          "apr": "0",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/sei/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "neutron",
+    "name": "NeuTron Network",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bench32Prefix": "neutron",
+    "slip44": 118,
+    "rpc": [
+      "https://rpc-lb.neutron.org",
+      "https://neutron-rpc.publicnode.com:443"
+    ],
+    "rest": [
+      "https://rest-lb.neutron.org",
+      "https://neutron-rest.publicnode.com"
+    ],
+    "token_info": {
+      "name": "NeuTron Network",
+      "symbol": "NTRN",
+      "decimals": 6,
+      "coingecko_id": "neutron-3"
+    },
+    "native_token": {
+      "name": "NeuTron Network",
+      "symbol": "NTRN",
+      "decimals": 6,
+      "coingecko_id": "neutron-3",
+      "denom": "untrn",
+      "gasPrice": "0.84",
+      "simulateGasMultiply": 1.5,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "neutronvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4eptfc8er",
+          "commission": "0",
+          "apr": "0",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/neutron/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "juno",
+    "name": "Juno Network",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bench32Prefix": "juno",
+    "slip44": 118,
+    "rpc": [
+      "https://juno-rpc.publicnode.com:443",
+      "https://rpc-juno.whispernode.com:443"
+    ],
+    "rest": [
+      "https://juno-rest.publicnode.com",
+      "https://lcd-juno.itastakers.com"
+    ],
+    "token_info": {
+      "name": "Juno Network",
+      "symbol": "JUNO",
+      "decimals": 6,
+      "coingecko_id": "juno-network"
+    },
+    "native_token": {
+      "name": "Juno Network",
+      "symbol": "JUNO",
+      "decimals": 6,
+      "coingecko_id": "juno-network",
+      "denom": "ujuno",
+      "gasPrice": "0.1",
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "junovaloper1t8ehvswxjfn3ejzkjtntcyrqwvmvuknzmvtaaa",
+          "commission": "5",
+          "apr": "16.07",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/neutron/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "mantle",
+    "name": "AssetMantle Network",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bench32Prefix": "mantle",
+    "slip44": 118,
+    "rpc": [
+      "https://rpc.assetmantle.one",
+      "https://asset-mantle-rpc.publicnode.com:443"
+    ],
+    "rest": [
+      "https://rest.assetmantle.one",
+      "https://asset-mantle-rest.publicnode.com"
+    ],
+    "token_info": {
+      "name": "Asset Mantle Network",
+      "symbol": "MNTL",
+      "decimals": 6,
+      "coingecko_id": "assetmantle"
+    },
+    "native_token": {
+      "name": "Asset Mantle Network",
+      "symbol": "MNTL",
+      "decimals": 6,
+      "coingecko_id": "assetmantle",
+      "denom": "umntl",
+      "gasPrice": "0.01",
+      "simulateGasMultiply": 1.5,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "mantlevaloper1cw3dwtw5h49vh83uayzda5l7jyu7k83wqwht0x",
+          "commission": "10",
+          "apr": "99.73",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/asset-mantle/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "kyve",
+    "name": "Kyve Network",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bench32Prefix": "kyve",
+    "slip44": 118,
+    "rpc": ["https://rpc-eu-1.kyve.network", "https://rpc-kyve.ecostake.com"],
+    "rest": ["https://api-eu-1.kyve.network", "https://rest-kyve.ecostake.com"],
+    "token_info": {
+      "name": "Kyve Network",
+      "symbol": "KYVE",
+      "decimals": 6,
+      "coingecko_id": "kyve-network"
+    },
+    "native_token": {
+      "name": "Kyve Network",
+      "symbol": "KYVE",
+      "decimals": 6,
+      "coingecko_id": "kyve-network",
+      "denom": "ukyve",
+      "gasPrice": "0.02",
+      "simulateGasMultiply": 1.5,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "kyvevaloper17xuyhz7s5hkwglmkf3qsrlyr3wk9qvqz5c4mul",
+          "commission": "5",
+          "apr": "26.96",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/kyve/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "band",
+    "name": "Band chain",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bench32Prefix": "band",
+    "slip44": 494,
+    "rpc": [
+      "http://rpc.laozi1.bandchain.org:80",
+      "https://band-rpc.ibs.team",
+      "https://rpc-bandchain-ia.cosmosia.notional.ventures"
+    ],
+    "rest": [
+      "https://laozi1.bandchain.org/api",
+      "https://band-api.stake-town.com",
+      "https://band-api.ibs.team"
+    ],
+    "token_info": {
+      "name": "Band Protocol",
+      "symbol": "BAND",
+      "decimals": 6,
+      "coingecko_id": "band-protocol"
+    },
+    "native_token": {
+      "name": "Band Protocol",
+      "symbol": "BAND",
+      "decimals": 6,
+      "coingecko_id": "band-protocol",
+      "denom": "uband",
+      "gasPrice": "0.025",
+      "simulateGasMultiply": 1.4,
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "bandvaloper17d3uhcjlh4jyqcep82jfsrg8avsngklxxan5tg",
+          "commission": "12",
+          "apr": "10.13",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/band/tx/"
+      }
+    ]
+  },
+  {
+    "chain": "btcTestnet",
+    "name": "btc testnet",
+    "type": "testnet",
+    "network": "btc",
+    "token_info": {
+      "name": "Bitcoin Test",
+      "symbol": "BTC",
+      "decimals": 8,
+      "coingecko_id": "bitcoin"
+    },
+    "native_token": {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "decimals": 8,
+      "coingecko_id": "bitcoin"
+    },
+    "explorers": [
+      {
+        "name": "Blockcypher",
+        "url": "https://live.blockcypher.com/btc-testnet/tx/"
+      }
+    ]
+  }
+]
