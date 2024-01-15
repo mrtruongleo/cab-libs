@@ -24,7 +24,7 @@
     ]
   },
   {
-    "chain": "assetmantle",
+    "chain": "mantle",
     "name": "AssetMantle",
     "type": "mainnet",
     "network": "cosmos",

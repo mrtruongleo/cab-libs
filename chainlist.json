@@ -189,9 +189,9 @@
     "bech32Prefix": "celestia",
     "slip44": 118,
     "rpc": [
+      "https://rpc.lunaroasis.net",
       "https://public-celestia-rpc.numia.xyz",
       "https://celestia-rpc.mesa.newmetric.xyz",
-      "https://rpc.lunaroasis.net",
       "https://rpc.celestia.nodestake.top",
       "https://celestia-rpc.lavenderfive.com:443",
       "https://rpc-celestia-01.stakeflow.io",
