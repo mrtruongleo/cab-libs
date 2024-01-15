@@ -1,0 +1,36 @@
+{
+  "chain": "optimism",
+  "name": "Optimis",
+  "type": "mainnet",
+  "network": "evm",
+  "id": 10,
+  "hexId": "0xa",
+  "logo_id": "optimism",
+  "api": "CVF99ZWFQYTM5X3UMEFQ44XVWXZGIN65IE",
+  "endpoint": "https://api-optimistic.etherscan.io/api",
+  "rpc": [
+    "https://1rpc.io/op",
+    "https://endpoints.omniatech.io/v1/op/mainnet/public",
+    "https://mainnet.optimism.io"
+  ],
+  "token_info": {
+    "name": "Optimism",
+    "symbol": "OP",
+    "decimals": 18,
+    "coingecko_id": "optimism"
+  },
+  "native_token": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "coingecko_id": "ethereum"
+  },
+  "explorers": [
+    {
+      "name": "optimisscan",
+      "url": "https://optimistic.etherscan.io/tx/"
+    }
+  ],
+  "gecko_terminal_chain_id": "optimism",
+  "dexscreener_chain_id": "optimism"
+}

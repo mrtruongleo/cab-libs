@@ -1,0 +1,22 @@
+{
+  "chain": "solana",
+  "name": "Solana Mainnet",
+  "type": "mainnet",
+  "network": "solana",
+  "rpc": ["https://api.mainnet-beta.solana.com"],
+  "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+  "native_token": {
+    "name": "Solana",
+    "symbol": "SOL",
+    "decimals": 9,
+    "coingecko_id": "solana"
+  },
+  "explorers": [
+    {
+      "name": "Solscan",
+      "url": "https://solscan.io/tx/"
+    }
+  ],
+  "gecko_terminal_chain_id": "solana",
+  "dexscreener_chain_id": "solana"
+}

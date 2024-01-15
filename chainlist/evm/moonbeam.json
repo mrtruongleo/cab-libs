@@ -1,0 +1,24 @@
+{
+  "chain": "moonbeam",
+  "name": "Moonbeam",
+  "rpc": ["https://rpc.api.moonbeam.network"],
+  "id": 1284,
+  "hexId": "0x504",
+  "explorers": [
+    {
+      "name": "moonscan",
+      "url": "https://moonbeam.moonscan.io/tx/",
+      "standard": "none"
+    }
+  ],
+  "type": "mainnet",
+  "network": "evm",
+  "native_token": {
+    "name": "Glimmer",
+    "symbol": "GLMR",
+    "decimals": 18,
+    "coingecko_id": "moonbeam"
+  },
+  "gecko_terminal_chain_id": "glmr",
+  "dexscreener_chain_id": "moonbeam"
+}

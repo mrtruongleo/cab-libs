@@ -1,0 +1,24 @@
+{
+  "chain": "moonriver",
+  "name": "Moonriver",
+  "rpc": ["https://rpc.api.moonriver.moonbeam.network"],
+  "id": 1285,
+  "hexId": "0x505",
+  "explorers": [
+    {
+      "name": "moonscan",
+      "url": "https://moonriver.moonscan.io/tx/",
+      "standard": "none"
+    }
+  ],
+  "type": "mainnet",
+  "network": "evm",
+  "native_token": {
+    "name": "Moonriver",
+    "symbol": "MOVR",
+    "decimals": 18,
+    "coingecko_id": "moonriver"
+  },
+  "gecko_terminal_chain_id": "movr",
+  "dexscreener_chain_id": "moonriver"
+}

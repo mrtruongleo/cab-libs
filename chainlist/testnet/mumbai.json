@@ -1,0 +1,27 @@
+{
+  "chain": "mumbai",
+  "name": "Polygon Mumbai Testnet",
+  "type": "testnet",
+  "network": "evm",
+  "id": 80001,
+  "hexId": "0x13881",
+  "rpc": [
+    "https://rpc.ankr.com/polygon_mumbai",
+    "https://rpc-mumbai.maticvigil.com",
+    "https://matic-testnet-archive-rpc.bwarelabs.com"
+  ],
+  "native_token": {
+    "name": "Matic Network",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "coingecko_id": "matic-network"
+  },
+  "explorers": [
+    {
+      "name": "polygonscan",
+      "url": "https://mumbai.polygonscan.com/tx/"
+    }
+  ],
+  "gecko_terminal_chain_id": null,
+  "dexscreener_chain_id": null
+}

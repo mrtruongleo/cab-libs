@@ -1,0 +1,24 @@
+{
+  "chain": "btcTestnet",
+  "name": "btc testnet",
+  "type": "testnet",
+  "network": "btc",
+  "token_info": {
+    "name": "Bitcoin Test",
+    "symbol": "BTC",
+    "decimals": 8,
+    "coingecko_id": "bitcoin"
+  },
+  "native_token": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 8,
+    "coingecko_id": "bitcoin"
+  },
+  "explorers": [
+    {
+      "name": "Blockcypher",
+      "url": "https://live.blockcypher.com/btc-testnet/tx/"
+    }
+  ]
+}

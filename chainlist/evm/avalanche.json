@@ -1,0 +1,29 @@
+{
+  "chain": "avalanche",
+  "name": "Avalanche C-Chain",
+  "type": "mainnet",
+  "network": "evm",
+  "id": 43114,
+  "hexId": "0xa86a",
+  "api": "GPCQNPZ85MXFJITIMQEJJJKAS5ZSU4HVMC",
+  "endpoint": "https://api.snowtrace.io/api",
+  "rpc": [
+    "https://avalanche-evm.publicnode.com",
+    "https://rpc.ankr.com/avalanche",
+    "https://endpoints.omniatech.io/v1/avax/mainnet/public"
+  ],
+  "native_token": {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18,
+    "coingecko_id": "avalanche-2"
+  },
+  "explorers": [
+    {
+      "name": "snowtrace",
+      "url": "https://snowtrace.io/tx/"
+    }
+  ],
+  "gecko_terminal_chain_id": "avax",
+  "dexscreener_chain_id": "avalanche"
+}

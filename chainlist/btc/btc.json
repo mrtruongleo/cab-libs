@@ -1,0 +1,24 @@
+{
+  "chain": "btc",
+  "name": "btc",
+  "type": "mainnet",
+  "network": "btc",
+  "token_info": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 8,
+    "coingecko_id": "bitcoin"
+  },
+  "native_token": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 8,
+    "coingecko_id": "bitcoin"
+  },
+  "explorers": [
+    {
+      "name": "Blockcypher",
+      "url": "https://live.blockcypher.com/btc/tx/"
+    }
+  ]
+}

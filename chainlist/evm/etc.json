@@ -1,0 +1,24 @@
+{
+  "chain": "ethereum classic mainnet",
+  "name": "Ethereum Classic Mainnet",
+  "rpc": ["https://www.ethercluster.com/etc"],
+  "id": 61,
+  "hexId": "0x3d",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.com/etc/mainnet/tx/",
+      "standard": "none"
+    }
+  ],
+  "type": "mainnet",
+  "network": "evm",
+  "native_token": {
+    "name": "Ethereum Classic Ether",
+    "symbol": "ETC",
+    "decimals": 18,
+    "coingecko_id": "ethereum-classic"
+  },
+  "gecko_terminal_chain_id": "ethereum_classic",
+  "dexscreener_chain_id": "ethereumclassic"
+}

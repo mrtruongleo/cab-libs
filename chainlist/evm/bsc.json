@@ -1,0 +1,32 @@
+{
+  "chain": "bsc",
+  "name": "Binance Smartchain Mainnet",
+  "type": "mainnet",
+  "network": "evm",
+  "id": 56,
+  "hexId": "0x38",
+  "api": "3RU5G7XWW2HTNN1JYBZ6R9U1SB8S4EMDWD",
+  "endpoint": "https://api.bscscan.com/api",
+  "rpc": [
+    "https://endpoints.omniatech.io/v1/bsc/mainnet/public",
+    "https://bsc-dataseed4.defibit.io",
+    "https://binance.llamarpc.com",
+    "https://bsc-dataseed.binance.org",
+    "https://bsc-dataseed1.binance.org",
+    "https://1rpc.io/bnb"
+  ],
+  "native_token": {
+    "name": "Binance Coin",
+    "symbol": "BNB",
+    "decimals": 18,
+    "coingecko_id": "binancecoin"
+  },
+  "explorers": [
+    {
+      "name": "bscscan",
+      "url": "https://bscscan.com/tx/"
+    }
+  ],
+  "gecko_terminal_chain_id": "bsc",
+  "dexscreener_chain_id": "bsc"
+}

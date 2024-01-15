@@ -1,0 +1,36 @@
+{
+  "chain": "arbitrum",
+  "name": "Arbitrum",
+  "type": "mainnet",
+  "network": "evm",
+  "id": 42161,
+  "hexId": "0xa4b1",
+  "logo_id": "arbitrum",
+  "api": "FB95NR6U118D2A58FZ4WEE6ND91IWJNK3H",
+  "endpoint": "https://api.arbiscan.io/api",
+  "rpc": [
+    "https://endpoints.omniatech.io/v1/arbitrum/one/public",
+    "https://1rpc.io/arb",
+    "https://arbitrum-one.public.blastapi.io"
+  ],
+  "token_info": {
+    "name": "Arbitrum",
+    "symbol": "ARB",
+    "decimals": 18,
+    "coingecko_id": "arbitrum"
+  },
+  "native_token": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "coingecko_id": "ethereum"
+  },
+  "explorers": [
+    {
+      "name": "arbiscan",
+      "url": "https://arbiscan.io/tx/"
+    }
+  ],
+  "gecko_terminal_chain_id": "arbitrum",
+  "dexscreener_chain_id": "arbitrum"
+}

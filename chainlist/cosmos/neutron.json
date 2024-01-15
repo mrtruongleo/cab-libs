@@ -1,0 +1,77 @@
+{
+  "chain": "neutron",
+  "name": "Neutron",
+  "type": "mainnet",
+  "network": "cosmos",
+  "canMemo": true,
+  "bech32Prefix": "neutron",
+  "slip44": 118,
+  "rpc": [
+    "https://rpc-lb.neutron.org",
+    "https://rpc.novel.remedy.tm.p2p.org",
+    "https://neutron-rpc.lavenderfive.com",
+    "https://rpc-neutron.whispernode.com",
+    "https://rpc-neutron.cosmos-spaces.cloud",
+    "http://rpc.neutron.nodestake.top",
+    "https://neutron-rpc.publicnode.com:443",
+    "https://community.nuxian-node.ch:6797/neutron/trpc",
+    "https://rpc-neutron.in3s.com:443",
+    "https://rpc.neutron.bronbro.io:443"
+  ],
+  "rest": [
+    "https://rest-lb.neutron.org",
+    "https://api.novel.remedy.tm.p2p.org",
+    "https://neutron-api.lavenderfive.com",
+    "https://lcd-neutron.whispernode.com",
+    "https://api-neutron.cosmos-spaces.cloud",
+    "http://api.neutron.nodestake.top",
+    "https://neutron-rest.publicnode.com",
+    "https://community.nuxian-node.ch:6797/neutron/crpc",
+    "https://lcd.neutron.bronbro.io:443"
+  ],
+  "grpc": [
+    "grpc-kralum.neutron-1.neutron.org:80",
+    "https://grpc.novel.remedy.tm.p2p.org",
+    "https://grpc-web.novel.remedy.tm.p2p.org",
+    "neutron-grpc.lavenderfive.com:443",
+    "grpc-neutron.whispernode.com:443",
+    "grpc-neutron.cosmos-spaces.cloud:3090",
+    "grpc.neutron.nodestake.top:9090",
+    "neutron-grpc.publicnode.com:443",
+    "https://grpc.neutron.bronbro.io:443"
+  ],
+  "fee": {
+    "denom": "untrn",
+    "low_gas_price": 0.075,
+    "average_gas_price": 0.075,
+    "high_gas_price": 0.1125
+  },
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-black-logo.png",
+  "description": "The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology with minimal overhead.",
+  "explorers": [
+    { "name": "MinScan", "url": "https://www.mintscan.io/neutron/" }
+  ],
+  "token_info": {
+    "name": "Neutron",
+    "symbol": "NTRN",
+    "decimals": 6,
+    "coingecko_id": "neutron-3"
+  },
+  "native_token": {
+    "name": "Neutron",
+    "symbol": "NTRN",
+    "decimals": 6,
+    "coingecko_id": "neutron-3",
+    "denom": "untrn",
+    "simulateGasMultiply": 1.4,
+    "delegate": [
+      {
+        "validator": "Cosmos Station",
+        "validatorAddress": "neutronvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4eptfc8er",
+        "commission": "0",
+        "apr": "0",
+        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+      }
+    ]
+  }
+}

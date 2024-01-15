@@ -1,0 +1,85 @@
+{
+  "chain": "dydx",
+  "name": "dYdX Protocol",
+  "type": "mainnet",
+  "network": "cosmos",
+  "canMemo": true,
+  "bech32Prefix": "dydx",
+  "slip44": 118,
+  "rpc": [
+    "https://community.nuxian-node.ch:6797/dydx/trpc",
+    "https://dydx-dao-rpc.polkachu.com",
+    "https://dydx-mainnet-full-rpc.public.blastapi.io",
+    "https://dydx-rpc.kingnodes.com:443",
+    "https://dydx-rpc.lavenderfive.com:443",
+    "https://dydx-mainnet-rpc.autostake.com:443",
+    "https://rpc-dydx.ecostake.com:443",
+    "https://rpc.dydx.nodestake.top:443",
+    "https://rpc-dydx.cosmos-spaces.cloud",
+    "https://dydx-rpc.publicnode.com:443",
+    "https://rpc-dydx.cros-nest.com:443",
+    "https://dydx-rpc.enigma-validator.com"
+  ],
+  "rest": [
+    "https://community.nuxian-node.ch:6797/dydx/crpc",
+    "https://dydx-dao-api.polkachu.com",
+    "https://dydx-mainnet-full-lcd.public.blastapi.io",
+    "https://dydx-rest.kingnodes.com:443",
+    "https://dydx-api.lavenderfive.com:443",
+    "https://dydx-mainnet-lcd.autostake.com:443",
+    "https://rest-dydx.ecostake.com:443",
+    "https://api-dydx.cosmos-spaces.cloud",
+    "https://api.dydx.nodestake.top:443",
+    "https://dydx-rest.publicnode.com",
+    "https://rest-dydx.cros-nest.com:443",
+    "https://dydx-lcd.enigma-validator.com"
+  ],
+  "grpc": [
+    "dydx-dao-grpc-1.polkachu.com:23890",
+    "dydx-dao-grpc-2.polkachu.com:23890",
+    "dydx-dao-grpc-3.polkachu.com:23890",
+    "dydx-dao-grpc-4.polkachu.com:23890",
+    "dydx-dao-grpc-5.polkachu.com:23890",
+    "dydx-mainnet-full-grpc.public.blastapi.io:443",
+    "https://dydx-grpc.kingnodes.com:443",
+    "https://dydx-grpc.lavenderfive.com",
+    "dydx-mainnet-grpc.autostake.com:443",
+    "https://grpc.dydx.nodestake.top",
+    "dydx.grpc.kjnodes.com:443",
+    "grpc-dydx.cosmos-spaces.cloud:4990",
+    "dydx-grpc.publicnode.com:443"
+  ],
+  "fee": {
+    "denom": "adydx",
+    "fixed_min_gas_price": 12500000000,
+    "low_gas_price": 12500000000,
+    "average_gas_price": 12500000000,
+    "high_gas_price": 20000000000
+  },
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+  "description": "Our goal is to build open source code that can power a first class product and trading experience.",
+  "explorers": [{ "name": "MinScan", "url": "https://www.mintscan.io/dydx/" }],
+  "token_info": {
+    "name": "dYdX",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "coingecko_id": "dydx"
+  },
+  "native_token": {
+    "name": "dYdX",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "coingecko_id": "dydx",
+    "denom": "adydx",
+    "simulateGasMultiply": 1.4,
+    "delegate": [
+      {
+        "validator": "Cosmos Station",
+        "validatorAddress": "dydxvaloper1vl5ty47uwpfv4mcutwv4zam09mvvvdgy09n0l5",
+        "commission": "5",
+        "apr": "10.71",
+        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+      }
+    ]
+  }
+}

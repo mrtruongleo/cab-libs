@@ -1,0 +1,28 @@
+{
+  "chain": "celo mainnet",
+  "name": "Celo Mainnet",
+  "rpc": ["https://forno.celo.org"],
+  "id": 42220,
+  "hexId": "0xa4ec",
+  "explorers": [
+    {
+      "name": "Celoscan",
+      "url": "https://celoscan.io/tx/",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Explorer 2",
+      "url": "https://explorer.celo.org/tx/"
+    }
+  ],
+  "type": "mainnet",
+  "network": "evm",
+  "native_token": {
+    "name": "CELO",
+    "symbol": "CELO",
+    "decimals": 18,
+    "coingecko_id": "celo"
+  },
+  "gecko_terminal_chain_id": "celo",
+  "dexscreener_chain_id": "celo"
+}

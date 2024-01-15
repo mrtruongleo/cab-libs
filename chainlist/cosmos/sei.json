@@ -1,0 +1,65 @@
+{
+  "chain": "sei",
+  "name": "Sei",
+  "type": "mainnet",
+  "network": "cosmos",
+  "canMemo": true,
+  "bech32Prefix": "sei",
+  "slip44": 118,
+  "rpc": [
+    "https://sei-rpc.lavenderfive.com:443",
+    "https://sei-rpc.polkachu.com/",
+    "https://sei-rpc.brocha.in/",
+    "https://rpc-sei.stingray.plus/",
+    "https://rpc-sei.whispernode.com:443",
+    "https://sei.rpc.kjnodes.com"
+  ],
+  "rest": [
+    "https://sei-api.lavenderfive.com:443",
+    "https://sei-api.polkachu.com/",
+    "https://sei-rest.brocha.in/",
+    "https://api-sei.stingray.plus/",
+    "https://lcd-sei.whispernode.com:443",
+    "https://sei.api.kjnodes.com"
+  ],
+  "grpc": [
+    "https://sei-grpc.lavenderfive.com:443",
+    "https://sei-grpc.polkachu.com:11990/",
+    "sei-mainnet-grpc.autostake.com:443",
+    "https://grpc-sei.whispernode.com:443",
+    "sei.grpc.kjnodes.com:443"
+  ],
+  "fee": {
+    "denom": "usei",
+    "fixed_min_gas_price": 0.1,
+    "low_gas_price": 0.1,
+    "average_gas_price": 0.1,
+    "high_gas_price": 0.25
+  },
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
+  "description": "Sei is the fastest Layer 1 blockchain, designed to scale with the industry.",
+  "explorers": [{ "name": "MinScan", "url": "https://www.mintscan.io/sei/" }],
+  "token_info": {
+    "name": "Sei",
+    "symbol": "SEI",
+    "decimals": 6,
+    "coingecko_id": "sei-network"
+  },
+  "native_token": {
+    "name": "Sei",
+    "symbol": "SEI",
+    "decimals": 6,
+    "coingecko_id": "sei-network",
+    "denom": "usei",
+    "simulateGasMultiply": 1.4,
+    "delegate": [
+      {
+        "validator": "Cosmos Station",
+        "validatorAddress": "seivaloper1hnkkqnzwmyw652muh6wfea7xlfgplnyj0ku4w4",
+        "commission": "5",
+        "apr": "0",
+        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+      }
+    ]
+  }
+}

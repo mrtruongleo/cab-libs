@@ -1,0 +1,30 @@
+{
+  "chain": "polygon",
+  "name": "Polygon Mainnet",
+  "type": "mainnet",
+  "network": "evm",
+  "id": 137,
+  "hexId": "0x89",
+  "api": "17C74Z48VI5N3V3M32SW25M2FDYENVTWHI",
+  "endpoint": "https://api.polygonscan.com/api",
+  "rpc": [
+    "https://rpc-mainnet.maticvigil.com",
+    "https://polygon.llamarpc.com",
+    "https://polygon-bor.publicnode.com",
+    "https://1rpc.io/matic"
+  ],
+  "native_token": {
+    "name": "Matic Network",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "coingecko_id": "matic-network"
+  },
+  "explorers": [
+    {
+      "name": "polygonscan",
+      "url": "https://polygonscan.com/tx/"
+    }
+  ],
+  "gecko_terminal_chain_id": "polygon",
+  "dexscreener_chain_id": "polygon_pos"
+}

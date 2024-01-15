@@ -1,0 +1,75 @@
+{
+  "chain": "kyve",
+  "name": "KYVE",
+  "type": "mainnet",
+  "network": "cosmos",
+  "canMemo": true,
+  "bech32Prefix": "kyve",
+  "slip44": 118,
+  "rpc": [
+    "https://rpc-eu-1.kyve.network",
+    "https://rpc-kyve.ecostake.com",
+    "https://kyve-rpc.lavenderfive.com:443",
+    "http://kyve.rpc.m.stavr.tech:12357",
+    "https://rpc-kyve.imperator.co",
+    "https://kyve-rpc.ibs.team",
+    "https://rpc-kyve.cosmos-spaces.cloud",
+    "https://rpc.kyve.nodestake.top",
+    "https://kyve.rpc.liveraven.net",
+    "https://rpc-kyve.mms.team"
+  ],
+  "rest": [
+    "https://api-eu-1.kyve.network",
+    "https://kyve-api.lavenderfive.com:443",
+    "https://rest-kyve.ecostake.com",
+    "https://lcd-kyve.imperator.co",
+    "https://kyve.api.m.stavr.tech",
+    "https://kyve-api.ibs.team",
+    "https://api.kyve.nodestake.top",
+    "https://api-kyve.cosmos-spaces.cloud",
+    "https://kyve.api.liveraven.net",
+    "https://api-kyve.mms.team"
+  ],
+  "grpc": [
+    "https://grpc.kyve.nodestake.top",
+    "https://kyve-grpc.lavenderfive.com:443",
+    "grpc-kyve.cosmos-spaces.cloud:2590",
+    "https://grpc-kyve.nodeist.net",
+    "http://kyve.grpc.stavr.tech:7106",
+    "https://kyve.grpc.liveraven.net",
+    "grpc-kyve.mms.team:443"
+  ],
+  "fee": {
+    "denom": "ukyve",
+    "fixed_min_gas_price": 0.02,
+    "low_gas_price": 0.02,
+    "average_gas_price": 0.03,
+    "high_gas_price": 0.06
+  },
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.png",
+  "description": "Revolutionizing data reliability in the Web3 space, KYVE Network provides fast and easy tooling for data validation, immutability, and retrieval, ensuring trustless data for seamless scalability and eliminating data risks and roadblocks.",
+  "explorers": [{ "name": "MinScan", "url": "https://www.mintscan.io/kyve/" }],
+  "token_info": {
+    "name": "KYVE",
+    "symbol": "KYVE",
+    "decimals": 6,
+    "coingecko_id": "kyve-network"
+  },
+  "native_token": {
+    "name": "KYVE",
+    "symbol": "KYVE",
+    "decimals": 6,
+    "coingecko_id": "kyve-network",
+    "denom": "ukyve",
+    "simulateGasMultiply": 1.4,
+    "delegate": [
+      {
+        "validator": "Cosmos Station",
+        "validatorAddress": "kyvevaloper17xuyhz7s5hkwglmkf3qsrlyr3wk9qvqz5c4mul",
+        "commission": "5",
+        "apr": "26.96",
+        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+      }
+    ]
+  }
+}

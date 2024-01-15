@@ -1,0 +1,31 @@
+{
+  "chain": "eth",
+  "name": "Ethereum Mainnet",
+  "type": "mainnet",
+  "network": "evm",
+  "id": 1,
+  "hexId": "0x1",
+  "api": "HEB7P838NC1N7I9IQBPAZPMT3DMED3R3DB",
+  "endpoint": "https://api.etherscan.io/api",
+  "rpc": [
+    "https://eth.llamarpc.com",
+    "https://ethereum.publicnode.com",
+    "https://api.mycryptoapi.com/eth",
+    "https://eth-rpc.gateway.pokt.network"
+  ],
+  "native_token": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18,
+    "coingecko_id": "ethereum"
+  },
+  "explorers": [
+    {
+      "name": "etherscan",
+      "url": "https://etherscan.io/tx/",
+      "standard": "EIP3091"
+    }
+  ],
+  "gecko_terminal_chain_id": "eth",
+  "dexscreener_chain_id": "ethereum"
+}

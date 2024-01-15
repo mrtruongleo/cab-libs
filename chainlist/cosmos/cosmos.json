@@ -1,0 +1,53 @@
+{
+  "chain": "cosmos",
+  "name": "Cosmos - Atom",
+  "type": "mainnet",
+  "network": "cosmos",
+  "canMemo": true,
+  "bech32Prefix": "cosmos",
+  "slip44": 118,
+  "rpc": [
+    "https://cosmos-rpc.publicnode.com",
+    "https://rpc-cosmoshub.blockapsis.com"
+  ],
+  "rest": [
+    "https://lcd-cosmoshub.blockapsis.com",
+    "https://cosmos-rest.publicnode.com"
+  ],
+  "grpc": [],
+  "fee": {
+    "denom": "uatom",
+    "fixed_min_gas_price": 0.025,
+    "low_gas_price": 0.02,
+    "average_gas_price": 0.025,
+    "high_gas_price": 0.05
+  },
+  "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/cosmos/asset/atom.png",
+  "description": "Decentralized network of blockchains powered by Tendermint BFT and ABCI.",
+  "explorers": [
+    { "name": "MinScan", "url": "https://www.mintscan.io/cosmos/" }
+  ],
+  "token_info": {
+    "name": "Cosmos",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "coingecko_id": "cosmos"
+  },
+  "native_token": {
+    "name": "Cosmos",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "coingecko_id": "cosmos",
+    "denom": "uatom",
+    "simulateGasMultiply": 1.4,
+    "delegate": [
+      {
+        "validator": "Cosmos Station",
+        "validatorAddress": "cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn",
+        "commission": "0",
+        "apr": "14",
+        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+      }
+    ]
+  }
+}

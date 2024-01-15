@@ -1,0 +1,78 @@
+{
+  "chain": "band",
+  "name": "Band Protocol",
+  "type": "mainnet",
+  "network": "cosmos",
+  "canMemo": true,
+  "bech32Prefix": "band",
+  "slip44": 494,
+  "rpc": [
+    "http://rpc.laozi1.bandchain.org:80",
+    "https://rpc-bandchain-ia.cosmosia.notional.ventures/",
+    "https://band-rpc.ibs.team/",
+    "https://bandchain-mainnet-rpc.autostake.com:443",
+    "https://band.rpc.m.stavr.tech:443",
+    "https://rpc-band-01.stakeflow.io",
+    "https://rpc-band.cosmos-spaces.cloud",
+    "https://band-rpc.w3coins.io",
+    "https://bandprotocol-rpc.highstakes.ch:26657/",
+    "https://band-rpc.stake-town.com"
+  ],
+  "rest": [
+    "https://laozi1.bandchain.org/api",
+    "https://api-bandchain-ia.cosmosia.notional.ventures/",
+    "https://band-api.ibs.team/",
+    "https://api-band.cosmos-spaces.cloud",
+    "https://band.api.m.stavr.tech",
+    "https://bandchain-mainnet-lcd.autostake.com:443",
+    "https://api-band-01.stakeflow.io",
+    "https://band-api.w3coins.io",
+    "https://bandprotocol-api.highstakes.ch:1317/",
+    "https://band-api.stake-town.com"
+  ],
+  "grpc": [
+    "grpc-bandchain-ia.cosmosia.notional.ventures:443",
+    "bandchain-mainnet-grpc.autostake.com:443",
+    "grpc-band.cosmos-spaces.cloud:2240",
+    "grpc-band-01.stakeflow.io:2502",
+    "band-grpc.w3coins.io:22990",
+    "http://band.grpc.m.stavr.tech:7803",
+    "https://grpc-band.nodeist.net",
+    "band.grpc.kjnodes.com:443",
+    "band-grpc.stake-town.com:443"
+  ],
+  "fee": {
+    "denom": "uband",
+    "low_gas_price": 0.0025,
+    "average_gas_price": 0.003,
+    "high_gas_price": 0.005
+  },
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.png",
+  "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
+  "explorers": [
+    { "name": "MinScan", "url": "https://www.mintscan.io/bandchain/" }
+  ],
+  "token_info": {
+    "name": "Band Protocol",
+    "symbol": "BAND",
+    "decimals": 6,
+    "coingecko_id": "band-protocol"
+  },
+  "native_token": {
+    "name": "Band Protocol",
+    "symbol": "BAND",
+    "decimals": 6,
+    "coingecko_id": "band-protocol",
+    "denom": "uband",
+    "simulateGasMultiply": 1.4,
+    "delegate": [
+      {
+        "validator": "Cosmos Station",
+        "validatorAddress": "bandvaloper17d3uhcjlh4jyqcep82jfsrg8avsngklxxan5tg",
+        "commission": "12",
+        "apr": "10.13",
+        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+      }
+    ]
+  }
+}

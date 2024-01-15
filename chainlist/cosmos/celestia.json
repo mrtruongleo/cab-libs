@@ -1,0 +1,90 @@
+{
+  "chain": "celestia",
+  "name": "Celestia",
+  "type": "mainnet",
+  "network": "cosmos",
+  "canMemo": true,
+  "bech32Prefix": "celestia",
+  "slip44": 118,
+  "rpc": [
+    "https://public-celestia-rpc.numia.xyz",
+    "https://celestia-rpc.mesa.newmetric.xyz",
+    "https://rpc.lunaroasis.net",
+    "https://rpc.celestia.nodestake.top",
+    "https://celestia-rpc.lavenderfive.com:443",
+    "https://rpc-celestia-01.stakeflow.io",
+    "https://rpc-celestia.cosmos-spaces.cloud",
+    "http://celestia.rpc.nodersteam.com:29657",
+    "https://celestia-rpc.publicnode.com:443",
+    "https://celestia.rpc.stakin-nodes.com",
+    "https://celestia.rpc.kjnodes.com",
+    "https://celestia-rpc.polkachu.com",
+    "https://rpc-celestia.mzonder.com",
+    "https://celestia-rpc.enigma-validator.com",
+    "https://rpc-celestia.theamsolutions.info"
+  ],
+  "rest": [
+    "https://public-celestia-lcd.numia.xyz",
+    "https://celestia-rest.mesa.newmetric.xyz",
+    "http://celestia.rpc.nodersteam.com:1617",
+    "https://api.lunaroasis.net",
+    "https://api.celestia.nodestake.top",
+    "https://celestia-api.lavenderfive.com:443",
+    "https://api-celestia-01.stakeflow.io",
+    "https://api-celestia.cosmos-spaces.cloud",
+    "https://celestia-rest.publicnode.com",
+    "https://celestia.rest.stakin-nodes.com",
+    "https://celestia.api.kjnodes.com",
+    "https://api-celestia.mzonder.com",
+    "https://celestia-lcd.enigma-validator.com",
+    "https://rest-celestia.theamsolutions.info"
+  ],
+  "grpc": [
+    "https://grpc.celestia.nodestake.top",
+    "celestia-mainnet-grpc.autostake.com:443",
+    "https://celestia-grpc.lavenderfive.com:443",
+    "celestia.grpc.nodersteam.com:9690",
+    "grpc-celestia-01.stakeflow.io:15002",
+    "grpc-celestia.cosmos-spaces.cloud:5190",
+    "celestia-grpc.publicnode.com:443",
+    "celestia.grpc.stakin-nodes.com:443",
+    "celestia.grpc.kjnodes.com:443",
+    "grpc-celestia.mzonder.com:443",
+    "grpc-celestia.theamsolutions.info:443"
+  ],
+  "fee": {
+    "denom": "utia",
+    "fixed_min_gas_price": 0.002,
+    "low_gas_price": 0.01,
+    "average_gas_price": 0.02,
+    "high_gas_price": 0.1
+  },
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+  "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
+  "explorers": [
+    { "name": "MinScan", "url": "https://www.mintscan.io/celestia/" }
+  ],
+  "token_info": {
+    "name": "Celestia",
+    "symbol": "TIA",
+    "decimals": 6,
+    "coingecko_id": "celestia"
+  },
+  "native_token": {
+    "name": "Celestia",
+    "symbol": "TIA",
+    "decimals": 6,
+    "coingecko_id": "celestia",
+    "denom": "utia",
+    "simulateGasMultiply": 1.4,
+    "delegate": [
+      {
+        "validator": "Cosmos Station",
+        "validatorAddress": "celestiavaloper1uqj5ul7jtpskk9ste9mfv6jvh0y3w34vtpz3gw",
+        "commission": "5",
+        "apr": "15",
+        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+      }
+    ]
+  }
+}

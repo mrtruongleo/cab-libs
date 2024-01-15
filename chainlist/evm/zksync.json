@@ -1,0 +1,24 @@
+{
+  "chain": "zksync",
+  "name": "Zksync Era Mainnet",
+  "type": "mainnet",
+  "network": "evm",
+  "id": 324,
+  "hexId": "0x144",
+  "logo_id": "zksync",
+  "rpc": ["https://mainnet.era.zksync.io"],
+  "native_token": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18,
+    "coingecko_id": "ethereum"
+  },
+  "explorers": [
+    {
+      "name": "zksync",
+      "url": "https://explorer.zksync.io/tx/"
+    }
+  ],
+  "gecko_terminal_chain_id": "zksync",
+  "dexscreener_chain_id": "zksync"
+}

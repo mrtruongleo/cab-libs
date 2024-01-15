@@ -1,0 +1,23 @@
+{
+  "chain": "ethereumpow",
+  "name": "Ethereum POW",
+  "type": "mainnet",
+  "id": 10001,
+  "hexId": "0x2711",
+  "network": "evm",
+  "rpc": ["https://mainnet.ethereumpow.org"],
+  "native_token": {
+    "name": "ETH POW",
+    "symbol": "ETHW",
+    "decimals": 18,
+    "coingecko_id": "ethereum-pow-iou"
+  },
+  "explorers": [
+    {
+      "name": "oklink",
+      "url": "https://www.oklink.com/ethw/tx/"
+    }
+  ],
+  "gecko_terminal_chain_id": "ethw",
+  "dexscreener_chain_id": "ethereumpow"
+}

@@ -1,0 +1,23 @@
+{
+  "chain": "metis-andromeda",
+  "name": "Metis Andromeda Mainnet",
+  "type": "mainnet",
+  "network": "evm",
+  "id": 1088,
+  "rpc": [
+    "https://andromeda.metis.io/?owner=1088",
+    "https://metis-rpc.gateway.pokt.network"
+  ],
+  "native_token": {
+    "name": "Metis",
+    "symbol": "METIS",
+    "decimals": 18,
+    "coingecko_id": "metis-token"
+  },
+  "explorers": [
+    {
+      "name": "Metis Explorer",
+      "url": "https://andromeda-explorer.metis.io/tx/"
+    }
+  ]
+}

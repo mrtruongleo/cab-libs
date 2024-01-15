@@ -1,0 +1,84 @@
+{
+  "chain": "inj",
+  "name": "Injective",
+  "type": "mainnet",
+  "network": "cosmos",
+  "canMemo": true,
+  "bech32Prefix": "inj",
+  "slip44": 60,
+  "rpc": [
+    "https://injective-rpc.quickapi.com:443",
+    "https://rpc-injective.goldenratiostaking.net",
+    "https://injective-rpc.polkachu.com",
+    "https://injective-rpc.lavenderfive.com:443",
+    "https://rpc-injective-ia.cosmosia.notional.ventures/",
+    "https://injective-mainnet-rpc.autostake.com:443",
+    "https://rpc.injective.posthuman.digital:443",
+    "https://rpc-injective.whispernode.com:443",
+    "https://rpc-injective-01.stakeflow.io",
+    "https://injective-rpc.publicnode.com:443",
+    "https://injective-rpc.w3coins.io",
+    "https://injective-rpc.highstakes.ch:26657/"
+  ],
+  "rest": [
+    "https://injective-lcd.quickapi.com:443",
+    "https://api-injective-ia.cosmosia.notional.ventures/",
+    "https://injective-api.polkachu.com",
+    "https://injective-api.lavenderfive.com:443",
+    "https://rest.injective.posthuman.digital:443",
+    "https://lcd-injective.whispernode.com:443",
+    "https://api-injective-01.stakeflow.io",
+    "https://rest-injective.goldenratiostaking.net",
+    "https://injective-rest.publicnode.com",
+    "https://injective-api.w3coins.io",
+    "https://injective-api.highstakes.ch:1317/"
+  ],
+  "grpc": [
+    "grpc-injective-ia.cosmosia.notional.ventures:443",
+    "injective-grpc.lavenderfive.com:443",
+    "injective-grpc.polkachu.com:14390",
+    "injective-mainnet-grpc.autostake.com:443",
+    "grpc-injective.cosmos-spaces.cloud:9900",
+    "grpc.injective.posthuman.digital:80",
+    "grpc-injective.architectnodes.com:1443",
+    "grpc-injective-01.stakeflow.io:2102",
+    "injective-grpc.publicnode.com:443",
+    "injective-grpc.w3coins.io:14390",
+    "grpc-injective.whispernode.com:443"
+  ],
+  "fee": {
+    "denom": "inj",
+    "fixed_min_gas_price": 160000000,
+    "low_gas_price": 500000000,
+    "average_gas_price": 700000000,
+    "high_gas_price": 900000000
+  },
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
+  "description": "Injective’s mission is to create a truly free and inclusive financial system through decentralization.",
+  "explorers": [
+    { "name": "MinScan", "url": "https://www.mintscan.io/injective/" }
+  ],
+  "token_info": {
+    "name": "Injective",
+    "symbol": "INJ",
+    "decimals": 18,
+    "coingecko_id": "injective-protocol"
+  },
+  "native_token": {
+    "name": "Injective",
+    "symbol": "INJ",
+    "decimals": 18,
+    "coingecko_id": "injective-protocol",
+    "denom": "inj",
+    "simulateGasMultiply": 1.4,
+    "delegate": [
+      {
+        "validator": "Cosmos Station",
+        "validatorAddress": "injvaloper1rvqzf9u2uxttmshn302anlknfgsatrh5v7fl7e",
+        "commission": "8.9",
+        "apr": "14.48",
+        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+      }
+    ]
+  }
+}

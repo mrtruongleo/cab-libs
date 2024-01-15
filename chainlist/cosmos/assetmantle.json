@@ -1,0 +1,73 @@
+{
+  "chain": "assetmantle",
+  "name": "AssetMantle",
+  "type": "mainnet",
+  "network": "cosmos",
+  "canMemo": true,
+  "bech32Prefix": "mantle",
+  "slip44": 118,
+  "rpc": [
+    "https://rpc.assetmantle.one",
+    "https://rpc-assetmantle.blockpower.capital",
+    "https://rpc-assetmantle.ecostake.com",
+    "https://assetmantle-rpc.polkachu.com",
+    "https://rpc.assetmantle.nodestake.top",
+    "https://rpc-assetmantle-ia.cosmosia.notional.ventures/",
+    "https://rpc-assetmantle.whispernode.com:443",
+    "https://rpc.mantle.paranorm.pro:443",
+    "https://assetmantle-rpc.stakerhouse.com",
+    "https://assetmantle-rpc.publicnode.com:443"
+  ],
+  "rest": [
+    "https://rest.assetmantle.one",
+    "https://rest-assetmantle.ecostake.com",
+    "https://api.assetmantle.nodestake.top",
+    "https://api-assetmantle-ia.cosmosia.notional.ventures",
+    "https://assetmantle-api.polkachu.com",
+    "https://lcd-assetmantle.whispernode.com:443",
+    "https://api.mantle.paranorm.pro:443",
+    "https://assetmantle-rest.stakerhouse.com",
+    "https://assetmantle-rest.publicnode.com"
+  ],
+  "grpc": [
+    "grpc.assetmantle.nodestake.top:443",
+    "grpc-assetmantle-ia.cosmosia.notional.ventures:443",
+    "assetmantle-grpc.polkachu.com:14690",
+    "assetmantle-grpc.stakerhouse.com:443",
+    "assetmantle-grpc.publicnode.com:443"
+  ],
+  "fee": {
+    "denom": "umntl",
+    "low_gas_price": 0.01,
+    "average_gas_price": 0.025,
+    "high_gas_price": 0.04
+  },
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/AM_Logo.png",
+  "description": "AssetMantle’s suite of products is focused on the NFT ecosystem, helping you up your game with digital asset ownership.",
+  "explorers": [
+    { "name": "MinScan", "url": "https://www.mintscan.io/assetmantle/" }
+  ],
+  "token_info": {
+    "name": "AssetMantle",
+    "symbol": "MNTL",
+    "decimals": 6,
+    "coingecko_id": "assetmantle"
+  },
+  "native_token": {
+    "name": "AssetMantle",
+    "symbol": "MNTL",
+    "decimals": 6,
+    "coingecko_id": "assetmantle",
+    "denom": "umntl",
+    "simulateGasMultiply": 1.4,
+    "delegate": [
+      {
+        "validator": "Cosmos Station",
+        "validatorAddress": "mantlevaloper1cw3dwtw5h49vh83uayzda5l7jyu7k83wqwht0x",
+        "commission": "10",
+        "apr": "99.73",
+        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "chain": "evmos",
+  "name": "Evmos",
+  "rpc": ["https://evmos-evm.publicnode.com"],
+  "id": 9001,
+  "hexId": "0x2329",
+  "explorers": [
+    {
+      "name": "Evmos EVM Explorer (Escan)",
+      "url": "https://escan.live/tx/",
+      "standard": "none"
+    },
+    {
+      "name": "Explorer 2",
+      "url": "https://www.mintscan.io/evmos/tx/"
+    }
+  ],
+  "type": "mainnet",
+  "network": "evm",
+  "native_token": {
+    "name": "Evmos",
+    "symbol": "EVMOS",
+    "decimals": 18,
+    "coingecko_id": "evmos"
+  },
+  "gecko_terminal_chain_id": "evmos",
+  "dexscreener_chain_id": "evmos"
+}
