@@ -1,5 +1,5 @@
 {
-  "chain": "assetmantle",
+  "chain": "mantle",
   "name": "AssetMantle",
   "type": "mainnet",
   "network": "cosmos",
@@ -40,7 +40,8 @@
     "denom": "umntl",
     "low_gas_price": 0.01,
     "average_gas_price": 0.025,
-    "high_gas_price": 0.04
+    "high_gas_price": 0.04,
+    "simulateGasMultiply": 1.4
   },
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/AM_Logo.png",
   "description": "AssetMantle’s suite of products is focused on the NFT ecosystem, helping you up your game with digital asset ownership.",
@@ -59,7 +60,6 @@
     "decimals": 6,
     "coingecko_id": "assetmantle",
     "denom": "umntl",
-    "simulateGasMultiply": 1.4,
     "delegate": [
       {
         "validator": "Cosmos Station",

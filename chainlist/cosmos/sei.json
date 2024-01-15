@@ -34,7 +34,8 @@
     "fixed_min_gas_price": 0.1,
     "low_gas_price": 0.1,
     "average_gas_price": 0.1,
-    "high_gas_price": 0.25
+    "high_gas_price": 0.25,
+    "simulateGasMultiply": 1.4
   },
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
   "description": "Sei is the fastest Layer 1 blockchain, designed to scale with the industry.",
@@ -51,7 +52,6 @@
     "decimals": 6,
     "coingecko_id": "sei-network",
     "denom": "usei",
-    "simulateGasMultiply": 1.4,
     "delegate": [
       {
         "validator": "Cosmos Station",

@@ -44,7 +44,8 @@
     "fixed_min_gas_price": 0.02,
     "low_gas_price": 0.02,
     "average_gas_price": 0.03,
-    "high_gas_price": 0.06
+    "high_gas_price": 0.06,
+    "simulateGasMultiply": 1.4
   },
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.png",
   "description": "Revolutionizing data reliability in the Web3 space, KYVE Network provides fast and easy tooling for data validation, immutability, and retrieval, ensuring trustless data for seamless scalability and eliminating data risks and roadblocks.",
@@ -61,7 +62,6 @@
     "decimals": 6,
     "coingecko_id": "kyve-network",
     "denom": "ukyve",
-    "simulateGasMultiply": 1.4,
     "delegate": [
       {
         "validator": "Cosmos Station",

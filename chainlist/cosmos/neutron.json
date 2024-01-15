@@ -44,7 +44,8 @@
     "denom": "untrn",
     "low_gas_price": 0.075,
     "average_gas_price": 0.075,
-    "high_gas_price": 0.1125
+    "high_gas_price": 0.1125,
+    "simulateGasMultiply": 1.4
   },
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-black-logo.png",
   "description": "The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology with minimal overhead.",
@@ -63,7 +64,6 @@
     "decimals": 6,
     "coingecko_id": "neutron-3",
     "denom": "untrn",
-    "simulateGasMultiply": 1.4,
     "delegate": [
       {
         "validator": "Cosmos Station",

@@ -84,7 +84,8 @@
     "fixed_min_gas_price": 0.075,
     "low_gas_price": 0.075,
     "average_gas_price": 0.1,
-    "high_gas_price": 0.125
+    "high_gas_price": 0.125,
+    "simulateGasMultiply": 1.4
   },
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
   "description": "Juno is a completely community owned and operated smart contract platform.",
@@ -101,7 +102,6 @@
     "decimals": 6,
     "coingecko_id": "juno-network",
     "denom": "ujuno",
-    "simulateGasMultiply": 1.4,
     "delegate": [
       {
         "validator": "Cosmos Station",

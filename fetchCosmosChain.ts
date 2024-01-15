@@ -87,7 +87,13 @@ const getCosmosChainRegistry = async (chain: string) => {
     Chain = {
       ...Chain,
       chain:
-        chain === "bandchain" ? "band" : chain === "injective" ? "inj" : chain,
+        chain === "bandchain"
+          ? "band"
+          : chain === "injective"
+          ? "inj"
+          : chain === "assetmantle"
+          ? "mantle"
+          : chain,
       name: data.pretty_name,
       type: data.network_type,
       network: "cosmos",
@@ -97,7 +103,7 @@ const getCosmosChainRegistry = async (chain: string) => {
       rpc: data.apis.rpc.map((i: any) => i.address),
       rest: data.apis.rest.map((i: any) => i.address),
       grpc: data.apis.grpc.map((i: any) => i.address),
-      fee: data.fees.fee_tokens[0],
+      fee: { ...data.fees.fee_tokens[0], simulateGasMultiply: 1.4 },
       logo: data.logo_URIs.png,
       description: data.description,
       explorers: [
@@ -126,7 +132,6 @@ const getCosmosChainRegistry = async (chain: string) => {
         decimals: data.denom_units.find((u: any) => u.exponent !== 0).exponent,
         coingecko_id: data.coingecko_id,
         denom: data.denom_units.find((u: any) => u.exponent === 0).denom,
-        simulateGasMultiply: 1.4,
         delegate: [
           {
             validator: "Cosmos Station",

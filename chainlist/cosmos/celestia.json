@@ -57,8 +57,10 @@
     "fixed_min_gas_price": 0.002,
     "low_gas_price": 0.01,
     "average_gas_price": 0.02,
-    "high_gas_price": 0.1
+    "high_gas_price": 0.1,
+    "simulateGasMultiply": 1.4
   },
+
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
   "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
   "explorers": [
@@ -76,7 +78,7 @@
     "decimals": 6,
     "coingecko_id": "celestia",
     "denom": "utia",
-    "simulateGasMultiply": 1.4,
+
     "delegate": [
       {
         "validator": "Cosmos Station",

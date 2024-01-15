@@ -45,7 +45,8 @@
     "denom": "uband",
     "low_gas_price": 0.0025,
     "average_gas_price": 0.003,
-    "high_gas_price": 0.005
+    "high_gas_price": 0.005,
+    "simulateGasMultiply": 1.4
   },
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.png",
   "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
@@ -64,7 +65,6 @@
     "decimals": 6,
     "coingecko_id": "band-protocol",
     "denom": "uband",
-    "simulateGasMultiply": 1.4,
     "delegate": [
       {
         "validator": "Cosmos Station",

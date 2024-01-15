@@ -54,7 +54,8 @@
     "fixed_min_gas_price": 12500000000,
     "low_gas_price": 12500000000,
     "average_gas_price": 12500000000,
-    "high_gas_price": 20000000000
+    "high_gas_price": 20000000000,
+    "simulateGasMultiply": 1.4
   },
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
   "description": "Our goal is to build open source code that can power a first class product and trading experience.",
@@ -71,7 +72,6 @@
     "decimals": 18,
     "coingecko_id": "dydx",
     "denom": "adydx",
-    "simulateGasMultiply": 1.4,
     "delegate": [
       {
         "validator": "Cosmos Station",
