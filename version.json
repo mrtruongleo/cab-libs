@@ -29,6 +29,11 @@
   {
     "version": 2.23,
     "description": ["- Fix bugs", "- Update chain"],
-    "release_date": "2024-01-14"
+    "release_date": "2024-01-15"
+  },
+  {
+    "version": 2.24,
+    "description": ["- Fix bugs", "- Fix sending on EVM chain"],
+    "release_date": "2024-01-15"
   }
 ]
