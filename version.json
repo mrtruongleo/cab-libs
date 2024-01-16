@@ -35,5 +35,15 @@
     "version": 2.24,
     "description": ["- Fix bugs", "- Fix sending on EVM chain"],
     "release_date": "2024-01-15"
+  },
+  {
+    "version": 2.25,
+    "description": [
+      "- Fix bugs",
+      "- Add Cspr chain",
+      "- import cspr wallet from private key file (PEM)",
+      "- Load cspr balance and staking"
+    ],
+    "release_date": "2024-01-15"
   }
 ]
