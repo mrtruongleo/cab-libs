@@ -861,6 +861,7 @@
     "name": "Casper Network",
     "type": "mainnet",
     "network": "cspr",
+    "logo": "https://assets.coingecko.com/coins/images/15279/large/CSPR_Token_Logo_V.png",
     "token_info": {
       "name": "Casper Network",
       "symbol": "CSPR",
