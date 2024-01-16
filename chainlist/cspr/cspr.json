@@ -15,7 +15,16 @@
     "name": "Casper Network",
     "symbol": "CSPR",
     "decimals": 18,
-    "coingecko_id": "casper-network"
+    "coingecko_id": "casper-network",
+    "delegate": [
+      {
+        "validator": "CryptoViet Ventures",
+        "validatorAddress": "0167e08c3b05017d329444dc7d22518ba652cecb2c54669a69e5808ebcab25e42c",
+        "commission": "5",
+        "apr": "11",
+        "logo": "https://cryptoviet.ventures/static/media/logo.svg"
+      }
+    ]
   },
   "explorers": [
     {
