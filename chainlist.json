@@ -868,6 +868,9 @@
       "decimals": 18,
       "coingecko_id": "casper-network"
     },
+    "rpc": [
+      "https://event-store-api-clarity-mainnet.make.services"
+    ],
     "native_token": {
       "name": "Casper Network",
       "symbol": "CSPR",
