@@ -1,0 +1,24 @@
+{
+  "chain": "cspr",
+  "name": "Casper Network",
+  "type": "mainnet",
+  "network": "cspr",
+  "token_info": {
+    "name": "Casper Network",
+    "symbol": "CSPR",
+    "decimals": 18,
+    "coingecko_id": "casper-network"
+  },
+  "native_token": {
+    "name": "Casper Network",
+    "symbol": "CSPR",
+    "decimals": 18,
+    "coingecko_id": "casper-network"
+  },
+  "explorers": [
+    {
+      "name": "Casper Live",
+      "url": "https://csrp.live/deploy/"
+    }
+  ]
+}
