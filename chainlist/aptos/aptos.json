@@ -1,0 +1,27 @@
+{
+  "chain": "aptos",
+  "name": "Aptos Network",
+  "type": "mainnet",
+  "network": "aptos",
+  "slip44": 637,
+  "logo": "https://assets.coingecko.com/coins/images/26455/large/aptos_round.png",
+  "token_info": {
+    "name": "Aptos Network",
+    "symbol": "APT",
+    "decimals": 8,
+    "coingecko_id": "aptos"
+  },
+  "rpc": ["https://fullnode.mainnet.aptoslabs.com/v1"],
+  "native_token": {
+    "name": "Aptos Network",
+    "symbol": "APT",
+    "decimals": 8,
+    "coingecko_id": "aptos"
+  },
+  "explorers": [
+    {
+      "name": "AptScan",
+      "url": "https://aptscan.ai/transactions"
+    }
+  ]
+}

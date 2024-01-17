@@ -1,0 +1,27 @@
+{
+  "chain": "sui",
+  "name": "Sui Network",
+  "type": "mainnet",
+  "network": "sui",
+  "slip44": 784,
+  "logo": "https://assets.coingecko.com/coins/images/26375/large/sui_asset.jpeg",
+  "token_info": {
+    "name": "Sui Network",
+    "symbol": "SUI",
+    "decimals": 9,
+    "coingecko_id": "sui"
+  },
+  "rpc": ["https://fullnode.mainnet.sui.io:443"],
+  "native_token": {
+    "name": "Sui Network",
+    "symbol": "SUI",
+    "decimals": 9,
+    "coingecko_id": "sui"
+  },
+  "explorers": [
+    {
+      "name": "Casper Live",
+      "url": "https://suiscan.xyz/mainnet/tx/"
+    }
+  ]
+}
