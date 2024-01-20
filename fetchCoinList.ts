@@ -11,7 +11,9 @@ const mapPlatform = (
   for (const c of Object.keys(platforms)) {
     if (chainMap?.hasOwnProperty(c)) {
       platforms[chainMap[c]] = platforms[c];
-      delete platforms[c];
+      if (chainMap[c] !== c) {
+        delete platforms[c];
+      }
     }
   }
   return platforms;
@@ -33,7 +35,6 @@ const getCoinlistIds = async (): Promise<
   if (res) {
     const data = res.data;
     const ids = data.map((c: any) => ({ id: c.id, platforms: c.platforms }));
-    console.log(ids);
     try {
       fs.mkdir("tmp", (e) => {
         if (e) {
