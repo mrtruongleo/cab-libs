@@ -50,5 +50,10 @@
     "version": 2.26,
     "description": ["- Fix bugs", "- Add Aptos, Sui chain and send function"],
     "release_date": "2024-01-21"
+  },
+  {
+    "version": 2.27,
+    "description": ["- Fix bugs", "- Now can send CSPR token"],
+    "release_date": "2024-01-23"
   }
 ]
