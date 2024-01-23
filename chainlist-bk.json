@@ -1050,6 +1050,29 @@
     "dexscreener_chain_id": "celo"
   },
   {
+    "chain": "endurance",
+    "name": "Endurance Smartchain Mainnet",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 648,
+    "hexId": "0x288",
+    "rpc": [
+      "https://rpc-endurance.fusionist.io"
+    ],
+    "native_token": {
+      "name": "Fusionist ACE",
+      "symbol": "ACE",
+      "decimals": 18,
+      "coingecko_id": "endurance"
+    },
+    "explorers": [
+      {
+        "name": "ACE",
+        "url": "https://explorer.endurance.fusionist.io/"
+      }
+    ]
+  },
+  {
     "chain": "ethereum classic mainnet",
     "name": "Ethereum Classic Mainnet",
     "rpc": [

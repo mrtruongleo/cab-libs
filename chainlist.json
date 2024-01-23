@@ -894,16 +894,19 @@
     "token_info": {
       "name": "Casper Network",
       "symbol": "CSPR",
-      "decimals": 18,
+      "decimals": 9,
       "coingecko_id": "casper-network"
     },
     "rpc": [
+      "https://casper-node-proxy.make.services/rpc"
+    ],
+    "api": [
       "https://event-store-api-clarity-mainnet.make.services"
     ],
     "native_token": {
       "name": "Casper Network",
       "symbol": "CSPR",
-      "decimals": 18,
+      "decimals": 9,
       "coingecko_id": "casper-network",
       "delegate": [
         {
