@@ -23,8 +23,8 @@
     },
     "explorers": [
       {
-        "name": "AptScan",
-        "url": "https://aptscan.ai/transactions"
+        "name": "Trace Move",
+        "url": "https://tracemove.io"
       }
     ]
   },
