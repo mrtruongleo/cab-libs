@@ -55,5 +55,10 @@
     "version": 2.27,
     "description": ["- Fix bugs", "- Now can send CSPR token"],
     "release_date": "2024-01-23"
+  },
+  {
+    "version": 2.28,
+    "description": ["- Fix bugs", "- Update core language version"],
+    "release_date": "2024-01-24"
   }
 ]
