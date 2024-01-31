@@ -60,5 +60,15 @@
     "version": 2.28,
     "description": ["- Fix bugs", "- Update core language version"],
     "release_date": "2024-01-24"
+  },
+  {
+    "version": 2.3,
+    "description": [
+      "- Fix bugs",
+      "- Add Face ID intergrated for security",
+      "- Add Exchange assets manager",
+      "- Add in-app web browser"
+    ],
+    "release_date": "2024-01-31"
   }
 ]
