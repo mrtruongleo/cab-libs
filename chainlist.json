@@ -886,6 +886,103 @@
     }
   },
   {
+    "chain": "stride",
+    "name": "Stride",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bech32Prefix": "stride",
+    "slip44": 118,
+    "rpc": [
+      "https://stride-rpc.polkachu.com/",
+      "https://stride-rpc.onivalidator.com",
+      "https://stride-rpc.lavenderfive.com/",
+      "https://rpc.stride.silentvalidator.com/",
+      "https://rpc-stride.cosmos-spaces.cloud",
+      "https://stride.rpc.kjnodes.com",
+      "https://rpc-stride.pupmos.network",
+      "https://rpc-stride.architectnodes.com",
+      "https://rpc-stride.whispernode.com:443",
+      "https://stride-mainnet-rpc.autostake.com:443",
+      "https://rpc-stride-01.stakeflow.io",
+      "https://stride-rpc.w3coins.io",
+      "https://stride-rpc.publicnode.com:443",
+      "https://community.nuxian-node.ch:6797/stride/trpc",
+      "https://stride-rpc.stakeandrelax.net",
+      "https://rpc.stride.bronbro.io:443"
+    ],
+    "rest": [
+      "https://stride-api.polkachu.com/",
+      "https://api-stride.cosmos-spaces.cloud",
+      "https://stride.api.m.stavr.tech",
+      "https://stride-api.lavenderfive.com/",
+      "https://api.stride.silentvalidator.com/",
+      "https://stride.api.kjnodes.com",
+      "https://api-stride.pupmos.network",
+      "https://stride-mainnet-lcd.autostake.com:443",
+      "https://rest-stride.architectnodes.com",
+      "https://lcd-stride.whispernode.com:443",
+      "https://api-stride-01.stakeflow.io",
+      "https://stride-api.w3coins.io",
+      "https://stride-rest.publicnode.com",
+      "https://community.nuxian-node.ch:6797/stride/crpc",
+      "https://stride-api.stakeandrelax.net",
+      "https://lcd.stride.bronbro.io:443"
+    ],
+    "grpc": [
+      "stride.grpc.bccnodes.com:443",
+      "stride-grpc.polkachu.com:12290",
+      "stride-grpc.lavenderfive.com:443",
+      "http://stride.grpc.m.stavr.tech:9986",
+      "grpc-stride.cosmos-spaces.cloud:1140",
+      "stride-mainnet-grpc.autostake.com:443",
+      "stride.grpc.kjnodes.com:11690",
+      "grpc-stride-01.stakeflow.io:1802",
+      "stride-grpc.w3coins.io:12290",
+      "stride-grpc.publicnode.com:443",
+      "stride-grpc.stakeandrelax.net:12290",
+      "https://grpc.stride.bronbro.io:443"
+    ],
+    "fee": {
+      "denom": "ustrd",
+      "fixed_min_gas_price": 0.0005,
+      "low_gas_price": 0.0005,
+      "average_gas_price": 0.001,
+      "high_gas_price": 0.002,
+      "simulateGasMultiply": 1.4
+    },
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stride-chain-logo.png",
+    "description": "Stride is a blockchain that provides liquidity for staked tokens. Using Stride, you can earn both taking and DeFi yields across the Cosmos IBC ecosystem.",
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/stride/"
+      }
+    ],
+    "token_info": {
+      "name": "Stride",
+      "symbol": "STRD",
+      "decimals": 6,
+      "coingecko_id": "stride"
+    },
+    "native_token": {
+      "name": "Stride",
+      "symbol": "STRD",
+      "decimals": 6,
+      "coingecko_id": "stride",
+      "denom": "ustrd",
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "stridevaloper1jj9z2xwxesuy65n90dujsak554eqkrr28aqpl0",
+          "commission": "",
+          "apr": "",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    }
+  },
+  {
     "chain": "cspr",
     "name": "Casper Network",
     "type": "mainnet",
