@@ -12,9 +12,7 @@
       "decimals": 8,
       "coingecko_id": "aptos"
     },
-    "rpc": [
-      "https://fullnode.mainnet.aptoslabs.com/v1"
-    ],
+    "rpc": ["https://fullnode.mainnet.aptoslabs.com/v1"],
     "native_token": {
       "name": "Aptos Network",
       "symbol": "APT",
@@ -973,11 +971,11 @@
       "denom": "ustrd",
       "delegate": [
         {
-          "validator": "Cosmos Station",
-          "validatorAddress": "stridevaloper1jj9z2xwxesuy65n90dujsak554eqkrr28aqpl0",
-          "commission": "",
-          "apr": "",
-          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+          "validator": "Chorus One",
+          "validatorAddress": "stridevaloper15urq2dtp9qce4fyc85m6upwm9xul3049u96tmy",
+          "commission": "7.5",
+          "apr": "0",
+          "logo": "https://avatars.githubusercontent.com/u/36706567?s=200&v=4"
         }
       ]
     }
@@ -994,12 +992,8 @@
       "decimals": 9,
       "coingecko_id": "casper-network"
     },
-    "rpc": [
-      "https://casper-node-proxy.make.services/rpc"
-    ],
-    "api": [
-      "https://event-store-api-clarity-mainnet.make.services"
-    ],
+    "rpc": ["https://casper-node-proxy.make.services/rpc"],
+    "api": ["https://event-store-api-clarity-mainnet.make.services"],
     "native_token": {
       "name": "Casper Network",
       "symbol": "CSPR",
@@ -1122,9 +1116,7 @@
   {
     "chain": "celo mainnet",
     "name": "Celo Mainnet",
-    "rpc": [
-      "https://forno.celo.org"
-    ],
+    "rpc": ["https://forno.celo.org"],
     "id": 42220,
     "hexId": "0xa4ec",
     "explorers": [
@@ -1156,9 +1148,7 @@
     "network": "evm",
     "id": 648,
     "hexId": "0x288",
-    "rpc": [
-      "https://rpc-endurance.fusionist.io"
-    ],
+    "rpc": ["https://rpc-endurance.fusionist.io"],
     "native_token": {
       "name": "Fusionist ACE",
       "symbol": "ACE",
@@ -1175,9 +1165,7 @@
   {
     "chain": "ethereum classic mainnet",
     "name": "Ethereum Classic Mainnet",
-    "rpc": [
-      "https://www.ethercluster.com/etc"
-    ],
+    "rpc": ["https://www.ethercluster.com/etc"],
     "id": 61,
     "hexId": "0x3d",
     "explorers": [
@@ -1236,9 +1224,7 @@
     "id": 10001,
     "hexId": "0x2711",
     "network": "evm",
-    "rpc": [
-      "https://mainnet.ethereumpow.org"
-    ],
+    "rpc": ["https://mainnet.ethereumpow.org"],
     "native_token": {
       "name": "ETH POW",
       "symbol": "ETHW",
@@ -1257,9 +1243,7 @@
   {
     "chain": "evmos",
     "name": "Evmos",
-    "rpc": [
-      "https://evmos-evm.publicnode.com"
-    ],
+    "rpc": ["https://evmos-evm.publicnode.com"],
     "id": 9001,
     "hexId": "0x2329",
     "explorers": [
@@ -1367,9 +1351,7 @@
   {
     "chain": "moonbeam",
     "name": "Moonbeam",
-    "rpc": [
-      "https://rpc.api.moonbeam.network"
-    ],
+    "rpc": ["https://rpc.api.moonbeam.network"],
     "id": 1284,
     "hexId": "0x504",
     "explorers": [
@@ -1393,9 +1375,7 @@
   {
     "chain": "moonriver",
     "name": "Moonriver",
-    "rpc": [
-      "https://rpc.api.moonriver.moonbeam.network"
-    ],
+    "rpc": ["https://rpc.api.moonriver.moonbeam.network"],
     "id": 1285,
     "hexId": "0x505",
     "explorers": [
@@ -1490,9 +1470,7 @@
     "id": 324,
     "hexId": "0x144",
     "logo_id": "zksync",
-    "rpc": [
-      "https://mainnet.era.zksync.io"
-    ],
+    "rpc": ["https://mainnet.era.zksync.io"],
     "native_token": {
       "name": "Ether",
       "symbol": "ETH",
@@ -1513,9 +1491,7 @@
     "name": "Solana Mainnet",
     "type": "mainnet",
     "network": "solana",
-    "rpc": [
-      "https://api.mainnet-beta.solana.com"
-    ],
+    "rpc": ["https://api.mainnet-beta.solana.com"],
     "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "native_token": {
       "name": "Solana",
@@ -1545,9 +1521,7 @@
       "decimals": 9,
       "coingecko_id": "sui"
     },
-    "rpc": [
-      "https://fullnode.mainnet.sui.io:443"
-    ],
+    "rpc": ["https://fullnode.mainnet.sui.io:443"],
     "native_token": {
       "name": "Sui Network",
       "symbol": "SUI",

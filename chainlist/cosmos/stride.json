@@ -83,11 +83,11 @@
     "denom": "ustrd",
     "delegate": [
       {
-        "validator": "Cosmos Station",
-        "validatorAddress": "stridevaloper1jj9z2xwxesuy65n90dujsak554eqkrr28aqpl0",
-        "commission": "",
-        "apr": "",
-        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        "validator": "Chorus One",
+        "validatorAddress": "stridevaloper15urq2dtp9qce4fyc85m6upwm9xul3049u96tmy",
+        "commission": "7.5",
+        "apr": "0",
+        "logo": "https://avatars.githubusercontent.com/u/36706567?s=200&v=4"
       }
     ]
   }
