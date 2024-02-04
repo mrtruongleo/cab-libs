@@ -41,17 +41,22 @@
     "band.grpc.kjnodes.com:443",
     "band-grpc.stake-town.com:443"
   ],
-  "fee": {
-    "denom": "uband",
-    "low_gas_price": 0.0025,
-    "average_gas_price": 0.003,
-    "high_gas_price": 0.005,
-    "simulateGasMultiply": 1.4
-  },
+  "fee": [
+    {
+      "denom": "uband",
+      "low_gas_price": 0.0025,
+      "average_gas_price": 0.003,
+      "high_gas_price": 0.005,
+      "simulateGasMultiply": 1.4
+    }
+  ],
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.png",
   "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
   "explorers": [
-    { "name": "MinScan", "url": "https://www.mintscan.io/bandchain/" }
+    {
+      "name": "MinScan",
+      "url": "https://www.mintscan.io/bandchain/"
+    }
   ],
   "token_info": {
     "name": "Band Protocol",

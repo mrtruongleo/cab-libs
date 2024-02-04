@@ -49,28 +49,43 @@
     "grpc-dydx.cosmos-spaces.cloud:4990",
     "dydx-grpc.publicnode.com:443"
   ],
-  "fee": {
-    "denom": "adydx",
-    "fixed_min_gas_price": 12500000000,
-    "low_gas_price": 12500000000,
-    "average_gas_price": 12500000000,
-    "high_gas_price": 20000000000,
-    "simulateGasMultiply": 1.4
-  },
+  "fee": [
+    {
+      "denom": "adydx",
+      "fixed_min_gas_price": 12500000000,
+      "low_gas_price": 12500000000,
+      "average_gas_price": 12500000000,
+      "high_gas_price": 20000000000,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+      "fixed_min_gas_price": 0.025,
+      "low_gas_price": 0.025,
+      "average_gas_price": 0.025,
+      "high_gas_price": 0.03,
+      "simulateGasMultiply": 1.4
+    }
+  ],
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
   "description": "Our goal is to build open source code that can power a first class product and trading experience.",
-  "explorers": [{ "name": "MinScan", "url": "https://www.mintscan.io/dydx/" }],
+  "explorers": [
+    {
+      "name": "MinScan",
+      "url": "https://www.mintscan.io/dydx/"
+    }
+  ],
   "token_info": {
     "name": "dYdX",
     "symbol": "DYDX",
     "decimals": 18,
-    "coingecko_id": "dydx-chain"
+    "coingecko_id": "dydx"
   },
   "native_token": {
     "name": "dYdX",
     "symbol": "DYDX",
     "decimals": 18,
-    "coingecko_id": "dydx-chain",
+    "coingecko_id": "dydx",
     "denom": "adydx",
     "delegate": [
       {

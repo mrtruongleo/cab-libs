@@ -15,14 +15,16 @@
     "https://cosmos-rest.publicnode.com"
   ],
   "grpc": [],
-  "fee": {
-    "denom": "uatom",
-    "fixed_min_gas_price": 0.025,
-    "low_gas_price": 0.02,
-    "average_gas_price": 0.025,
-    "high_gas_price": 0.05,
-    "simulateGasMultiply": 1.4
-  },
+  "fee": [
+    {
+      "denom": "uatom",
+      "fixed_min_gas_price": 0.025,
+      "low_gas_price": 0.02,
+      "average_gas_price": 0.025,
+      "high_gas_price": 0.05,
+      "simulateGasMultiply": 1.4
+    }
+  ],
   "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/cosmos/asset/atom.png",
   "description": "Decentralized network of blockchains powered by Tendermint BFT and ABCI.",
   "explorers": [

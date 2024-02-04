@@ -7,9 +7,9 @@
   "bech32Prefix": "celestia",
   "slip44": 118,
   "rpc": [
-    "https://rpc.lunaroasis.net",
     "https://public-celestia-rpc.numia.xyz",
     "https://celestia-rpc.mesa.newmetric.xyz",
+    "https://rpc.lunaroasis.net",
     "https://rpc.celestia.nodestake.top",
     "https://celestia-rpc.lavenderfive.com:443",
     "https://rpc-celestia-01.stakeflow.io",
@@ -21,7 +21,8 @@
     "https://celestia-rpc.polkachu.com",
     "https://rpc-celestia.mzonder.com",
     "https://celestia-rpc.enigma-validator.com",
-    "https://rpc-celestia.theamsolutions.info"
+    "https://rpc-celestia.theamsolutions.info",
+    "https://rpc.celestia.validatus.com"
   ],
   "rest": [
     "https://public-celestia-lcd.numia.xyz",
@@ -37,7 +38,8 @@
     "https://celestia.api.kjnodes.com",
     "https://api-celestia.mzonder.com",
     "https://celestia-lcd.enigma-validator.com",
-    "https://rest-celestia.theamsolutions.info"
+    "https://rest-celestia.theamsolutions.info",
+    "https://api.celestia.validatus.com"
   ],
   "grpc": [
     "https://grpc.celestia.nodestake.top",
@@ -50,21 +52,26 @@
     "celestia.grpc.stakin-nodes.com:443",
     "celestia.grpc.kjnodes.com:443",
     "grpc-celestia.mzonder.com:443",
-    "grpc-celestia.theamsolutions.info:443"
+    "grpc-celestia.theamsolutions.info:443",
+    "grpc.celestia.validatus.com"
   ],
-  "fee": {
-    "denom": "utia",
-    "fixed_min_gas_price": 0.002,
-    "low_gas_price": 0.01,
-    "average_gas_price": 0.02,
-    "high_gas_price": 0.1,
-    "simulateGasMultiply": 1.4
-  },
-
+  "fee": [
+    {
+      "denom": "utia",
+      "fixed_min_gas_price": 0.002,
+      "low_gas_price": 0.01,
+      "average_gas_price": 0.02,
+      "high_gas_price": 0.1,
+      "simulateGasMultiply": 1.4
+    }
+  ],
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
   "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
   "explorers": [
-    { "name": "MinScan", "url": "https://www.mintscan.io/celestia/" }
+    {
+      "name": "MinScan",
+      "url": "https://www.mintscan.io/celestia/"
+    }
   ],
   "token_info": {
     "name": "Celestia",
@@ -78,7 +85,6 @@
     "decimals": 6,
     "coingecko_id": "celestia",
     "denom": "utia",
-
     "delegate": [
       {
         "validator": "Cosmos Station",

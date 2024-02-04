@@ -167,8 +167,8 @@ setTimeout(async () => {
       Chain.native_token.delegate[0].validatorAddress =
         cosmosStationValidator[0].operatorAddress;
     }
-    const filename =
-      chain === "bandchain" ? "band" : chain === "injective" ? "inj" : chain;
+    const filename = chain;
+    //chain === "bandchain" ? "band" : chain === "injective" ? "inj" : chain;
     fs.writeFile(
       `chainlist/cosmos/${filename}.json`,
       JSON.stringify(Chain, null, 2),
