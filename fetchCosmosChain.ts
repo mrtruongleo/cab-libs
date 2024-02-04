@@ -1,7 +1,6 @@
 import axios from "axios";
 import { csl } from "./func";
 import * as fs from "fs";
-import * as ts from "typescript";
 import * as tsNode from "ts-node";
 
 const getCosmosStationValidatorList = async () => {
@@ -103,7 +102,11 @@ const getCosmosChainRegistry = async (chain: string) => {
       rpc: data.apis.rpc.map((i: any) => i.address),
       rest: data.apis.rest.map((i: any) => i.address),
       grpc: data.apis.grpc.map((i: any) => i.address),
-      fee: { ...data.fees.fee_tokens[0], simulateGasMultiply: 1.4 },
+      fee: data.fees.fee_tokens.map((f: any) => ({
+        ...f,
+        simulateGasMultiply: 1.4,
+      })),
+      //fee: { ...data.fees.fee_tokens[0], simulateGasMultiply: 1.4 },
       logo: data.logo_URIs.png,
       description: data.description,
       explorers: [
@@ -147,7 +150,12 @@ const getCosmosChainRegistry = async (chain: string) => {
   return Chain;
 };
 setTimeout(async () => {
-  const chain: string = "osmosis";
+  let chain: string = "";
+  process.argv.forEach(function (val, index, array) {
+    if (index === 2) chain = val;
+  });
+  console.log(chain);
+  //const chain: string = "stride";
   const validator = await getCosmosStationValidatorList();
   const Chain = await getCosmosChainRegistry(chain);
 
@@ -163,7 +171,7 @@ setTimeout(async () => {
       chain === "bandchain" ? "band" : chain === "injective" ? "inj" : chain;
     fs.writeFile(
       `chainlist/cosmos/${filename}.json`,
-      JSON.stringify(Chain),
+      JSON.stringify(Chain, null, 2),
       (e) => {
         if (e) {
           console.error("error: ", e);

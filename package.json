@@ -2,8 +2,9 @@
   "scripts": {
     "cosmos": "ts-node fetchCosmosChain.ts",
     "joinCosmos": "ts-node joinCosmos.ts",
-    "joinall": "ts-node joinall.ts",
-    "coinlist": "ts-node fetchCoinList.ts"
+    "join": "ts-node joinall.ts",
+    "coinlist": "ts-node fetchCoinList.ts",
+    "test": "ts-node test.ts"
   },
   "dependencies": {
     "axios": "^1.6.5",

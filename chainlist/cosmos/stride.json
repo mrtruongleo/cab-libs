@@ -56,18 +56,199 @@
     "stride-grpc.stakeandrelax.net:12290",
     "https://grpc.stride.bronbro.io:443"
   ],
-  "fee": {
-    "denom": "ustrd",
-    "fixed_min_gas_price": 0.0005,
-    "low_gas_price": 0.0005,
-    "average_gas_price": 0.001,
-    "high_gas_price": 0.002,
-    "simulateGasMultiply": 1.4
-  },
+  "fee": [
+    {
+      "denom": "ustrd",
+      "fixed_min_gas_price": 0.0005,
+      "low_gas_price": 0.0005,
+      "average_gas_price": 0.001,
+      "high_gas_price": 0.002,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "uatom",
+      "fixed_min_gas_price": 0.0001,
+      "low_gas_price": 0.0001,
+      "average_gas_price": 0.0002,
+      "high_gas_price": 0.0005,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "stuatom",
+      "fixed_min_gas_price": 0.0001,
+      "low_gas_price": 0.0001,
+      "average_gas_price": 0.0002,
+      "high_gas_price": 0.0005,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "uosmo",
+      "fixed_min_gas_price": 0.001,
+      "low_gas_price": 0.001,
+      "average_gas_price": 0.002,
+      "high_gas_price": 0.004,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "stuosmo",
+      "fixed_min_gas_price": 0.001,
+      "low_gas_price": 0.001,
+      "average_gas_price": 0.002,
+      "high_gas_price": 0.004,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "ustars",
+      "fixed_min_gas_price": 1,
+      "low_gas_price": 1,
+      "average_gas_price": 1.1,
+      "high_gas_price": 1.2,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "stustars",
+      "fixed_min_gas_price": 1,
+      "low_gas_price": 1,
+      "average_gas_price": 1.1,
+      "high_gas_price": 1.2,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "ujuno",
+      "fixed_min_gas_price": 0.075,
+      "low_gas_price": 0.075,
+      "average_gas_price": 0.1,
+      "high_gas_price": 0.125,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "stujuno",
+      "fixed_min_gas_price": 0.075,
+      "low_gas_price": 0.075,
+      "average_gas_price": 0.1,
+      "high_gas_price": 0.125,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "uluna",
+      "fixed_min_gas_price": 0.0125,
+      "low_gas_price": 0.0125,
+      "average_gas_price": 0.015,
+      "high_gas_price": 0.04,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "stuluna",
+      "fixed_min_gas_price": 0.0125,
+      "low_gas_price": 0.0125,
+      "average_gas_price": 0.015,
+      "high_gas_price": 0.04,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "aevmos",
+      "fixed_min_gas_price": 250000000,
+      "low_gas_price": 20000000000,
+      "average_gas_price": 25000000000,
+      "high_gas_price": 40000000000,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "staevmos",
+      "fixed_min_gas_price": 250000000,
+      "low_gas_price": 20000000000,
+      "average_gas_price": 25000000000,
+      "high_gas_price": 40000000000,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "inj",
+      "fixed_min_gas_price": 500000000,
+      "low_gas_price": 500000000,
+      "average_gas_price": 700000000,
+      "high_gas_price": 900000000,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "stinj",
+      "fixed_min_gas_price": 500000000,
+      "low_gas_price": 500000000,
+      "average_gas_price": 700000000,
+      "high_gas_price": 900000000,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "ucmdx",
+      "fixed_min_gas_price": 0.02,
+      "low_gas_price": 0.02,
+      "average_gas_price": 0.025,
+      "high_gas_price": 0.04,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "stucmdx",
+      "fixed_min_gas_price": 0.02,
+      "low_gas_price": 0.02,
+      "average_gas_price": 0.025,
+      "high_gas_price": 0.04,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "uumee",
+      "fixed_min_gas_price": 0.1,
+      "low_gas_price": 0.1,
+      "average_gas_price": 0.12,
+      "high_gas_price": 0.2,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "stuumee",
+      "fixed_min_gas_price": 0.1,
+      "low_gas_price": 0.1,
+      "average_gas_price": 0.12,
+      "high_gas_price": 0.2,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "utia",
+      "fixed_min_gas_price": 0.002,
+      "low_gas_price": 0.01,
+      "average_gas_price": 0.02,
+      "high_gas_price": 0.1,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "stutia",
+      "fixed_min_gas_price": 0.002,
+      "low_gas_price": 0.01,
+      "average_gas_price": 0.02,
+      "high_gas_price": 0.1,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "adydx",
+      "fixed_min_gas_price": 12500000000,
+      "low_gas_price": 12500000000,
+      "average_gas_price": 12500000000,
+      "high_gas_price": 20000000000,
+      "simulateGasMultiply": 1.4
+    },
+    {
+      "denom": "stadydx",
+      "fixed_min_gas_price": 12500000000,
+      "low_gas_price": 12500000000,
+      "average_gas_price": 12500000000,
+      "high_gas_price": 20000000000,
+      "simulateGasMultiply": 1.4
+    }
+  ],
   "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stride-chain-logo.png",
   "description": "Stride is a blockchain that provides liquidity for staked tokens. Using Stride, you can earn both taking and DeFi yields across the Cosmos IBC ecosystem.",
   "explorers": [
-    { "name": "MinScan", "url": "https://www.mintscan.io/stride/" }
+    {
+      "name": "MinScan",
+      "url": "https://www.mintscan.io/stride/"
+    }
   ],
   "token_info": {
     "name": "Stride",
@@ -83,11 +264,11 @@
     "denom": "ustrd",
     "delegate": [
       {
-        "validator": "Chorus One",
-        "validatorAddress": "stridevaloper15urq2dtp9qce4fyc85m6upwm9xul3049u96tmy",
-        "commission": "7.5",
-        "apr": "0",
-        "logo": "https://avatars.githubusercontent.com/u/36706567?s=200&v=4"
+        "validator": "Cosmos Station",
+        "validatorAddress": "stridevaloper1jj9z2xwxesuy65n90dujsak554eqkrr28aqpl0",
+        "commission": "",
+        "apr": "",
+        "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
       }
     ]
   }
