@@ -147,7 +147,7 @@ const getCosmosChainRegistry = async (chain: string) => {
   return Chain;
 };
 setTimeout(async () => {
-  const chain: string = "stride";
+  const chain: string = "osmosis";
   const validator = await getCosmosStationValidatorList();
   const Chain = await getCosmosChainRegistry(chain);
 

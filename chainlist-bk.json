@@ -12,9 +12,7 @@
       "decimals": 8,
       "coingecko_id": "aptos"
     },
-    "rpc": [
-      "https://fullnode.mainnet.aptoslabs.com/v1"
-    ],
+    "rpc": ["https://fullnode.mainnet.aptoslabs.com/v1"],
     "native_token": {
       "name": "Aptos Network",
       "symbol": "APT",
@@ -886,6 +884,103 @@
     }
   },
   {
+    "chain": "stride",
+    "name": "Stride",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bech32Prefix": "stride",
+    "slip44": 118,
+    "rpc": [
+      "https://stride-rpc.polkachu.com/",
+      "https://stride-rpc.onivalidator.com",
+      "https://stride-rpc.lavenderfive.com/",
+      "https://rpc.stride.silentvalidator.com/",
+      "https://rpc-stride.cosmos-spaces.cloud",
+      "https://stride.rpc.kjnodes.com",
+      "https://rpc-stride.pupmos.network",
+      "https://rpc-stride.architectnodes.com",
+      "https://rpc-stride.whispernode.com:443",
+      "https://stride-mainnet-rpc.autostake.com:443",
+      "https://rpc-stride-01.stakeflow.io",
+      "https://stride-rpc.w3coins.io",
+      "https://stride-rpc.publicnode.com:443",
+      "https://community.nuxian-node.ch:6797/stride/trpc",
+      "https://stride-rpc.stakeandrelax.net",
+      "https://rpc.stride.bronbro.io:443"
+    ],
+    "rest": [
+      "https://stride-api.polkachu.com/",
+      "https://api-stride.cosmos-spaces.cloud",
+      "https://stride.api.m.stavr.tech",
+      "https://stride-api.lavenderfive.com/",
+      "https://api.stride.silentvalidator.com/",
+      "https://stride.api.kjnodes.com",
+      "https://api-stride.pupmos.network",
+      "https://stride-mainnet-lcd.autostake.com:443",
+      "https://rest-stride.architectnodes.com",
+      "https://lcd-stride.whispernode.com:443",
+      "https://api-stride-01.stakeflow.io",
+      "https://stride-api.w3coins.io",
+      "https://stride-rest.publicnode.com",
+      "https://community.nuxian-node.ch:6797/stride/crpc",
+      "https://stride-api.stakeandrelax.net",
+      "https://lcd.stride.bronbro.io:443"
+    ],
+    "grpc": [
+      "stride.grpc.bccnodes.com:443",
+      "stride-grpc.polkachu.com:12290",
+      "stride-grpc.lavenderfive.com:443",
+      "http://stride.grpc.m.stavr.tech:9986",
+      "grpc-stride.cosmos-spaces.cloud:1140",
+      "stride-mainnet-grpc.autostake.com:443",
+      "stride.grpc.kjnodes.com:11690",
+      "grpc-stride-01.stakeflow.io:1802",
+      "stride-grpc.w3coins.io:12290",
+      "stride-grpc.publicnode.com:443",
+      "stride-grpc.stakeandrelax.net:12290",
+      "https://grpc.stride.bronbro.io:443"
+    ],
+    "fee": {
+      "denom": "ustrd",
+      "fixed_min_gas_price": 0.0005,
+      "low_gas_price": 0.0005,
+      "average_gas_price": 0.001,
+      "high_gas_price": 0.002,
+      "simulateGasMultiply": 1.4
+    },
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stride-chain-logo.png",
+    "description": "Stride is a blockchain that provides liquidity for staked tokens. Using Stride, you can earn both taking and DeFi yields across the Cosmos IBC ecosystem.",
+    "explorers": [
+      {
+        "name": "MinScan",
+        "url": "https://www.mintscan.io/stride/"
+      }
+    ],
+    "token_info": {
+      "name": "Stride",
+      "symbol": "STRD",
+      "decimals": 6,
+      "coingecko_id": "stride"
+    },
+    "native_token": {
+      "name": "Stride",
+      "symbol": "STRD",
+      "decimals": 6,
+      "coingecko_id": "stride",
+      "denom": "ustrd",
+      "delegate": [
+        {
+          "validator": "Chorus One",
+          "validatorAddress": "stridevaloper15urq2dtp9qce4fyc85m6upwm9xul3049u96tmy",
+          "commission": "7.5",
+          "apr": "0",
+          "logo": "https://avatars.githubusercontent.com/u/36706567?s=200&v=4"
+        }
+      ]
+    }
+  },
+  {
     "chain": "cspr",
     "name": "Casper Network",
     "type": "mainnet",
@@ -897,12 +992,8 @@
       "decimals": 9,
       "coingecko_id": "casper-network"
     },
-    "rpc": [
-      "https://casper-node-proxy.make.services/rpc"
-    ],
-    "api": [
-      "https://event-store-api-clarity-mainnet.make.services"
-    ],
+    "rpc": ["https://casper-node-proxy.make.services/rpc"],
+    "api": ["https://event-store-api-clarity-mainnet.make.services"],
     "native_token": {
       "name": "Casper Network",
       "symbol": "CSPR",
@@ -1025,9 +1116,7 @@
   {
     "chain": "celo mainnet",
     "name": "Celo Mainnet",
-    "rpc": [
-      "https://forno.celo.org"
-    ],
+    "rpc": ["https://forno.celo.org"],
     "id": 42220,
     "hexId": "0xa4ec",
     "explorers": [
@@ -1059,9 +1148,7 @@
     "network": "evm",
     "id": 648,
     "hexId": "0x288",
-    "rpc": [
-      "https://rpc-endurance.fusionist.io"
-    ],
+    "rpc": ["https://rpc-endurance.fusionist.io"],
     "native_token": {
       "name": "Fusionist ACE",
       "symbol": "ACE",
@@ -1078,9 +1165,7 @@
   {
     "chain": "ethereum classic mainnet",
     "name": "Ethereum Classic Mainnet",
-    "rpc": [
-      "https://www.ethercluster.com/etc"
-    ],
+    "rpc": ["https://www.ethercluster.com/etc"],
     "id": 61,
     "hexId": "0x3d",
     "explorers": [
@@ -1139,9 +1224,7 @@
     "id": 10001,
     "hexId": "0x2711",
     "network": "evm",
-    "rpc": [
-      "https://mainnet.ethereumpow.org"
-    ],
+    "rpc": ["https://mainnet.ethereumpow.org"],
     "native_token": {
       "name": "ETH POW",
       "symbol": "ETHW",
@@ -1160,9 +1243,7 @@
   {
     "chain": "evmos",
     "name": "Evmos",
-    "rpc": [
-      "https://evmos-evm.publicnode.com"
-    ],
+    "rpc": ["https://evmos-evm.publicnode.com"],
     "id": 9001,
     "hexId": "0x2329",
     "explorers": [
@@ -1270,9 +1351,7 @@
   {
     "chain": "moonbeam",
     "name": "Moonbeam",
-    "rpc": [
-      "https://rpc.api.moonbeam.network"
-    ],
+    "rpc": ["https://rpc.api.moonbeam.network"],
     "id": 1284,
     "hexId": "0x504",
     "explorers": [
@@ -1296,9 +1375,7 @@
   {
     "chain": "moonriver",
     "name": "Moonriver",
-    "rpc": [
-      "https://rpc.api.moonriver.moonbeam.network"
-    ],
+    "rpc": ["https://rpc.api.moonriver.moonbeam.network"],
     "id": 1285,
     "hexId": "0x505",
     "explorers": [
@@ -1393,9 +1470,7 @@
     "id": 324,
     "hexId": "0x144",
     "logo_id": "zksync",
-    "rpc": [
-      "https://mainnet.era.zksync.io"
-    ],
+    "rpc": ["https://mainnet.era.zksync.io"],
     "native_token": {
       "name": "Ether",
       "symbol": "ETH",
@@ -1416,9 +1491,7 @@
     "name": "Solana Mainnet",
     "type": "mainnet",
     "network": "solana",
-    "rpc": [
-      "https://api.mainnet-beta.solana.com"
-    ],
+    "rpc": ["https://api.mainnet-beta.solana.com"],
     "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "native_token": {
       "name": "Solana",
@@ -1448,9 +1521,7 @@
       "decimals": 9,
       "coingecko_id": "sui"
     },
-    "rpc": [
-      "https://fullnode.mainnet.sui.io:443"
-    ],
+    "rpc": ["https://fullnode.mainnet.sui.io:443"],
     "native_token": {
       "name": "Sui Network",
       "symbol": "SUI",
