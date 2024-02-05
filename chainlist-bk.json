@@ -456,7 +456,7 @@
       "name": "dYdX",
       "symbol": "DYDX",
       "decimals": 18,
-      "coingecko_id": "dydx",
+      "coingecko_id": "dydx-chain",
       "denom": "adydx",
       "delegate": [
         {
