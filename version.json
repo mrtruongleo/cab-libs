@@ -70,5 +70,10 @@
       "- Add in-app web browser"
     ],
     "release_date": "2024-01-31"
+  },
+  {
+    "version": 2.4,
+    "description": ["- Fix bugs", "database structure optimize"],
+    "release_date": "2024-01-31"
   }
 ]
