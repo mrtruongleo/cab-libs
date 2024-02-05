@@ -90,13 +90,15 @@
       "assetmantle-grpc.stakerhouse.com:443",
       "assetmantle-grpc.publicnode.com:443"
     ],
-    "fee": {
-      "denom": "umntl",
-      "low_gas_price": 0.01,
-      "average_gas_price": 0.025,
-      "high_gas_price": 0.04,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "umntl",
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.04,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/AM_Logo.png",
     "description": "AssetMantle’s suite of products is focused on the NFT ecosystem, helping you up your game with digital asset ownership.",
     "explorers": [
@@ -171,13 +173,15 @@
       "band.grpc.kjnodes.com:443",
       "band-grpc.stake-town.com:443"
     ],
-    "fee": {
-      "denom": "uband",
-      "low_gas_price": 0.0025,
-      "average_gas_price": 0.003,
-      "high_gas_price": 0.005,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "uband",
+        "low_gas_price": 0.0025,
+        "average_gas_price": 0.003,
+        "high_gas_price": 0.005,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.png",
     "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
     "explorers": [
@@ -218,9 +222,9 @@
     "bech32Prefix": "celestia",
     "slip44": 118,
     "rpc": [
-      "https://rpc.lunaroasis.net",
       "https://public-celestia-rpc.numia.xyz",
       "https://celestia-rpc.mesa.newmetric.xyz",
+      "https://rpc.lunaroasis.net",
       "https://rpc.celestia.nodestake.top",
       "https://celestia-rpc.lavenderfive.com:443",
       "https://rpc-celestia-01.stakeflow.io",
@@ -232,7 +236,8 @@
       "https://celestia-rpc.polkachu.com",
       "https://rpc-celestia.mzonder.com",
       "https://celestia-rpc.enigma-validator.com",
-      "https://rpc-celestia.theamsolutions.info"
+      "https://rpc-celestia.theamsolutions.info",
+      "https://rpc.celestia.validatus.com"
     ],
     "rest": [
       "https://public-celestia-lcd.numia.xyz",
@@ -248,7 +253,8 @@
       "https://celestia.api.kjnodes.com",
       "https://api-celestia.mzonder.com",
       "https://celestia-lcd.enigma-validator.com",
-      "https://rest-celestia.theamsolutions.info"
+      "https://rest-celestia.theamsolutions.info",
+      "https://api.celestia.validatus.com"
     ],
     "grpc": [
       "https://grpc.celestia.nodestake.top",
@@ -261,16 +267,19 @@
       "celestia.grpc.stakin-nodes.com:443",
       "celestia.grpc.kjnodes.com:443",
       "grpc-celestia.mzonder.com:443",
-      "grpc-celestia.theamsolutions.info:443"
+      "grpc-celestia.theamsolutions.info:443",
+      "grpc.celestia.validatus.com"
     ],
-    "fee": {
-      "denom": "utia",
-      "fixed_min_gas_price": 0.002,
-      "low_gas_price": 0.01,
-      "average_gas_price": 0.02,
-      "high_gas_price": 0.1,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "utia",
+        "fixed_min_gas_price": 0.002,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.02,
+        "high_gas_price": 0.1,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
     "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
     "explorers": [
@@ -319,14 +328,16 @@
       "https://cosmos-rest.publicnode.com"
     ],
     "grpc": [],
-    "fee": {
-      "denom": "uatom",
-      "fixed_min_gas_price": 0.025,
-      "low_gas_price": 0.02,
-      "average_gas_price": 0.025,
-      "high_gas_price": 0.05,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "uatom",
+        "fixed_min_gas_price": 0.025,
+        "low_gas_price": 0.02,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.05,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/cosmos/asset/atom.png",
     "description": "Decentralized network of blockchains powered by Tendermint BFT and ABCI.",
     "explorers": [
@@ -409,14 +420,24 @@
       "grpc-dydx.cosmos-spaces.cloud:4990",
       "dydx-grpc.publicnode.com:443"
     ],
-    "fee": {
-      "denom": "adydx",
-      "fixed_min_gas_price": 12500000000,
-      "low_gas_price": 12500000000,
-      "average_gas_price": 12500000000,
-      "high_gas_price": 20000000000,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "adydx",
+        "fixed_min_gas_price": 12500000000,
+        "low_gas_price": 12500000000,
+        "average_gas_price": 12500000000,
+        "high_gas_price": 20000000000,
+        "simulateGasMultiply": 1.4
+      },
+      {
+        "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+        "fixed_min_gas_price": 0.025,
+        "low_gas_price": 0.025,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.03,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
     "description": "Our goal is to build open source code that can power a first class product and trading experience.",
     "explorers": [
@@ -429,13 +450,13 @@
       "name": "dYdX",
       "symbol": "DYDX",
       "decimals": 18,
-      "coingecko_id": "dydx-chain"
+      "coingecko_id": "dydx"
     },
     "native_token": {
       "name": "dYdX",
       "symbol": "DYDX",
       "decimals": 18,
-      "coingecko_id": "dydx-chain",
+      "coingecko_id": "dydx",
       "denom": "adydx",
       "delegate": [
         {
@@ -496,14 +517,16 @@
       "injective-grpc.w3coins.io:14390",
       "grpc-injective.whispernode.com:443"
     ],
-    "fee": {
-      "denom": "inj",
-      "fixed_min_gas_price": 160000000,
-      "low_gas_price": 500000000,
-      "average_gas_price": 700000000,
-      "high_gas_price": 900000000,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "inj",
+        "fixed_min_gas_price": 160000000,
+        "low_gas_price": 500000000,
+        "average_gas_price": 700000000,
+        "high_gas_price": 900000000,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
     "description": "Injective’s mission is to create a truly free and inclusive financial system through decentralization.",
     "explorers": [
@@ -569,6 +592,7 @@
       "https://juno-rpc.stake-town.com",
       "https://rpc-juno.mainnet.validatrium.club:443",
       "https://juno-rpc.stakeandrelax.net",
+      "https://rpc.juno.validatus.com",
       "https://rpc.juno.bronbro.io:443"
     ],
     "rest": [
@@ -595,6 +619,7 @@
       "https://juno-api.stake-town.com",
       "https://lcd-juno.whispernode.com:443",
       "https://juno-api.stakeandrelax.net",
+      "https://api.juno.validatus.com",
       "https://lcd.juno.bronbro.io:443"
     ],
     "grpc": [
@@ -614,16 +639,27 @@
       "juno-grpc.stake-town.com:443",
       "138.201.21.121:24990",
       "juno-grpc.stakeandrelax.net:12690",
+      "grpc.juno.validatus.com",
       "https://grpc.juno.bronbro.io:443"
     ],
-    "fee": {
-      "denom": "ujuno",
-      "fixed_min_gas_price": 0.075,
-      "low_gas_price": 0.075,
-      "average_gas_price": 0.1,
-      "high_gas_price": 0.125,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "ujuno",
+        "fixed_min_gas_price": 0.075,
+        "low_gas_price": 0.075,
+        "average_gas_price": 0.1,
+        "high_gas_price": 0.125,
+        "simulateGasMultiply": 1.4
+      },
+      {
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "fixed_min_gas_price": 0.003,
+        "low_gas_price": 0.003,
+        "average_gas_price": 0.0035,
+        "high_gas_price": 0.004,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
     "description": "Juno is a completely community owned and operated smart contract platform.",
     "explorers": [
@@ -696,14 +732,16 @@
       "https://kyve.grpc.liveraven.net",
       "grpc-kyve.mms.team:443"
     ],
-    "fee": {
-      "denom": "ukyve",
-      "fixed_min_gas_price": 0.02,
-      "low_gas_price": 0.02,
-      "average_gas_price": 0.03,
-      "high_gas_price": 0.06,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "ukyve",
+        "fixed_min_gas_price": 0.02,
+        "low_gas_price": 0.02,
+        "average_gas_price": 0.03,
+        "high_gas_price": 0.06,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.png",
     "description": "Revolutionizing data reliability in the Web3 space, KYVE Network provides fast and easy tooling for data validation, immutability, and retrieval, ensuring trustless data for seamless scalability and eliminating data risks and roadblocks.",
     "explorers": [
@@ -768,8 +806,7 @@
     ],
     "grpc": [
       "grpc-kralum.neutron-1.neutron.org:80",
-      "https://grpc.novel.remedy.tm.p2p.org",
-      "https://grpc-web.novel.remedy.tm.p2p.org",
+      "neutron-grpc-pub.rpc.p2p.world:3001",
       "neutron-grpc.lavenderfive.com:443",
       "grpc-neutron.whispernode.com:443",
       "grpc-neutron.cosmos-spaces.cloud:3090",
@@ -777,13 +814,50 @@
       "neutron-grpc.publicnode.com:443",
       "https://grpc.neutron.bronbro.io:443"
     ],
-    "fee": {
-      "denom": "untrn",
-      "low_gas_price": 0.075,
-      "average_gas_price": 0.075,
-      "high_gas_price": 0.1125,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "untrn",
+        "low_gas_price": 0.075,
+        "average_gas_price": 0.075,
+        "high_gas_price": 0.1125,
+        "simulateGasMultiply": 1.4
+      },
+      {
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "low_gas_price": 0.007,
+        "average_gas_price": 0.007,
+        "high_gas_price": 0.0105,
+        "simulateGasMultiply": 1.4
+      },
+      {
+        "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+        "low_gas_price": 0.08,
+        "average_gas_price": 0.08,
+        "high_gas_price": 0.12,
+        "simulateGasMultiply": 1.4
+      },
+      {
+        "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+        "low_gas_price": 30125586.037,
+        "average_gas_price": 30125586.037,
+        "high_gas_price": 45188379.0555,
+        "simulateGasMultiply": 1.4
+      },
+      {
+        "denom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
+        "low_gas_price": 25641025641.026,
+        "average_gas_price": 25641025641.026,
+        "high_gas_price": 38461538461.5,
+        "simulateGasMultiply": 1.4
+      },
+      {
+        "denom": "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7",
+        "low_gas_price": 0.006,
+        "average_gas_price": 0.006,
+        "high_gas_price": 0.009,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-black-logo.png",
     "description": "The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology with minimal overhead.",
     "explorers": [
@@ -892,14 +966,16 @@
       "grpc.osmosis.validatus.com:443",
       "https://grpc.osmosis.bronbro.io:443"
     ],
-    "fee": {
-      "denom": "uosmo",
-      "fixed_min_gas_price": 0.0025,
-      "low_gas_price": 0.0025,
-      "average_gas_price": 0.025,
-      "high_gas_price": 0.04,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "uosmo",
+        "fixed_min_gas_price": 0.0025,
+        "low_gas_price": 0.0025,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.04,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmosis-chain-logo.png",
     "description": "Osmosis (OSMO) is the premier DEX and cross-chain DeFi hub within the Cosmos ecosystem, a network of over 50 sovereign, interoperable blockchains seamlessly connected through the Inter-Blockchain Communication Protocol (IBC). Pioneering in its approach, Osmosis offers a dynamic trading and liquidity provision experience, integrating non-IBC assets from other ecosystems, including Ethereum, Solana, Avalanche, and Polkadot. Initially adopting Balancer-style pools, Osmosis now also features a concentrated liquidity model that is orders of magnitude more capital efficient, meaning that significantly less liquidity is required to handle the same amount of trading volume with minimal slippage.\n\nAs a true appchain, Osmosis has greater control over the full blockchain stack than traditional smart contract DEXs, which must follow the code of the parent chain that it is built on. This fine-grained control has enabled, for example, the development of Superfluid Staking, an extension of Proof of Stake that allows assets at the application layer to be staked to secure the chain. The customizability of appchains also allows implementing features like the Protocol Revenue module, which enables Osmosis to conduct on-chain arbitrage on behalf of OSMO stakers, balancing prices across pools while generating real yield revenue from this volume. Additionally, as a sovereign appchain, Osmosis governance can vote on upgrades to the protocol. One example of this was the introduction of a Taker Fee, which switched on the collection of exchange fees to generate diverse yield from Osmosis volume and distribute it to OSMO stakers.\n\nOsmosis is bringing the full centralized exchange experience to the decentralized world by building a cross-chain native DEX and trading suite that connects all chains over IBC, including Ethereum and Bitcoin. To reach this goal, Osmosis hosts an ever-expanding suite of DeFi applications aimed at providing a one-stop experience that includes lending, credit, margin, DeFi strategy vaults, power perps, fiat on-ramps, NFTs, stablecoins, and more — all of the functionalities that centralized exchange offer and more, in the trust-minimized environment of decentralized finance.",
     "explorers": [
@@ -945,7 +1021,8 @@
       "https://sei-rpc.brocha.in/",
       "https://rpc-sei.stingray.plus/",
       "https://rpc-sei.whispernode.com:443",
-      "https://sei.rpc.kjnodes.com"
+      "https://sei.rpc.kjnodes.com",
+      "https://sei-rpc.publicnode.com:443"
     ],
     "rest": [
       "https://sei-api.lavenderfive.com:443",
@@ -953,23 +1030,27 @@
       "https://sei-rest.brocha.in/",
       "https://api-sei.stingray.plus/",
       "https://lcd-sei.whispernode.com:443",
-      "https://sei.api.kjnodes.com"
+      "https://sei.api.kjnodes.com",
+      "https://sei-rest.publicnode.com"
     ],
     "grpc": [
       "https://sei-grpc.lavenderfive.com:443",
       "https://sei-grpc.polkachu.com:11990/",
       "sei-mainnet-grpc.autostake.com:443",
       "https://grpc-sei.whispernode.com:443",
-      "sei.grpc.kjnodes.com:443"
+      "sei.grpc.kjnodes.com:443",
+      "sei-grpc.publicnode.com:443"
     ],
-    "fee": {
-      "denom": "usei",
-      "fixed_min_gas_price": 0.1,
-      "low_gas_price": 0.1,
-      "average_gas_price": 0.1,
-      "high_gas_price": 0.25,
-      "simulateGasMultiply": 1.4
-    },
+    "fee": [
+      {
+        "denom": "usei",
+        "fixed_min_gas_price": 0.1,
+        "low_gas_price": 0.1,
+        "average_gas_price": 0.1,
+        "high_gas_price": 0.25,
+        "simulateGasMultiply": 1.4
+      }
+    ],
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
     "description": "Sei is the fastest Layer 1 blockchain, designed to scale with the industry.",
     "explorers": [

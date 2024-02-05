@@ -133,7 +133,8 @@ const getCosmosChainRegistry = async (chain: string) => {
         name: data.name,
         symbol: data.symbol,
         decimals: data.denom_units.find((u: any) => u.exponent !== 0).exponent,
-        coingecko_id: data.coingecko_id,
+        coingecko_id:
+          data.coingecko_id === "dydx" ? "dydx-chain" : data.coingecko_id,
         denom: data.denom_units.find((u: any) => u.exponent === 0).denom,
         delegate: [
           {
