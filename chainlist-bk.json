@@ -8340,6 +8340,29 @@
     "dexscreener_chain_id": "celo"
   },
   {
+    "chain": "dymension",
+    "name": "Dymension",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 1100,
+    "hexId": "0x44c",
+    "rpc": [
+      "https://froopyland.dymension.xyz/29/gentes1_2_24/evmrpc"
+    ],
+    "native_token": {
+      "name": "Dymension",
+      "symbol": "DYM",
+      "decimals": 18,
+      "coingecko_id": "dymension"
+    },
+    "explorers": [
+      {
+        "name": "Test",
+        "url": "https://dymension.explorers.guru/"
+      }
+    ]
+  },
+  {
     "chain": "endurance",
     "name": "Endurance Smartchain Mainnet",
     "type": "mainnet",

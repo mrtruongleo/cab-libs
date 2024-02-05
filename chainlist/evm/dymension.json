@@ -5,7 +5,7 @@
   "network": "evm",
   "id": 1100,
   "hexId": "0x44c",
-  "rpc": ["https://froopyland.dymension.xyz/29/gentes1_2_24/evmrpc"],
+  "rpc": ["https://rpc.froopyland-100-1.dymension.aviaone.com/"],
   "native_token": {
     "name": "Dymension",
     "symbol": "DYM",
