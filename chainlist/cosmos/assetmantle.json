@@ -1,5 +1,5 @@
 {
-  "chain": "mantle",
+  "chain": "assetmantle",
   "name": "AssetMantle",
   "type": "mainnet",
   "network": "cosmos",
@@ -74,5 +74,20 @@
         "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
       }
     ]
-  }
+  },
+  "assets": [
+    {
+      "denom": "umntl",
+      "type": "staking",
+      "origin_chain": "asset-mantle",
+      "origin_denom": "umntl",
+      "origin_type": "staking",
+      "symbol": "MNTL",
+      "decimals": 6,
+      "description": "AssetMantle Staking Coin",
+      "image": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/asset-mantle/asset/mntl.png",
+      "coinGeckoId": "assetmantle",
+      "color": "#F3B519"
+    }
+  ]
 }

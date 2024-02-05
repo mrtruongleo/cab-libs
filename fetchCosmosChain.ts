@@ -2,7 +2,7 @@ import axios from "axios";
 import { csl } from "./func";
 import * as fs from "fs";
 import * as tsNode from "ts-node";
-
+import { chainItem } from "./types";
 const getCosmosStationValidatorList = async () => {
   const url =
     "https://raw.githubusercontent.com/cosmostation/web-wallet-ts-react/develop/src/constants/validator.ts";
@@ -77,78 +77,103 @@ const getCosmosChainRegistry = async (chain: string) => {
   const chainUrl = `https://raw.githubusercontent.com/cosmos/chain-registry/master/${chain}/chain.json`;
   const assetListUrl = `https://raw.githubusercontent.com/cosmos/chain-registry/master/${chain}/assetlist.json`;
 
-  let Chain: { [key: string]: any } = {};
-  const chainRes = await axios.get(chainUrl);
-  if (chainRes) {
-    const data = chainRes.data;
-    //csl(data);
+  let Chain: chainItem | undefined = undefined;
+  if (chain === "cosmos") {
+    Chain = JSON.parse(
+      fs.readFileSync(`chainlist/cosmos/${chain}.json`, "utf8")
+    );
+  } else {
+    const chainRes = await axios.get(chainUrl);
+    if (chainRes) {
+      const data = chainRes.data;
+      //csl(data);
 
-    Chain = {
-      ...Chain,
-      chain:
-        chain === "bandchain"
-          ? "band"
-          : chain === "injective"
-          ? "inj"
-          : chain === "assetmantle"
-          ? "mantle"
-          : chain,
-      name: data.pretty_name,
-      type: data.network_type,
-      network: "cosmos",
-      canMemo: true,
-      bech32Prefix: data.bech32_prefix,
-      slip44: data.slip44,
-      rpc: data.apis.rpc.map((i: any) => i.address),
-      rest: data.apis.rest.map((i: any) => i.address),
-      grpc: data.apis.grpc.map((i: any) => i.address),
-      fee: data.fees.fee_tokens.map((f: any) => ({
-        ...f,
-        simulateGasMultiply: 1.4,
-      })),
-      //fee: { ...data.fees.fee_tokens[0], simulateGasMultiply: 1.4 },
-      logo: data.logo_URIs.png,
-      description: data.description,
-      explorers: [
-        {
-          name: "MinScan",
-          url: `https://www.mintscan.io/${chain}/`,
-        },
-      ],
-    };
-  }
-
-  const assetsRes = await axios.get(assetListUrl);
-  if (assetsRes) {
-    const data: any = assetsRes.data.assets[0];
-    Chain = {
-      ...Chain,
-      token_info: {
-        name: data.name,
-        symbol: data.symbol,
-        decimals: data.denom_units.find((u: any) => u.exponent != 0).exponent,
-        coingecko_id: data.coingecko_id,
-      },
-      native_token: {
-        name: data.name,
-        symbol: data.symbol,
-        decimals: data.denom_units.find((u: any) => u.exponent !== 0).exponent,
-        coingecko_id:
-          data.coingecko_id === "dydx" ? "dydx-chain" : data.coingecko_id,
-        denom: data.denom_units.find((u: any) => u.exponent === 0).denom,
-        delegate: [
+      Chain = {
+        chain: chain,
+        name: data.pretty_name,
+        type: data.network_type,
+        network: "cosmos",
+        canMemo: true,
+        bech32Prefix: data.bech32_prefix,
+        slip44: data.slip44,
+        rpc: data.apis.rpc.map((i: any) => i.address),
+        rest: data.apis.rest.map((i: any) => i.address),
+        grpc: data.apis.grpc.map((i: any) => i.address),
+        fee: data.fees.fee_tokens.map((f: any) => ({
+          ...f,
+          simulateGasMultiply: 1.4,
+        })),
+        //fee: { ...data.fees.fee_tokens[0], simulateGasMultiply: 1.4 },
+        logo: data.logo_URIs.png,
+        description: data.description,
+        explorers: [
           {
-            validator: "Cosmos Station",
-            validatorAddress: "",
-            commission: "",
-            apr: "",
-            logo: "https://avatars.githubusercontent.com/u/49175386?s=200&v=4",
+            name: "MinScan",
+            url: `https://www.mintscan.io/${chain}/`,
           },
         ],
-      },
-    };
+      };
+    }
+    const assetsRes = await axios.get(assetListUrl);
+    if (assetsRes) {
+      const data: any = assetsRes.data.assets[0];
+
+      Chain = {
+        ...Chain,
+        token_info: {
+          name: data.name,
+          symbol: data.symbol,
+          decimals: data.denom_units.find((u: any) => u.exponent != 0).exponent,
+          coingecko_id: data.coingecko_id,
+        },
+        native_token: {
+          name: data.name,
+          symbol: data.symbol,
+          decimals: data.denom_units.find((u: any) => u.exponent !== 0)
+            .exponent,
+          coingecko_id:
+            data.coingecko_id === "dydx" ? "dydx-chain" : data.coingecko_id,
+          denom: data.denom_units.find((u: any) => u.exponent === 0).denom,
+          delegate: [
+            {
+              validator: "Cosmos Station",
+              validatorAddress: "",
+              commission: "",
+              apr: "",
+              logo: "https://avatars.githubusercontent.com/u/49175386?s=200&v=4",
+            },
+          ],
+        },
+      };
+    }
   }
+  try {
+    (Chain ?? {}).assets = await getAssets(chain);
+    const currentChainData = JSON.parse(
+      fs.readFileSync(`chainlist/cosmos/${chain}.json`, "utf8")
+    );
+    (Chain?.native_token ?? {}).delegate =
+      currentChainData.native_token.delegate;
+  } catch {}
   return Chain;
+};
+const getAssets = async (chain: string) => {
+  chain =
+    chain === "assetmantle"
+      ? "asset-mantle"
+      : chain === "bandchain"
+      ? "band"
+      : chain;
+  const url = `https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/${chain}/assets.json`;
+  const res = await axios.get(url);
+  if (res) {
+    return res.data.map((c: any) => ({
+      ...c,
+      image:
+        `https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/` +
+        c.image,
+    }));
+  }
 };
 setTimeout(async () => {
   let chain: string = "";
@@ -165,7 +190,7 @@ setTimeout(async () => {
       e.address.includes(Chain.bech32Prefix)
     );
     if (cosmosStationValidator?.length > 0) {
-      Chain.native_token.delegate[0].validatorAddress =
+      (Chain.native_token?.delegate ?? [])[0].validatorAddress =
         cosmosStationValidator[0].operatorAddress;
     }
     const filename = chain;

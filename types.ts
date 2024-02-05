@@ -45,8 +45,8 @@ export type coingeckoChain = {
   shortname: string;
   native_coin_id: string;
 };
-export type chain = {
-  chain: string;
+export type chainItem = {
+  chain?: string;
   network?: string;
   name?: string;
   canMemo?: boolean;
@@ -70,7 +70,7 @@ export type chain = {
     decimals?: number;
     coingecko_id?: string;
   };
-  native_token: {
+  native_token?: {
     name?: string;
     symbol?: string;
     decimals?: number;
@@ -82,7 +82,7 @@ export type chain = {
       commission?: string;
       apr?: string;
       logo?: string;
-    };
+    }[];
   };
   fee?: {
     denom: string;
@@ -91,13 +91,33 @@ export type chain = {
     average_gas_price: number;
     high_gas_price: number;
     simulateGasMultiply: number;
-  };
+  }[];
   bech32Prefix?: string;
   slip44?: number;
   explorers?: {
     name?: string;
     url?: string;
     standard?: string;
+  }[];
+  assets?: {
+    denom?: string;
+    type?: string;
+    origin_chain?: string;
+    origin_denom?: string;
+    origin_type?: string;
+    symbol?: string;
+    decimals?: number;
+    enable?: boolean;
+    path?: string;
+    channel?: string;
+    port?: string;
+    counter_party?: {
+      channel?: string;
+      port?: string;
+      denom?: string;
+    };
+    image?: string;
+    coinGeckoId?: string;
   }[];
   gecko_terminal_chain_id?: string | any;
   dexscreener_chain_id?: string | any;

@@ -78,5 +78,20 @@
         "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
       }
     ]
-  }
+  },
+  "assets": [
+    {
+      "denom": "ukyve",
+      "type": "staking",
+      "origin_chain": "kyve",
+      "origin_denom": "ukyve",
+      "origin_type": "staking",
+      "symbol": "KYVE",
+      "decimals": 6,
+      "description": "KYVE Staking Coin",
+      "image": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/kyve/asset/kyve.png",
+      "coinGeckoId": "kyve-network",
+      "color": "#4DAF9D"
+    }
+  ]
 }
