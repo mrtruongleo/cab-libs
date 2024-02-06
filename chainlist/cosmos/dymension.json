@@ -29,12 +29,14 @@
   "token_info": {
     "name": "Dymension",
     "symbol": "DYM",
-    "decimals": 18
+    "decimals": 18,
+    "coingecko_id": "dymension"
   },
   "native_token": {
     "name": "Dymension",
     "symbol": "DYM",
     "decimals": 18,
+    "coingecko_id": "dymension",
     "denom": "adym",
     "delegate": [
       {
