@@ -8347,7 +8347,7 @@
     "id": 1100,
     "hexId": "0x44c",
     "rpc": [
-      "https://rpc.froopyland-100-1.dymension.aviaone.com/"
+      "https://dymension-evm.blockpi.network/v1/rpc/public"
     ],
     "native_token": {
       "name": "Dymension",
