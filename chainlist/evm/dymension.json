@@ -1,5 +1,5 @@
 {
-  "chain": "dymension",
+  "chain": "dymension-evm",
   "name": "Dymension",
   "type": "mainnet",
   "network": "evm",
@@ -14,7 +14,7 @@
   },
   "explorers": [
     {
-      "name": "Test",
+      "name": "Dymension",
       "url": "https://dym.fyi/"
     }
   ]

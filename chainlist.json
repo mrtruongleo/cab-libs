@@ -1406,6 +1406,61 @@
     ]
   },
   {
+    "chain": "dymension",
+    "name": "Dymension Hub",
+    "type": "mainnet",
+    "network": "cosmos",
+    "canMemo": true,
+    "bech32Prefix": "dym",
+    "slip44": 60,
+    "rpc": [
+      "https://rpc.dymension.nodestake.org"
+    ],
+    "rest": [
+      "https://api.dymension.nodestake.org"
+    ],
+    "grpc": [
+      "grpc.dymension.nodestake.org:443"
+    ],
+    "fee": [
+      {
+        "denom": "adym",
+        "low_gas_price": 20000000000,
+        "average_gas_price": 20000000000,
+        "high_gas_price": 20000000000,
+        "simulateGasMultiply": 1.4
+      }
+    ],
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png",
+    "description": "Dymension is a network of easily deployable and lightning fast modular blockchains called RollApps.",
+    "explorers": [
+      {
+        "name": "NodeStake",
+        "url": "https://explorer.nodestake.org/dymension/"
+      }
+    ],
+    "token_info": {
+      "name": "Dymension",
+      "symbol": "DYM",
+      "decimals": 18
+    },
+    "native_token": {
+      "name": "Dymension",
+      "symbol": "DYM",
+      "decimals": 18,
+      "denom": "adym",
+      "delegate": [
+        {
+          "validator": "Cosmos Station",
+          "validatorAddress": "",
+          "commission": "",
+          "apr": "",
+          "logo": "https://avatars.githubusercontent.com/u/49175386?s=200&v=4"
+        }
+      ]
+    }
+  },
+  {
     "chain": "injective",
     "name": "Injective",
     "type": "mainnet",
@@ -8340,7 +8395,7 @@
     "dexscreener_chain_id": "celo"
   },
   {
-    "chain": "dymension",
+    "chain": "dymension-evm",
     "name": "Dymension",
     "type": "mainnet",
     "network": "evm",
@@ -8357,7 +8412,7 @@
     },
     "explorers": [
       {
-        "name": "Test",
+        "name": "Dymension",
         "url": "https://dym.fyi/"
       }
     ]
