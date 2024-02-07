@@ -1435,8 +1435,8 @@
     "description": "Dymension is a network of easily deployable and lightning fast modular blockchains called RollApps.",
     "explorers": [
       {
-        "name": "NodeStake",
-        "url": "https://explorer.nodestake.org/dymension/"
+        "name": "Mint Scan",
+        "url": "https://mintscan.io/dymension/"
       }
     ],
     "token_info": {
