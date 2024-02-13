@@ -6,9 +6,70 @@
   "canMemo": true,
   "bech32Prefix": "dym",
   "slip44": 60,
-  "rpc": ["https://rpc.dymension.nodestake.org"],
-  "rest": ["https://api.dymension.nodestake.org"],
-  "grpc": ["grpc.dymension.nodestake.org:443"],
+  "rpc": [
+    "https://dym-m-rpc.agoranodes.com",
+    "https://rpc.dymension.nodestake.org",
+    "https://dymension-mainnet-rpc.autostake.com:443",
+    "https://dymension-rpc.lavenderfive.com:443",
+    "https://dymension-rpc.kynraze.com",
+    "https://m-dymension.rpc.utsa.tech",
+    "https://rpc-dymension.nodeist.net",
+    "https://dym.rpc.m.stavr.tech:443",
+    "https://rpc.dymension.hexnodes.co",
+    "https://dymension.rpc.kjnodes.com:443",
+    "https://dymension-rpc.stakeandrelax.net",
+    "https://dymension-rpc.takeshi.team",
+    "https://dymension-rpc.publicnode.com:443",
+    "https://rpc.dymension.silentvalidator.com:443",
+    "https://rpc-dymension.whispernode.com:443",
+    "https://community.nuxian-node.ch:6797/dymension/trpc",
+    "https://dymension-rpc.enigma-validator.com",
+    "https://dymension-rpc.ibs.team",
+    "https://dymension.nodejumper.io:443",
+    "https://rpc-dymension.hoodrun.io:443",
+    "https://dymension.0xwave.com:2053"
+  ],
+  "rest": [
+    "https://dym-m-api.agoranodes.com",
+    "https://api.dymension.nodestake.org",
+    "https://dymension-mainnet-lcd.autostake.com:443",
+    "https://dymension-api.lavenderfive.com:443",
+    "https://dymension-api.kynraze.com",
+    "https://m-dymension.api.utsa.tech",
+    "https://api-dymension.nodeist.net",
+    "https://dymension.api.m.stavr.tech",
+    "https://lcd.dymension.hexnodes.co",
+    "https://dymension.api.kjnodes.com:443",
+    "https://dymension-api.stakeandrelax.net",
+    "https://dymension-api.takeshi.team",
+    "https://dymension-rest.publicnode.com",
+    "https://api.dymension.silentvalidator.com:443",
+    "https://api-dymension.whispernode.com:443",
+    "https://community.nuxian-node.ch:6797/dymension/crpc",
+    "https://dymension-lcd.enigma-validator.com",
+    "https://dymension-api.ibs.team",
+    "https://dymension.nodejumper.io:1317",
+    "https://lcd-dymension.hoodrun.io",
+    "https://dymension.0xwave.com"
+  ],
+  "grpc": [
+    "https://dym-m-grpc.agoranodes.com",
+    "grpc.dymension.nodestake.org:443",
+    "dymension-mainnet-grpc.autostake.com:443",
+    "https://dymension-grpc.lavenderfive.com:443",
+    "dymension-grpc.kynraze.com:77",
+    "https://grpc-dymension.nodeist.net",
+    "dymension.grpc.m.stavr.tech:7119",
+    "dymension.grpc.kjnodes.com:443",
+    "http://dymension-grpc.stakeandrelax.net:20590",
+    "https://dymension-grpc.takeshi.team",
+    "dymension-grpc.publicnode.com:443",
+    "grpc.dymension.silentvalidator.com:443",
+    "https://grpc-dymension.whispernode.com:443",
+    "dymension.nodejumper.io:9090",
+    "grpc-dymension.hoodrun.io:9095",
+    "https://dymension.0xwave.com:2083"
+  ],
   "fee": [
     {
       "denom": "adym",
@@ -22,8 +83,8 @@
   "description": "Dymension is a network of easily deployable and lightning fast modular blockchains called RollApps.",
   "explorers": [
     {
-      "name": "Mint Scan",
-      "url": "https://mintscan.io/dymension/"
+      "name": "MinScan",
+      "url": "https://www.mintscan.io/dymension/"
     }
   ],
   "token_info": {
@@ -54,5 +115,20 @@
         "logo": "https://avatars.githubusercontent.com/u/61007546?v=4"
       }
     ]
-  }
+  },
+  "assets": [
+    {
+      "denom": "adym",
+      "type": "staking",
+      "origin_chain": "dymension",
+      "origin_denom": "adym",
+      "origin_type": "staking",
+      "symbol": "DYM",
+      "decimals": 18,
+      "description": "Dymension Staking Coin",
+      "image": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/dymension/asset/dym.png",
+      "coinGeckoId": "dymension",
+      "color": ""
+    }
+  ]
 }
