@@ -80,5 +80,15 @@
     "version": 2.5,
     "description": ["- Fix bugs", "Add dymension chain"],
     "release_date": "2024-02-13"
+  },
+  {
+    "version": 2.55,
+    "description": [
+      "- Fix bugs",
+      "Import wallet from privatekey",
+      "Reload balance faster",
+      "Create / import wallet faster"
+    ],
+    "release_date": "2024-02-15"
   }
 ]
