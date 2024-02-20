@@ -1,7 +1,7 @@
 import axios from "axios";
 import { csl } from "./func";
 import * as fs from "fs";
-import { chain, coingeckoChain } from "./types";
+import { chainItem, coingeckoChain } from "./types";
 const fetchChainList = async (): Promise<coingeckoChain[]> => {
   const url = "https://api.coingecko.com/api/v3/asset_platforms";
   const res = await axios.get(url);
@@ -16,7 +16,7 @@ const fetchChainList = async (): Promise<coingeckoChain[]> => {
 };
 export const mapCoingeckoChainName = async () => {
   let maps: { [cg: string]: string } = {};
-  let chainlist: chain[] = [];
+  let chainlist: chainItem[] = [];
   try {
     chainlist = JSON.parse(fs.readFileSync(`chainlist.json`, "utf8"));
   } catch (e) {
@@ -38,18 +38,18 @@ export const mapCoingeckoChainName = async () => {
             return true;
           }
         } else {
-          if (i.native_coin_id == c.native_token.coingecko_id) {
+          if (i.native_coin_id == c.native_token?.coingecko_id) {
             return true;
           }
         }
       } else {
-        if (i.native_coin_id == c.native_token.coingecko_id) {
+        if (i.native_coin_id == c.native_token?.coingecko_id) {
           return true;
         }
       }
     });
     if (cg) {
-      maps[cg.id] = c.chain;
+      maps[cg.id] = c.chain ?? "";
     }
   }
   fs.writeFile(`chainmap.json`, JSON.stringify(maps), (e) => {

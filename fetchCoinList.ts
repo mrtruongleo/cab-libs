@@ -2,7 +2,7 @@ import axios from "axios";
 import * as fs from "fs";
 const path = require("path");
 import { csl, sleep, waiting } from "./func";
-import { chain, coinData, coinExport } from "./types";
+import { coinData, coinExport } from "./types";
 import { mapCoingeckoChainName } from "./fetchCoingeckoChainlist";
 const mapPlatform = (
   platforms: coinData["platforms"],
