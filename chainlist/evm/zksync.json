@@ -6,6 +6,7 @@
   "id": 324,
   "hexId": "0x144",
   "logo_id": "zksync",
+  "logo": "https://github.com/mrtruongleo/cab-libs/blob/main/assets/chain-img/zksync.png?raw=true",
   "rpc": ["https://mainnet.era.zksync.io"],
   "native_token": {
     "name": "Ether",
