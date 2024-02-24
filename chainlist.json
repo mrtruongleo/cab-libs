@@ -8830,6 +8830,7 @@
     "name": "Solana Mainnet",
     "type": "mainnet",
     "network": "solana",
+    "id": "4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ",
     "rpc": [
       "https://api.mainnet-beta.solana.com"
     ],
