@@ -8799,6 +8799,29 @@
     "dexscreener_chain_id": "polygon_pos"
   },
   {
+    "chain": "xai",
+    "name": "XAI Network",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 660279,
+    "logo": "https://github.com/mrtruongleo/cab-libs/blob/main/assets/chain-img/xai.png?raw=true",
+    "rpc": [
+      "https://xai-chain.net/rpc"
+    ],
+    "native_token": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "coingecko_id": "ethereum"
+    },
+    "explorers": [
+      {
+        "name": "Xai",
+        "url": "https://explorer.xai-chain.net/"
+      }
+    ]
+  },
+  {
     "chain": "zksync",
     "name": "Zksync Era Mainnet",
     "type": "mainnet",

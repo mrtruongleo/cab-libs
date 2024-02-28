@@ -7,10 +7,10 @@
   "logo": "https://github.com/mrtruongleo/cab-libs/blob/main/assets/chain-img/xai.png?raw=true",
   "rpc": ["https://xai-chain.net/rpc"],
   "native_token": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "XAI Network",
+    "symbol": "XAI",
     "decimals": 18,
-    "coingecko_id": "ethereum"
+    "coingecko_id": "xai-blockchain"
   },
   "explorers": [
     {
