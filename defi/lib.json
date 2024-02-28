@@ -1,5 +1,6 @@
 [
   {
+    "type": "stake",
     "tokenStake": {
       "name": "The Sandbox",
       "symbol": "SAND",
@@ -13,9 +14,9 @@
     "chainId": 137,
     "chain": "polygon",
     "network": "evm",
-
-    "stakingContract": "",
-    "getStakeBalanceMethod": "",
-    "getStakeRewardMethod": ""
+    "poolId": null,
+    "stakingContract": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    "getStakeBalanceMethod": "contributionOf",
+    "getStakeRewardMethod": "earned"
   }
 ]
