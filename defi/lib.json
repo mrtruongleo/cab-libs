@@ -1,0 +1,21 @@
+[
+  {
+    "tokenStake": {
+      "name": "The Sandbox",
+      "symbol": "SAND",
+      "coingecko_id": "the-sandbox"
+    },
+    "tokenReward": {
+      "name": "The Sandbox",
+      "symbol": "SAND",
+      "coingecko_id": "the-sandbox"
+    },
+    "chainId": 137,
+    "chain": "polygon",
+    "network": "evm",
+
+    "stakingContract": "",
+    "getStakeBalanceMethod": "",
+    "getStakeRewardMethod": ""
+  }
+]
