@@ -6,14 +6,16 @@
       "symbol": "SAND",
       "decimals": 18,
       "coingecko_id": "the-sandbox",
-      "contractAddress": "0xbbba073c31bf03b8acf7c28ef0738decf3695683"
+      "contractAddress": "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
+      "logo": null
     },
     "tokenReward": {
       "name": "The Sandbox",
       "symbol": "SAND",
       "decimals": 18,
       "coingecko_id": "the-sandbox",
-      "contractAddress": "0xbbba073c31bf03b8acf7c28ef0738decf3695683"
+      "contractAddress": "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
+      "logo": null
     },
     "chainId": 137,
     "chain": "polygon",
