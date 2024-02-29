@@ -4,12 +4,14 @@
     "tokenStake": {
       "name": "The Sandbox",
       "symbol": "SAND",
+      "decimals": 18,
       "coingecko_id": "the-sandbox",
       "contractAddress": "0xbbba073c31bf03b8acf7c28ef0738decf3695683"
     },
     "tokenReward": {
       "name": "The Sandbox",
       "symbol": "SAND",
+      "decimals": 18,
       "coingecko_id": "the-sandbox",
       "contractAddress": "0xbbba073c31bf03b8acf7c28ef0738decf3695683"
     },
