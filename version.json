@@ -90,5 +90,14 @@
       "Create / import wallet faster"
     ],
     "release_date": "2024-02-15"
+  },
+  {
+    "version": 2.61,
+    "description": [
+      "- Fix bugs",
+      "Add wallet connect to Dapps",
+      "Fix request event not fired when change account"
+    ],
+    "release_date": "2024-03-01"
   }
 ]
