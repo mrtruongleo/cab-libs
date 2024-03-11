@@ -99,5 +99,10 @@
       "Fix request event not fired when change account"
     ],
     "release_date": "2024-03-01"
+  },
+  {
+    "version": 2.63,
+    "description": ["- Fix bugs", "Direct Swap Solana, BSC, Polygon, ETH"],
+    "release_date": "2024-03-11"
   }
 ]
