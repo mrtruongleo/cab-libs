@@ -101,7 +101,7 @@
     "release_date": "2024-03-01"
   },
   {
-    "version": 2.63,
+    "version": 2.62,
     "description": ["- Fix bugs", "Direct Swap Solana, BSC, Polygon, ETH"],
     "release_date": "2024-03-11"
   }
