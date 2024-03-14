@@ -8809,10 +8809,10 @@
       "https://xai-chain.net/rpc"
     ],
     "native_token": {
-      "name": "Ether",
-      "symbol": "ETH",
+      "name": "XAI Network",
+      "symbol": "XAI",
       "decimals": 18,
-      "coingecko_id": "ethereum"
+      "coingecko_id": "xai-blockchain"
     },
     "explorers": [
       {
