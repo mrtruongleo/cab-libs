@@ -9,9 +9,9 @@
   "api": "FB95NR6U118D2A58FZ4WEE6ND91IWJNK3H",
   "endpoint": "https://api.arbiscan.io/api",
   "rpc": [
-    "https://endpoints.omniatech.io/v1/arbitrum/one/public",
     "https://1rpc.io/arb",
-    "https://arbitrum-one.public.blastapi.io"
+    "https://arbitrum-one.public.blastapi.io",
+    "https://endpoints.omniatech.io/v1/arbitrum/one/public"
   ],
   "token_info": {
     "name": "Arbitrum",
