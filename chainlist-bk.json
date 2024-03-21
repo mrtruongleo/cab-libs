@@ -8326,9 +8326,9 @@
     "api": "FB95NR6U118D2A58FZ4WEE6ND91IWJNK3H",
     "endpoint": "https://api.arbiscan.io/api",
     "rpc": [
-      "https://endpoints.omniatech.io/v1/arbitrum/one/public",
       "https://1rpc.io/arb",
-      "https://arbitrum-one.public.blastapi.io"
+      "https://arbitrum-one.public.blastapi.io",
+      "https://endpoints.omniatech.io/v1/arbitrum/one/public"
     ],
     "token_info": {
       "name": "Arbitrum",
@@ -8524,10 +8524,10 @@
     "api": "HEB7P838NC1N7I9IQBPAZPMT3DMED3R3DB",
     "endpoint": "https://api.etherscan.io/api",
     "rpc": [
-      "https://eth.llamarpc.com",
       "https://ethereum.publicnode.com",
       "https://api.mycryptoapi.com/eth",
-      "https://eth-rpc.gateway.pokt.network"
+      "https://eth-rpc.gateway.pokt.network",
+      "https://eth.llamarpc.com"
     ],
     "native_token": {
       "name": "Ether",
