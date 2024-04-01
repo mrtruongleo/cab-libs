@@ -8882,6 +8882,7 @@
     "network": "solana",
     "id": "4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ",
     "rpc": [
+      "https://caria-dwjf48-fast-mainnet.helius-rpc.com/",
       "https://api.mainnet-beta.solana.com"
     ],
     "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",

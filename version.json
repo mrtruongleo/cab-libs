@@ -104,5 +104,11 @@
     "version": 2.62,
     "description": ["- Fix bugs", "Direct Swap Solana, BSC, Polygon, ETH"],
     "release_date": "2024-03-11"
+  },
+  {
+    "version": 2.62,
+    "bundle": 21,
+    "description": ["- Fix bugs", "Support fantom chain swap"],
+    "release_date": "2024-03-26"
   }
 ]

@@ -4,7 +4,10 @@
   "type": "mainnet",
   "network": "solana",
   "id": "4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ",
-  "rpc": ["https://api.mainnet-beta.solana.com"],
+  "rpc": [
+    "https://caria-dwjf48-fast-mainnet.helius-rpc.com/",
+    "https://api.mainnet-beta.solana.com"
+  ],
   "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
   "native_token": {
     "name": "Solana",
