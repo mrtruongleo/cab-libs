@@ -114,11 +114,13 @@
   {
     "version": 2.62,
     "bundle": 22,
-    "description": [
-      "- Fix bugs",
-      "Add Vietnamese language.",
-      "Optimize solana chain data fetching."
-    ],
-    "release_date": "2024-03-26"
+    "description": ["- Fix bugs", "Add Vietnamese language."],
+    "release_date": "2024-03-28"
+  },
+  {
+    "version": 2.62,
+    "bundle": 23,
+    "description": ["- Fix bugs", "- Optimize solana chain data fetching."],
+    "release_date": "2024-04-03"
   }
 ]
