@@ -110,5 +110,15 @@
     "bundle": 21,
     "description": ["- Fix bugs", "Support fantom chain swap"],
     "release_date": "2024-03-26"
+  },
+  {
+    "version": 2.62,
+    "bundle": 22,
+    "description": [
+      "- Fix bugs",
+      "Add Vietnamese language.",
+      "Optimize solana chain data fetching."
+    ],
+    "release_date": "2024-03-26"
   }
 ]
