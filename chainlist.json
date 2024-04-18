@@ -8443,6 +8443,32 @@
     "dexscreener_chain_id": "celo"
   },
   {
+    "chain": "chiliz",
+    "name": "Chiliz Chain",
+    "rpc": [
+      "https://rpc.chiliz.com",
+      "https://chiliz.publicnode.com"
+    ],
+    "id": 88880,
+    "hexId": "0x15b38",
+    "explorers": [
+      {
+        "name": "Chiliz Scan",
+        "url": "https://scan.chiliz.com/",
+        "standard": "none"
+      }
+    ],
+    "type": "mainnet",
+    "network": "evm",
+    "native_token": {
+      "name": "Chiliz Token",
+      "symbol": "CHZ",
+      "decimals": 18,
+      "coingecko_id": "chiliz"
+    },
+    "gecko_terminal_chain_id": "chiliz-chain"
+  },
+  {
     "chain": "dymension-evm",
     "name": "Dymension",
     "type": "mainnet",
