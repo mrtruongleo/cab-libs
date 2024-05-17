@@ -8481,11 +8481,17 @@
       "https://cyber.alt.technology",
       "https://rpc.cyber.co"
     ],
-    "native_token": {
+    "token_info": {
       "name": "Cyber Connect",
       "symbol": "CYBER",
       "decimals": 18,
       "coingecko_id": "cyberconnect"
+    },
+    "native_token": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "coingecko_id": "ethereum"
     },
     "explorers": [
       {
