@@ -1,0 +1,23 @@
+{
+  "chain": "cyber",
+  "name": "Cyber Connect L2",
+  "type": "mainnet",
+  "network": "evm",
+  "id": 7560,
+  "hexId": "0x1d88",
+  "logo_id": "cyberconnect",
+  "logo": "https://assets.coingecko.com/coins/images/31274/standard/token.png",
+  "rpc": ["https://cyber.alt.technology", "https://rpc.cyber.co"],
+  "native_token": {
+    "name": "Cyber Connect",
+    "symbol": "CYBER",
+    "decimals": 18,
+    "coingecko_id": "cyberconnect"
+  },
+  "explorers": [
+    {
+      "name": "Cyber Scan",
+      "url": "https://cyberscan.co/"
+    }
+  ]
+}
