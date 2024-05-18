@@ -122,5 +122,14 @@
     "bundle": 23,
     "description": ["- Fix bugs", "- Optimize solana chain data fetching."],
     "release_date": "2024-04-03"
+  },
+  {
+    "version": 2.63,
+    "bundle": 1,
+    "description": [
+      "- Fix bugs",
+      "- Add cyber L2 chain and cyber optimism staking data."
+    ],
+    "release_date": "2024-05-19"
   }
 ]
