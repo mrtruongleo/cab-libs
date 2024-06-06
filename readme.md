@@ -2,4 +2,6 @@
    npm run cosmos chain_name
 
 2. Join all chain data
-   npm run join
+   npm run joinChain
+3. Join defi data
+   npm run joinDefi
