@@ -5,3 +5,5 @@
    npm run joinChain
 3. Join defi data
    npm run joinDefi
+4. Fetch coinlist
+   npm run updateCoinlist
