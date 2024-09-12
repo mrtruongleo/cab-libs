@@ -134,7 +134,7 @@
   },
   {
     "version": 2.64,
-    "build": 3,
+    "build": 2,
     "description": ["- Fix bug", "- Add Simple notification"],
     "release_date": "2024-09-12"
   }
