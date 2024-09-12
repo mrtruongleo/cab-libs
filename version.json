@@ -133,9 +133,10 @@
     "release_date": "2024-05-19"
   },
   {
+    "id": "YHyRxkZgzgLZXbA",
     "version": 2.64,
     "build": 3,
-    "description": ["- Test", "- Test new version"],
+    "description": ["- Fix bug", "- Add Simple notification"],
     "release_date": "2024-09-12"
   }
 ]
