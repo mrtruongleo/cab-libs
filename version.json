@@ -142,6 +142,12 @@
     "version": 2.64,
     "build": 2,
     "description": ["- Fix bug", "- Add Simple notification"],
+    "release_date": "2024-09-11"
+  },
+  {
+    "version": 2.64,
+    "build": 3,
+    "description": ["- Fix bug", "- Add Versions control"],
     "release_date": "2024-09-12"
   }
 ]
