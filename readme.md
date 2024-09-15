@@ -7,3 +7,10 @@
    npm run joinDefi
 4. Fetch coinlist
    npm run updateCoinlist
+
+# crontab
+
+git add coinlist.json
+
+crontab -e
+0 0-23/4 \* \* \* /root/update-coinlist/update.sh
