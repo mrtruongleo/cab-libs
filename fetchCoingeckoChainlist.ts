@@ -25,10 +25,11 @@ export const mapCoingeckoChainName = async () => {
   }
   let cgchain: coingeckoChain[] = [];
   try {
-    cgchain = JSON.parse(fs.readFileSync(`coingeckoChainList.json`, "utf8"));
-  } catch (e) {
     console.log("feching new data");
     cgchain = (await fetchChainList())!;
+    csl(cgchain);
+  } catch (e) {
+    cgchain = JSON.parse(fs.readFileSync(`coingeckoChainList.json`, "utf8"));
   }
   for (const c of chainlist) {
     const cg = cgchain.find((i) => {
@@ -60,4 +61,6 @@ export const mapCoingeckoChainName = async () => {
   });
   return maps;
 };
-mapCoingeckoChainName();
+(async () => {
+  await mapCoingeckoChainName();
+})();
