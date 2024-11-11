@@ -8885,6 +8885,40 @@
     "dexscreener_chain_id": "polygon_pos"
   },
   {
+    "chain": "World Chain",
+    "name": "worldchain",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 480,
+    "hexId": "0x1e0",
+    "logo_id": "worldcoin-wld",
+    "rpc": [
+      "https://480.rpc.thirdweb.com",
+      "https://worldchain-mainnet.g.alchemy.com/public",
+      "https://worldchain-mainnet.gateway.tenderly.co"
+    ],
+    "token_info": {
+      "name": "World Coin",
+      "symbol": "WLD",
+      "decimals": 18,
+      "coingecko_id": "worldcoin-wld"
+    },
+    "native_token": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "coingecko_id": "ethereum"
+    },
+    "explorers": [
+      {
+        "name": "World scan",
+        "url": "https://worldscan.org/"
+      }
+    ],
+    "gecko_terminal_chain_id": "world-chain",
+    "dexscreener_chain_id": "worldchain"
+  },
+  {
     "chain": "xai",
     "name": "XAI Network",
     "type": "mainnet",
