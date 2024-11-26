@@ -167,5 +167,14 @@
       "- Intergrated tradingview chart in Coin info and Asset info"
     ],
     "release_date": "2024-11-13"
+  },
+  {
+    "version": 2.65,
+    "build": 8,
+    "description": [
+      "- Add target price alert notification.",
+      "- Disable auto open chart by default on asset info page."
+    ],
+    "release_date": "2024-11-26"
   }
 ]
