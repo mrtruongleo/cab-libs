@@ -16,8 +16,8 @@
     "contractAddress": "0x14778860E937f509e651192a90589dE711Fb88a9",
     "logo": null
   },
-  "chainId": 10,
-  "chain": "optimism",
+  "chainId": 7560,
+  "chain": "cyber",
   "network": "evm",
   "poolId": null,
   "stakingContract": "0x454Ba74c599340b1D868c693CcdB1A55feB8965d",

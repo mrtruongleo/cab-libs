@@ -2,6 +2,32 @@
   {
     "type": "stake",
     "tokenStake": {
+      "name": "Cyber Connect",
+      "symbol": "CYBER",
+      "decimals": 18,
+      "coingecko_id": "cyberconnect",
+      "contractAddress": "0x14778860E937f509e651192a90589dE711Fb88a9",
+      "logo": null
+    },
+    "tokenReward": {
+      "name": "Cyber Connect",
+      "symbol": "CYBER",
+      "decimals": 18,
+      "coingecko_id": "cyberconnect",
+      "contractAddress": "0x14778860E937f509e651192a90589dE711Fb88a9",
+      "logo": null
+    },
+    "chainId": 10,
+    "chain": "optimism",
+    "network": "evm",
+    "poolId": null,
+    "stakingContract": "0x454Ba74c599340b1D868c693CcdB1A55feB8965d",
+    "getStakeBalanceMethod": "deposits",
+    "getStakeRewardMethod": null
+  },
+  {
+    "type": "stake",
+    "tokenStake": {
       "name": "The Sandbox",
       "symbol": "SAND",
       "decimals": 18,
