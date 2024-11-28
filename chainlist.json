@@ -12,7 +12,9 @@
       "decimals": 8,
       "coingecko_id": "aptos"
     },
-    "rpc": ["https://fullnode.mainnet.aptoslabs.com/v1"],
+    "rpc": [
+      "https://fullnode.mainnet.aptoslabs.com/v1"
+    ],
     "native_token": {
       "name": "Aptos Network",
       "symbol": "APT",
@@ -8285,8 +8287,12 @@
       "decimals": 9,
       "coingecko_id": "casper-network"
     },
-    "rpc": ["https://casper-node-proxy.make.services/rpc"],
-    "api": ["https://event-store-api-clarity-mainnet.make.services"],
+    "rpc": [
+      "https://casper-node-proxy.make.services/rpc"
+    ],
+    "api": [
+      "https://event-store-api-clarity-mainnet.make.services"
+    ],
     "native_token": {
       "name": "Casper Network",
       "symbol": "CSPR",
@@ -8409,7 +8415,9 @@
   {
     "chain": "celo mainnet",
     "name": "Celo Mainnet",
-    "rpc": ["https://forno.celo.org"],
+    "rpc": [
+      "https://forno.celo.org"
+    ],
     "id": 42220,
     "hexId": "0xa4ec",
     "explorers": [
@@ -8437,7 +8445,10 @@
   {
     "chain": "chiliz",
     "name": "Chiliz Chain",
-    "rpc": ["https://rpc.chiliz.com", "https://chiliz.publicnode.com"],
+    "rpc": [
+      "https://rpc.chiliz.com",
+      "https://chiliz.publicnode.com"
+    ],
     "id": 88888,
     "hexId": "0x15b38",
     "explorers": [
@@ -8466,7 +8477,10 @@
     "hexId": "0x1d88",
     "logo_id": "cyberconnect",
     "logo": "https://assets.coingecko.com/coins/images/31274/standard/token.png",
-    "rpc": ["https://cyber.alt.technology", "https://rpc.cyber.co"],
+    "rpc": [
+      "https://cyber.alt.technology",
+      "https://rpc.cyber.co"
+    ],
     "token_info": {
       "name": "Cyber Connect",
       "symbol": "CYBER",
@@ -8493,7 +8507,9 @@
     "network": "evm",
     "id": 1100,
     "hexId": "0x44c",
-    "rpc": ["https://dymension-evm.blockpi.network/v1/rpc/public"],
+    "rpc": [
+      "https://dymension-evm.blockpi.network/v1/rpc/public"
+    ],
     "native_token": {
       "name": "Dymension",
       "symbol": "DYM",
@@ -8514,7 +8530,9 @@
     "network": "evm",
     "id": 648,
     "hexId": "0x288",
-    "rpc": ["https://rpc-endurance.fusionist.io"],
+    "rpc": [
+      "https://rpc-endurance.fusionist.io"
+    ],
     "native_token": {
       "name": "Fusionist ACE",
       "symbol": "ACE",
@@ -8531,7 +8549,9 @@
   {
     "chain": "ethereum classic mainnet",
     "name": "Ethereum Classic Mainnet",
-    "rpc": ["https://www.ethercluster.com/etc"],
+    "rpc": [
+      "https://www.ethercluster.com/etc"
+    ],
     "id": 61,
     "hexId": "0x3d",
     "explorers": [
@@ -8590,7 +8610,9 @@
     "id": 10001,
     "hexId": "0x2711",
     "network": "evm",
-    "rpc": ["https://mainnet.ethereumpow.org"],
+    "rpc": [
+      "https://mainnet.ethereumpow.org"
+    ],
     "native_token": {
       "name": "ETH POW",
       "symbol": "ETHW",
@@ -8609,7 +8631,9 @@
   {
     "chain": "evmos",
     "name": "Evmos",
-    "rpc": ["https://evmos-evm.publicnode.com"],
+    "rpc": [
+      "https://evmos-evm.publicnode.com"
+    ],
     "id": 9001,
     "hexId": "0x2329",
     "explorers": [
@@ -8672,7 +8696,9 @@
     "hexId": "0x343b",
     "logo_id": "immutable-x",
     "logo": "https://avatars.githubusercontent.com/u/42257219?s=200&v=4",
-    "rpc": ["https://rpc.immutable.com"],
+    "rpc": [
+      "https://rpc.immutable.com"
+    ],
     "native_token": {
       "name": "Immutable X",
       "symbol": "IMX",
@@ -8742,7 +8768,9 @@
   {
     "chain": "moonbeam",
     "name": "Moonbeam",
-    "rpc": ["https://rpc.api.moonbeam.network"],
+    "rpc": [
+      "https://rpc.api.moonbeam.network"
+    ],
     "id": 1284,
     "hexId": "0x504",
     "explorers": [
@@ -8766,7 +8794,9 @@
   {
     "chain": "moonriver",
     "name": "Moonriver",
-    "rpc": ["https://rpc.api.moonriver.moonbeam.network"],
+    "rpc": [
+      "https://rpc.api.moonriver.moonbeam.network"
+    ],
     "id": 1285,
     "hexId": "0x505",
     "explorers": [
@@ -8855,8 +8885,8 @@
     "dexscreener_chain_id": "polygon_pos"
   },
   {
-    "chain": "world-chain",
-    "name": "World Chain",
+    "chain": "World Chain",
+    "name": "worldchain",
     "type": "mainnet",
     "network": "evm",
     "id": 480,
@@ -8895,7 +8925,9 @@
     "network": "evm",
     "id": 660279,
     "logo": "https://github.com/mrtruongleo/cab-libs/blob/main/assets/chain-img/xai.png?raw=true",
-    "rpc": ["https://xai-chain.net/rpc"],
+    "rpc": [
+      "https://xai-chain.net/rpc"
+    ],
     "native_token": {
       "name": "XAI Network",
       "symbol": "XAI",
@@ -8918,7 +8950,9 @@
     "hexId": "0x144",
     "logo_id": "zksync",
     "logo": "https://github.com/mrtruongleo/cab-libs/blob/main/assets/chain-img/zksync.png?raw=true",
-    "rpc": ["https://mainnet.era.zksync.io"],
+    "rpc": [
+      "https://mainnet.era.zksync.io"
+    ],
     "native_token": {
       "name": "Ether",
       "symbol": "ETH",
@@ -8941,6 +8975,7 @@
     "network": "solana",
     "id": "4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ",
     "rpc": [
+      "https://api.mainnet-beta.solana.com",
       "https://compatible-twilight-butterfly.solana-mainnet.quiknode.pro/5f2a39fb5fb4c9ea2366b1e6de663004c07dd40d",
       "https://nd-326-444-187.p2pify.com/9de47db917d4f69168e3fed02217d15b",
       "https://api.mainnet-beta.solana.com"
@@ -8974,7 +9009,9 @@
       "decimals": 9,
       "coingecko_id": "sui"
     },
-    "rpc": ["https://fullnode.mainnet.sui.io:443"],
+    "rpc": [
+      "https://fullnode.mainnet.sui.io:443"
+    ],
     "native_token": {
       "name": "Sui Network",
       "symbol": "SUI",
