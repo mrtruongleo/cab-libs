@@ -22,6 +22,8 @@
     "network": "evm",
     "poolId": null,
     "stakingContract": "0x522d3a9c2bc14ce1c4d210ed41ab239fded02f2b",
+    "getRestakingTokenMethod": "balanceOf",
+    "convertToAssetMethod": "convertToAssets",
     "getStakeBalanceMethod": "balanceOf",
     "getStakeRewardMethod": null
   },
