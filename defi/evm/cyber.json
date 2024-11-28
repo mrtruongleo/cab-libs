@@ -20,7 +20,7 @@
   "chain": "cyber",
   "network": "evm",
   "poolId": null,
-  "stakingContract": "0x454Ba74c599340b1D868c693CcdB1A55feB8965d",
-  "getStakeBalanceMethod": "deposits",
+  "stakingContract": "0x522d3a9c2bc14ce1c4d210ed41ab239fded02f2b",
+  "getStakeBalanceMethod": "balanceOf",
   "getStakeRewardMethod": null
 }
