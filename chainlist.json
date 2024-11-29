@@ -8885,8 +8885,8 @@
     "dexscreener_chain_id": "polygon_pos"
   },
   {
-    "chain": "World Chain",
-    "name": "worldchain",
+    "chain": "world-chain",
+    "name": "World Chain",
     "type": "mainnet",
     "network": "evm",
     "id": 480,
