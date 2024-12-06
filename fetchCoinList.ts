@@ -176,6 +176,9 @@ const getAllData = async (defautSleepTime: number = 20) => {
       }
     }
     first = first + chunk;
+    try {
+      console.log(`Processed: ${first}/${coinlist.length} coins`);
+    } catch {}
   }
   if (data) {
     let newdata: { [key: string]: any } = [];

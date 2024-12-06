@@ -5,7 +5,7 @@ export const csl = (...texts: (string | any)[]) => {
   let res: string[] = [];
   //console.log(JSON.stringify(texts.join(""), null, 2));
   for (const text of texts) {
-    if (typeof text !== ("string" || "number")) {
+    if (typeof text !== "string" || typeof text !== "number") {
       res.push(util.inspect(text, false, null, true /* enable colors */));
     } else {
       res.push(text);
@@ -18,7 +18,7 @@ export const sleep = (ms: number | undefined) =>
 
 export const waiting = async (s: number) => {
   for (let i = s; i > 0; i--) {
-    const message = util.format(`Waiting ${i} seconds before new request`);
+    const message = util.format(`Waiting ${i} seconds before new request\n`);
     readline.clearLine(process.stdout, 0);
     readline.cursorTo(process.stdout, 0);
     process.stdout.write(message);
