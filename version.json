@@ -176,5 +176,14 @@
       "- Disable auto open chart by default on asset info page."
     ],
     "release_date": "2024-11-26"
+  },
+  {
+    "version": 2.66,
+    "build": 1,
+    "description": [
+      "- Upgrade kucoin API v3.",
+      "- Cần tạo mới API trên kucoin."
+    ],
+    "release_date": "2024-12-06"
   }
 ]
