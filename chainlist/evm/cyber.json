@@ -25,5 +25,7 @@
       "name": "Cyber Scan",
       "url": "https://cyberscan.co/"
     }
-  ]
+  ],
+  "gecko_terminal_chain_id": "cyber",
+  "dexscreener_chain_id": "cyber"
 }

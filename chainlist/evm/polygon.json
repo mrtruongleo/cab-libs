@@ -26,6 +26,6 @@
       "url": "https://polygonscan.com/tx/"
     }
   ],
-  "gecko_terminal_chain_id": "polygon",
-  "dexscreener_chain_id": "polygon_pos"
+  "gecko_terminal_chain_id": "polygon_pos",
+  "dexscreener_chain_id": "polygon"
 }
