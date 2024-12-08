@@ -8975,7 +8975,6 @@
     "network": "solana",
     "id": "4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ",
     "rpc": [
-      "https://api.mainnet-beta.solana.com",
       "https://compatible-twilight-butterfly.solana-mainnet.quiknode.pro/5f2a39fb5fb4c9ea2366b1e6de663004c07dd40d",
       "https://nd-326-444-187.p2pify.com/9de47db917d4f69168e3fed02217d15b",
       "https://api.mainnet-beta.solana.com"
