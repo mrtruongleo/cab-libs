@@ -19,5 +19,7 @@
       "name": "Metis Explorer",
       "url": "https://andromeda-explorer.metis.io/tx/"
     }
-  ]
+  ],
+  "gecko_terminal_chain_id": "metis",
+  "dexscreener_chain_id": "metis"
 }

@@ -185,5 +185,11 @@
       "- Cần tạo mới API trên kucoin."
     ],
     "release_date": "2024-12-06"
+  },
+  {
+    "version": 2.66,
+    "build": 2,
+    "description": ["- Cập nhật xem chart cho tất cả coin."],
+    "release_date": "2024-12-08"
   }
 ]
