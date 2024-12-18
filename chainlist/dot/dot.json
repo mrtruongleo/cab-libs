@@ -1,0 +1,19 @@
+{
+  "chain": "dot",
+  "name": "Polkadot",
+  "type": "mainnet",
+  "network": "dot",
+  "rpc": ["https://rpc.polkadot.io"],
+  "native_token": {
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "coingecko_id": "polkadot"
+  },
+  "explorers": [
+    {
+      "name": "Subscan",
+      "url": "https://polkadot.subscan.io/extrinsic/"
+    }
+  ]
+}
