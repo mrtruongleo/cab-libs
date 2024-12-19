@@ -3,7 +3,7 @@
   "name": "Polkadot",
   "type": "mainnet",
   "network": "dot",
-  "rpc": ["https://rpc.polkadot.io", "ws://rpc.polkadot.io"],
+  "rpc": ["https://rpc.polkadot.io", "wss://rpc.polkadot.io"],
   "native_token": {
     "name": "Polkadot",
     "symbol": "DOT",
