@@ -8322,7 +8322,7 @@
     "network": "dot",
     "rpc": [
       "https://rpc.polkadot.io",
-      "ws://rpc.polkadot.io"
+      "wss://rpc.polkadot.io"
     ],
     "native_token": {
       "name": "Polkadot",
