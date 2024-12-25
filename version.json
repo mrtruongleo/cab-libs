@@ -197,5 +197,14 @@
     "build": 3,
     "description": ["- Thêm Polkadot chain."],
     "release_date": "2024-12-21"
+  },
+  {
+    "version": 2.66,
+    "build": 4,
+    "description": [
+      "- Fix bugs with hidding small balance.",
+      "- Prepare for important upcoming version."
+    ],
+    "release_date": "2024-12-26"
   }
 ]
