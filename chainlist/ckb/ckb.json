@@ -1,0 +1,20 @@
+{
+  "chain": "ckb",
+  "name": "Nervos Network",
+  "type": "mainnet",
+  "network": "ckb",
+  "logo_id": "nervos-network",
+  "rpc": ["https://mainnet.ckb.dev/rpc"],
+  "native_token": {
+    "name": "Nervos Network",
+    "symbol": "CKB",
+    "decimals": 8,
+    "coingecko_id": "nervos-network"
+  },
+  "explorers": [
+    {
+      "name": "Nervos Explorer",
+      "url": "https://explorer.nervos.org"
+    }
+  ]
+}

@@ -8333,7 +8333,7 @@
     "explorers": [
       {
         "name": "Subscan",
-        "url": "https://polkadot.subscan.io/extrinsic/"
+        "url": "https://polkadot.subscan.io/"
       }
     ]
   },
