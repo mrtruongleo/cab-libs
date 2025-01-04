@@ -206,5 +206,17 @@
       "- Prepare for important upcoming version."
     ],
     "release_date": "2024-12-26"
+  },
+  {
+    "version": 2.66,
+    "build": 7,
+    "description": ["- Add Japanese language."],
+    "release_date": "2024-12-26"
+  },
+  {
+    "version": 2.66,
+    "build": 8,
+    "description": ["- Fix bugs.", "- Add CKB (Nervos) chain."],
+    "release_date": "2025-01-04"
   }
 ]
