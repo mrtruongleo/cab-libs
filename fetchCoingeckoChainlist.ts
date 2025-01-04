@@ -61,6 +61,6 @@ export const mapCoingeckoChainName = async () => {
   });
   return maps;
 };
-(async () => {
-  await mapCoingeckoChainName();
-})();
+// (async () => {
+//   await mapCoingeckoChainName();
+// })();

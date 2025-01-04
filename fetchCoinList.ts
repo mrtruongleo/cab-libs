@@ -33,8 +33,12 @@ const getCoinlistIds = async (): Promise<
     "https://api.coingecko.com/api/v3/coins/list?include_platform=true";
   const res = await axios.get(url);
   if (res) {
+    const chainMap = JSON.parse(fs.readFileSync(`chainmap.json`, "utf8"));
     const data = res.data;
-    const ids = data.map((c: any) => ({ id: c.id, platforms: c.platforms }));
+    const ids = data.map((c: any) => ({
+      id: c.id,
+      platforms: mapPlatform(c.platforms, chainMap),
+    }));
     try {
       fs.mkdir("tmp", (e) => {
         if (e) {
@@ -90,22 +94,32 @@ const get_chunk = async (
         ids_arr[ids_arr.length - 1]?.id
       }" (${ids_arr.length} coins)`
     );
-    const response = await fetch(`${url}?${queryParams}`, {
-      method: "GET",
-      headers: headers,
-    });
+    try {
+      const response = await axios.get(`${url}?${queryParams}`, {
+        headers: headers,
+      });
 
-    if (response.status === 200) {
-      res = (await response.json()) as coinData[];
-      timeSleep = 1;
-      break;
-    } else if (response.status === 429) {
-      const retry_after = Number(response.headers.get("Retry-After"));
-      csl(`Too many requests to coingecko!\n Retry after ${retry_after} (s)`);
-      timeSleep = retry_after;
-    } else {
-      csl("Can not get price data");
-      break;
+      if (response.status === 200) {
+        res = response.data as coinData[];
+        timeSleep = 1;
+        break;
+      } else if (response.status === 429) {
+        if (response.headers && response.headers instanceof Headers) {
+          const retry_after = response.headers.get("Retry-After");
+          if (retry_after !== null) {
+            timeSleep = parseInt(retry_after.toString(), 10); // Assuming you want to convert it to an integer for sleep duration
+          } else {
+            timeSleep = 0; // Or handle the case where retry_after is exactly "null"
+          }
+        } else {
+          timeSleep = 0; // Handle the case where response.headers does not exist
+        }
+      } else {
+        csl("Can not get price data");
+        break;
+      }
+    } catch (error: any) {
+      csl(error);
     }
   }
   if (res) {
@@ -119,9 +133,8 @@ const get_chunk = async (
   }
 };
 const getAllData = async (defautSleepTime: number = 20) => {
-  const start = Math.floor(Date.now() / 1000);
-  const chainMap = (await mapCoingeckoChainName())!;
-  csl(chainMap);
+  // const chainMap = JSON.parse(fs.readFileSync(`chainmap.json`, "utf8"));
+  // csl(chainMap);
   let coinlist: { [key: string]: any }[] = [];
   try {
     coinlist = JSON.parse(fs.readFileSync(`tmp/coinids.json`, "utf8"));
@@ -129,10 +142,20 @@ const getAllData = async (defautSleepTime: number = 20) => {
     console.log("feching new data");
     coinlist = (await getCoinlistIds())!;
   }
+
   const chunk = 250;
 
   let data: coinExport[] = [];
-  var first = 0;
+  const lastFetch = getLastProcessedChunk("tmp");
+  if (lastFetch) {
+    const files = fs.readdirSync("tmp");
+    // Filter files matching the naming pattern like "0_250.json"
+    const chunkFiles = files.filter((file) => /^\d+_\d+\.json$/.test(file));
+    chunkFiles.forEach((file) => {
+      data.concat(JSON.parse(fs.readFileSync(file, "utf8")));
+    });
+  }
+  var first = lastFetch ?? 0;
   while (true) {
     const chunkIds = coinlist.slice(first, first + chunk);
 
@@ -153,7 +176,7 @@ const getAllData = async (defautSleepTime: number = 20) => {
             name: t.name,
             logo: correctImg(t.image),
             marketcap: t.market_cap ?? 0,
-            platforms: mapPlatform(t.platforms, chainMap),
+            platforms: t.platforms,
           }));
 
         fs.writeFile(
@@ -211,6 +234,28 @@ const getAllData = async (defautSleepTime: number = 20) => {
     csl("Total ", data.length, " coins was updated.");
   }
 };
+const getLastProcessedChunk = (directory: string): number | undefined => {
+  try {
+    const files = fs.readdirSync(directory);
+
+    // Filter files matching the naming pattern like "0_250.json"
+    const chunkFiles = files.filter((file) => /^\d+_\d+\.json$/.test(file));
+
+    if (chunkFiles.length === 0) {
+      return 0; // No files found, start from the beginning
+    }
+
+    // Extract the ending number from each file name
+    const endNumbers = chunkFiles.map((file) => {
+      const match = file.match(/^(\d+)_(\d+)\.json$/);
+      return match ? parseInt(match[2], 10) : 0;
+    });
+
+    // Find the maximum ending number
+    return Math.max(...endNumbers);
+  } catch {}
+};
+
 setTimeout(async () => {
   const start = Math.floor(Date.now() / 1000);
   getAllData();

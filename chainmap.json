@@ -36,5 +36,6 @@
   "xai": "xai",
   "zksync": "zksync",
   "solana": "solana",
-  "sui": "sui"
+  "sui": "sui",
+  "godwoken": "ckb"
 }
