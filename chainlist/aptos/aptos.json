@@ -11,7 +11,7 @@
     "decimals": 8,
     "coingecko_id": "aptos"
   },
-  "rpc": ["https://fullnode.mainnet.aptoslabs.com/v1"],
+  "rpc": ["https://fullnode.mainnet.aptoslabs.com"],
   "native_token": {
     "name": "Aptos Network",
     "symbol": "APT",
@@ -20,8 +20,8 @@
   },
   "explorers": [
     {
-      "name": "Trace Move",
-      "url": "https://tracemove.io"
+      "name": "Aptos Explorer",
+      "url": "https://explorer.aptoslabs.com/"
     }
   ]
 }
