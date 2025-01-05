@@ -2,7 +2,7 @@
 
 # Define variables
 LOCKFILE="/tmp/updateCoinlist.lock"
-REPO_DIR="/root/update-coinlist"
+REPO_DIR="/root/lib/cab-libs"
 FILE_PATH="$REPO_DIR/coinlist.json"
 BRANCH="main" # Change to your branch name if different
 
@@ -32,12 +32,13 @@ cd $REPO_DIR
 echo "Updating coinlist..."
 
 # Check Node.js version for debugging
-echo "Node version: $(node -v)" >> /root/update-coinlist/update.log
+# echo "Node version: $(node -v)" >> /root/lib/update.log
 
 # Run the update job
-npm run updateCoinlist >> /root/update-coinlist/update.log 2>&1
+npm run updateCoinlist >> /root/lib/update.log 2>&1
 echo "Update Done, ... committing.."
-
+# pull new update
+git pull
 # Check if the file has changed
 if git diff --exit-code $FILE_PATH; then
     echo "No changes detected in $FILE_PATH."
