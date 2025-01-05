@@ -218,5 +218,13 @@
     "build": 8,
     "description": ["- Fix bugs.", "- Add CKB (Nervos) chain."],
     "release_date": "2025-01-04"
+  },
+  {
+    "version": 2.66,
+    "build": 9,
+    "description": [
+      "- Fix Aptos load non-native token balance and transaction."
+    ],
+    "release_date": "2025-01-05"
   }
 ]
