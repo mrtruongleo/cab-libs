@@ -20,7 +20,7 @@
   },
   "explorers": [
     {
-      "name": "Casper Live",
+      "name": "Sui Scan",
       "url": "https://suiscan.xyz/mainnet/tx/"
     }
   ]

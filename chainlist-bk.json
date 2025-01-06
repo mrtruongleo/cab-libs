@@ -13,7 +13,7 @@
       "coingecko_id": "aptos"
     },
     "rpc": [
-      "https://fullnode.mainnet.aptoslabs.com/v1"
+      "https://fullnode.mainnet.aptoslabs.com"
     ],
     "native_token": {
       "name": "Aptos Network",
@@ -23,8 +23,8 @@
     },
     "explorers": [
       {
-        "name": "Trace Move",
-        "url": "https://tracemove.io"
+        "name": "Aptos Explorer",
+        "url": "https://explorer.aptoslabs.com/"
       }
     ]
   },
