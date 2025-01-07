@@ -226,5 +226,15 @@
       "- Fix Aptos load non-native token balance and transaction."
     ],
     "release_date": "2025-01-05"
+  },
+  {
+    "version": 2.66,
+    "build": 10,
+    "description": [
+      "- Fixed a bug in the Sui blockchain.",
+      "- Now you can backup wallet to any location",
+      "- Adding some infomation to the results when searching for coins on the 'Add token' page."
+    ],
+    "release_date": "2025-01-07"
   }
 ]
