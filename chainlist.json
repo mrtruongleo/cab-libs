@@ -8554,7 +8554,8 @@
     "id": 1100,
     "hexId": "0x44c",
     "rpc": [
-      "https://dymension-evm.blockpi.network/v1/rpc/public"
+      "https://dymension.drpc.org",
+      "https://dymension-evm-rpc.publicnode.com"
     ],
     "native_token": {
       "name": "Dymension",
