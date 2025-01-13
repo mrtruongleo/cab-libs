@@ -238,6 +238,12 @@
     "release_date": "2025-01-07"
   },
   {
+    "version": 2.66,
+    "build": 11,
+    "description": ["- cài đặt bản 2.66.11 trước khi update lên 2.67.1"],
+    "release_date": "2025-01-12"
+  },
+  {
     "version": 2.67,
     "build": 1,
     "description": [
