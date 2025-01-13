@@ -236,5 +236,16 @@
       "- Adding some infomation to the results when searching for coins on the 'Add token' page."
     ],
     "release_date": "2025-01-07"
+  },
+  {
+    "version": 2.67,
+    "build": 1,
+    "description": [
+      "- Rebuild code structures, Performance improvement.",
+      "- WARNING: Backup current data before update!",
+      "- Add Require backup secrect phrase after create new wallet.",
+      "- Custom On/Off notification for specific plan on Assets plan."
+    ],
+    "release_date": "2025-01-13"
   }
 ]
