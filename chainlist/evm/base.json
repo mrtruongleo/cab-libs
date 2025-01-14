@@ -4,6 +4,7 @@
   "rpc": ["https://mainnet.base.org", "https://base.meowrpc.com"],
   "id": 8453,
   "hexId": "0x2105",
+  "logo_id": "base",
   "explorers": [
     {
       "name": "Base scan",
