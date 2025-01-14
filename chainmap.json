@@ -37,5 +37,6 @@
   "zksync": "zksync",
   "solana": "solana",
   "sui": "sui",
-  "godwoken": "ckb"
+  "godwoken": "ckb",
+  "base": "base"
 }

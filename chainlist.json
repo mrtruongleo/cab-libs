@@ -8425,6 +8425,33 @@
     "dexscreener_chain_id": "avalanche"
   },
   {
+    "chain": "base",
+    "name": "Base network",
+    "rpc": [
+      "https://mainnet.base.org",
+      "https://base.meowrpc.com"
+    ],
+    "id": 8453,
+    "hexId": "0x2105",
+    "explorers": [
+      {
+        "name": "Base scan",
+        "url": "https://basescan.org/",
+        "standard": "none"
+      }
+    ],
+    "type": "mainnet",
+    "network": "evm",
+    "native_token": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "coingecko_id": "ethereum"
+    },
+    "gecko_terminal_chain_id": "base",
+    "dexscreener_chain_id": "base"
+  },
+  {
     "chain": "bsc",
     "name": "Binance Smartchain Mainnet",
     "type": "mainnet",
