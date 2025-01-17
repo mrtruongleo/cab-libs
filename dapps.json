@@ -2,91 +2,103 @@
   {
     "name": "CoinGecko",
     "url": "https://coingecko.com",
-    "logo": "https://avatars.githubusercontent.com/u/7111837?s=200&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/7111837?s=200&v=4",
+    "mainNetwork": "web"
   },
   {
     "name": "DexScreener",
     "url": "https://dexscreener.com",
-    "logo": "https://avatars.githubusercontent.com/u/99915600?s=200&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/99915600?s=200&v=4",
+    "mainNetwork": "web"
   },
   {
     "name": "UniSwap",
     "url": "https://app.uniswap.org/swap",
-    "logo": "https://avatars.githubusercontent.com/u/36115574?s=200&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/36115574?s=200&v=4",
+    "mainNetwork": "evm"
   },
   {
     "name": "PancakeSwap",
     "url": "https://pancakeswap.finance/swap",
-    "logo": "https://avatars.githubusercontent.com/u/71247426?s=200&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/71247426?s=200&v=4",
+    "mainNetwork": "evm"
   },
   {
     "name": "QuickSwap",
     "url": "https://quickswap.exchange/#/swap",
-    "logo": "https://avatars.githubusercontent.com/u/77100292?s=200&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/77100292?s=200&v=4",
+    "mainNetwork": "evm"
   },
   {
     "name": "1Inch",
     "url": "https://app.1inch.io/#/137/simple/swap/MATIC",
-    "logo": "https://cdn.1inch.io/logo.png"
+    "logo": "https://cdn.1inch.io/logo.png",
+    "mainNetwork": "evm"
   },
   {
     "name": "SushiSwap",
     "url": "https://www.sushi.com/swap",
-    "logo": "https://avatars.githubusercontent.com/u/72222929?s=200&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/72222929?s=200&v=4",
+    "mainNetwork": "evm"
   },
   {
     "name": "ParaSwap",
     "url": "https://app.paraswap.io",
-    "logo": "https://avatars.githubusercontent.com/u/52015910?s=200&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/52015910?s=200&v=4",
+    "mainNetwork": "evm"
   },
   {
     "name": "Raydium",
     "url": "https://raydium.io/swap/",
-    "logo": "https://avatars.githubusercontent.com/u/78411976?s=200&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/78411976?s=200&v=4",
+    "mainNetwork": "solana"
   },
   {
     "name": "Jupiter",
     "url": "https://jup.ag/",
-    "logo": "https://avatars.githubusercontent.com/u/95742998?s=200&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/95742998?s=200&v=4",
+    "mainNetwork": "solana"
   },
   {
     "name": "Tethys Finance",
     "url": "https://v1.tethys.finance/swap",
-    "logo": "https://assets.coingecko.com/coins/images/22141/large/wjoZJvzA_400x400.jpg"
+    "logo": "https://assets.coingecko.com/coins/images/22141/large/wjoZJvzA_400x400.jpg",
+    "mainNetwork": "evm"
   },
   {
     "name": "NetSwap",
     "url": "https://netswap.io/#/swap",
-    "logo": "https://avatars.githubusercontent.com/u/91089732?s=280&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/91089732?s=280&v=4",
+    "mainNetwork": "evm"
   },
   {
     "name": "Hercules",
     "url": "https://app.hercules.exchange/",
-    "logo": "https://docs.hercules.exchange/~gitbook/image?url=https:%2F%2F1837607513-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F4PaAdnJwvfoXKFVsZVGE%252Ficon%252FhZ2uYriQUXldwdRUZGhn%252FOfficial.png%3Falt=media%26token=17371519-edb3-4859-8c62-f6a614988fd3&width=32&dpr=1&quality=100&sign=087c574151b0c450ed7bc5336d074d70f20084ee56bb553522497a91202d52cc"
+    "logo": "https://docs.hercules.exchange/~gitbook/image?url=https:%2F%2F1837607513-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F4PaAdnJwvfoXKFVsZVGE%252Ficon%252FhZ2uYriQUXldwdRUZGhn%252FOfficial.png%3Falt=media%26token=17371519-edb3-4859-8c62-f6a614988fd3&width=32&dpr=1&quality=100&sign=087c574151b0c450ed7bc5336d074d70f20084ee56bb553522497a91202d52cc",
+    "mainNetwork": "evm"
   },
   {
     "name": "Velodrome Finance",
     "url": "https://velodrome.finance/swap",
-    "logo": "https://velodrome.finance/velodrome.svg"
+    "logo": "https://velodrome.finance/velodrome.svg",
+    "mainNetwork": "evm"
   },
   {
     "name": "Camelot Dex",
     "url": "https://app.camelot.exchange/",
-    "logo": "https://app.camelot.exchange/images/logo-sm.svg"
+    "logo": "https://app.camelot.exchange/images/logo-sm.svg",
+    "mainNetwork": "evm"
   },
   {
     "name": "SyncSwap",
     "url": "https://syncswap.xyz/",
-    "logo": "https://syncswap.xyz/images/syncswap.svg"
+    "logo": "https://syncswap.xyz/images/syncswap.svg",
+    "mainNetwork": "evm"
   },
   {
     "name": "Osmosis",
     "url": "https://app.osmosis.zone/",
-    "logo": "https://avatars.githubusercontent.com/u/79296913?s=48&v=4"
-  },
-  {
-    "name": "TestReactDapp",
-    "url": "https://react-app.walletconnect.com/",
-    "logo": "https://avatars.githubusercontent.com/u/37784886?s=200&v=4"
+    "logo": "https://avatars.githubusercontent.com/u/79296913?s=48&v=4",
+    "mainNetwork": "cosmos"
   }
 ]
