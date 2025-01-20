@@ -9052,7 +9052,7 @@
     "network": "solana",
     "id": "4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ",
     "rpc": [
-      "https://nd-326-444-187.p2pify.com/9de47db917d4f69168e3fed02217d15b",
+      "https://solana-rpc.publicnode.com",
       "https://api.mainnet-beta.solana.com"
     ],
     "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
