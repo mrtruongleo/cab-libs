@@ -253,5 +253,11 @@
       "- Custom On/Off notification for specific plan on Assets plan."
     ],
     "release_date": "2025-01-13"
+  },
+  {
+    "version": 2.7,
+    "build": 1,
+    "description": ["- Fix Solana transaction."],
+    "release_date": "2025-01-13"
   }
 ]
