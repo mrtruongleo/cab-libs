@@ -257,7 +257,7 @@
   {
     "version": 2.7,
     "build": 1,
-    "description": ["- Fix Solana transaction."],
+    "description": ["- Fix Solana transaction.", "- Add Base chain."],
     "release_date": "2025-01-13"
   }
 ]
