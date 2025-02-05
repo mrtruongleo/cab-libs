@@ -259,5 +259,14 @@
     "build": 1,
     "description": ["- Fix Solana transaction.", "- Add Base chain."],
     "release_date": "2025-01-13"
+  },
+  {
+    "version": 2.68,
+    "build": 4,
+    "description": [
+      "- Bugs fix.",
+      "- Replace some dependencies to compatible with new Architecture."
+    ],
+    "release_date": "2025-02-06"
   }
 ]
