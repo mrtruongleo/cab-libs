@@ -268,5 +268,11 @@
       "- Replace some dependencies to compatible with new Architecture."
     ],
     "release_date": "2025-02-06"
+  },
+  {
+    "version": 2.68,
+    "build": 5,
+    "description": ["- Bugs fix.", "- Fix scan QR code from screen in Dapps."],
+    "release_date": "2025-03-22"
   }
 ]
