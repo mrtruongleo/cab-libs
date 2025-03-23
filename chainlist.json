@@ -8962,6 +8962,34 @@
     "dexscreener_chain_id": "polygon"
   },
   {
+    "chain": "unichain",
+    "name": "Uni Chain",
+    "rpc": [
+      "https://mainnet.unichain.org",
+      "https://unichain-rpc.publicnode.com"
+    ],
+    "id": 130,
+    "hexId": "0x82",
+    "logo_id": "uniswap",
+    "explorers": [
+      {
+        "name": "UniScan",
+        "url": "https://uniscan.xyz",
+        "standard": "none"
+      }
+    ],
+    "type": "mainnet",
+    "network": "evm",
+    "native_token": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "coingecko_id": "ethereum"
+    },
+    "gecko_terminal_chain_id": "unichain",
+    "dexscreener_chain_id": "unichain"
+  },
+  {
     "chain": "world-chain",
     "name": "World Chain",
     "type": "mainnet",
