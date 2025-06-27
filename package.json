@@ -5,6 +5,7 @@
     "joinChain": "ts-node joinChainList.ts",
     "joinDefi": "ts-node joinDefi.ts",
     "updateCoinlist": "ts-node fetchCoinList.ts",
+    "fetchCgChainlist": "ts-node fetchCoingeckoChainlist.ts",
     "test": "ts-node test.ts"
   },
   "dependencies": {

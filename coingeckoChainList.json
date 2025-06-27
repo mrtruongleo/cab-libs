@@ -12,24 +12,24 @@
     }
   },
   {
-    "id": "arbitrum-nova",
-    "chain_identifier": 42170,
-    "name": "Arbitrum Nova",
-    "shortname": "",
-    "native_coin_id": "ethereum",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/93/thumb/AN_logomark.png?1706606703",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/93/small/AN_logomark.png?1706606703",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/93/large/AN_logomark.png?1706606703"
-    }
-  },
-  {
     "id": "factom",
     "chain_identifier": null,
     "name": "Factom",
     "shortname": "",
     "native_coin_id": "factom",
     "image": { "thumb": null, "small": null, "large": null }
+  },
+  {
+    "id": "sei-v2",
+    "chain_identifier": 1329,
+    "name": "Sei Network",
+    "shortname": "",
+    "native_coin_id": "wrapped-sei",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/273/thumb/sei.png?1717643675",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/273/small/sei.png?1717643675",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/273/large/sei.png?1717643675"
+    }
   },
   {
     "id": "monad",
@@ -44,23 +44,11 @@
     }
   },
   {
-    "id": "fraxtal",
-    "chain_identifier": 252,
-    "name": "Fraxtal",
-    "shortname": "",
-    "native_coin_id": "fraxtal",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/193/thumb/fraxtal.jpeg?1709564289",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/193/small/fraxtal.jpeg?1709564289",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/193/large/fraxtal.jpeg?1709564289"
-    }
-  },
-  {
-    "id": "zano",
+    "id": "kusama",
     "chain_identifier": null,
-    "name": "Zano",
+    "name": "Kusama",
     "shortname": "",
-    "native_coin_id": "zano",
+    "native_coin_id": "kusama",
     "image": { "thumb": null, "small": null, "large": null }
   },
   {
@@ -93,6 +81,26 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/109/thumb/bitkub.jpeg?1706606416",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/109/small/bitkub.jpeg?1706606416",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/109/large/bitkub.jpeg?1706606416"
+    }
+  },
+  {
+    "id": "zano",
+    "chain_identifier": null,
+    "name": "Zano",
+    "shortname": "",
+    "native_coin_id": "zano",
+    "image": { "thumb": null, "small": null, "large": null }
+  },
+  {
+    "id": "peaq",
+    "chain_identifier": null,
+    "name": "Peaq",
+    "shortname": "",
+    "native_coin_id": "peaq-2",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/32233/thumb/peaq.jpg?1748597584",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/32233/small/peaq.jpg?1748597584",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/32233/large/peaq.jpg?1748597584"
     }
   },
   {
@@ -161,14 +169,6 @@
     "name": "Vite",
     "shortname": "",
     "native_coin_id": "vite",
-    "image": { "thumb": null, "small": null, "large": null }
-  },
-  {
-    "id": "kusama",
-    "chain_identifier": null,
-    "name": "Kusama",
-    "shortname": "",
-    "native_coin_id": "kusama",
     "image": { "thumb": null, "small": null, "large": null }
   },
   {
@@ -316,6 +316,18 @@
     }
   },
   {
+    "id": "bahamut",
+    "chain_identifier": 5165,
+    "name": "Bahamut",
+    "shortname": "",
+    "native_coin_id": "fasttoken",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/256/thumb/bahamut.jpeg?1715338015",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/256/small/bahamut.jpeg?1715338015",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/256/large/bahamut.jpeg?1715338015"
+    }
+  },
+  {
     "id": "etherlink",
     "chain_identifier": 42793,
     "name": "Etherlink",
@@ -349,18 +361,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/277/thumb/alienx.png?1719305544",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/277/small/alienx.png?1719305544",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/277/large/alienx.png?1719305544"
-    }
-  },
-  {
-    "id": "rollux",
-    "chain_identifier": null,
-    "name": "Rollux",
-    "shortname": "",
-    "native_coin_id": "syscoin",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/136/thumb/logo_rollux_%281%29.png?1706606481",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/136/small/logo_rollux_%281%29.png?1706606481",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/136/large/logo_rollux_%281%29.png?1706606481"
     }
   },
   {
@@ -460,27 +460,27 @@
     }
   },
   {
-    "id": "skale",
-    "chain_identifier": 2046399126,
-    "name": "Skale",
+    "id": "degen",
+    "chain_identifier": 666666666,
+    "name": "Degen",
     "shortname": "",
-    "native_coin_id": "skale",
+    "native_coin_id": "degen-base",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/96/thumb/skale.png?1706606673",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/96/small/skale.png?1706606673",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/96/large/skale.png?1706606673"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/209/thumb/degen.jpeg?1711946732",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/209/small/degen.jpeg?1711946732",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/209/large/degen.jpeg?1711946732"
     }
   },
   {
-    "id": "the-open-network",
-    "chain_identifier": null,
-    "name": "TON",
-    "shortname": "TON",
-    "native_coin_id": "the-open-network",
+    "id": "lisk",
+    "chain_identifier": 1135,
+    "name": "Lisk",
+    "shortname": "lisk",
+    "native_coin_id": "lisk",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/142/thumb/tonblockchain.jpeg?1706606805",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/142/small/tonblockchain.jpeg?1706606805",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/142/large/tonblockchain.jpeg?1706606805"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/283/thumb/lisk.jpg?1737344039",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/283/small/lisk.jpg?1737344039",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/283/large/lisk.jpg?1737344039"
     }
   },
   {
@@ -496,15 +496,15 @@
     }
   },
   {
-    "id": "saga",
-    "chain_identifier": null,
-    "name": "Saga",
-    "shortname": "",
-    "native_coin_id": "saga-2",
+    "id": "sx-network",
+    "chain_identifier": 416,
+    "name": "SX Network",
+    "shortname": "sxn",
+    "native_coin_id": "sx-network-2",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/234/thumb/saga.jpeg?1712891811",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/234/small/saga.jpeg?1712891811",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/234/large/saga.jpeg?1712891811"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/80/thumb/yIxICJL7_400x400.jpeg?1706606514",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/80/small/yIxICJL7_400x400.jpeg?1706606514",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/80/large/yIxICJL7_400x400.jpeg?1706606514"
     }
   },
   {
@@ -544,15 +544,39 @@
     }
   },
   {
-    "id": "rootstock",
-    "chain_identifier": 30,
-    "name": "Rootstock RSK",
+    "id": "haven1",
+    "chain_identifier": 8811,
+    "name": "Haven1",
     "shortname": "",
-    "native_coin_id": "rootstock",
+    "native_coin_id": "haven1",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/5070/thumb/Rootstock_RSK.jpg?1724842928",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/5070/small/Rootstock_RSK.jpg?1724842928",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/5070/large/Rootstock_RSK.jpg?1724842928"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22229/thumb/haven1-token-round_2x.png?1746697611",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22229/small/haven1-token-round_2x.png?1746697611",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22229/large/haven1-token-round_2x.png?1746697611"
+    }
+  },
+  {
+    "id": "titanchain",
+    "chain_identifier": 18888,
+    "name": "Titanchain",
+    "shortname": "",
+    "native_coin_id": "tokenize-xchange",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22199/thumb/Logo-symbol-color.png?1736237334",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22199/small/Logo-symbol-color.png?1736237334",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22199/large/Logo-symbol-color.png?1736237334"
+    }
+  },
+  {
+    "id": "alephium",
+    "chain_identifier": null,
+    "name": "Alephium",
+    "shortname": "",
+    "native_coin_id": "alephium",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/146/thumb/alephium.jpeg?1706606715",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/146/small/alephium.jpeg?1706606715",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/146/large/alephium.jpeg?1706606715"
     }
   },
   {
@@ -565,18 +589,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/263/thumb/OmniaVerse.png?1716209921",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/263/small/OmniaVerse.png?1716209921",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/263/large/OmniaVerse.png?1716209921"
-    }
-  },
-  {
-    "id": "algorand",
-    "chain_identifier": null,
-    "name": "Algorand",
-    "shortname": "",
-    "native_coin_id": "algorand",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/3/thumb/algorand_logo_mark_black.png?1706606710",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/3/small/algorand_logo_mark_black.png?1706606710",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/3/large/algorand_logo_mark_black.png?1706606710"
     }
   },
   {
@@ -628,18 +640,6 @@
     }
   },
   {
-    "id": "alephium",
-    "chain_identifier": null,
-    "name": "Alephium",
-    "shortname": "",
-    "native_coin_id": "alephium",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/146/thumb/alephium.jpeg?1706606715",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/146/small/alephium.jpeg?1706606715",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/146/large/alephium.jpeg?1706606715"
-    }
-  },
-  {
     "id": "assetmantle",
     "chain_identifier": null,
     "name": "AssetMantle",
@@ -676,18 +676,6 @@
     }
   },
   {
-    "id": "rari",
-    "chain_identifier": 1380012617,
-    "name": "Rari",
-    "shortname": "",
-    "native_coin_id": "weth",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/286/thumb/rari.png?1722501053",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/286/small/rari.png?1722501053",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/286/large/rari.png?1722501053"
-    }
-  },
-  {
     "id": "neon-evm",
     "chain_identifier": 245022934,
     "name": "Neon EVM",
@@ -700,15 +688,15 @@
     }
   },
   {
-    "id": "degen",
-    "chain_identifier": 666666666,
-    "name": "Degen",
+    "id": "genesys-network",
+    "chain_identifier": 16507,
+    "name": "Genesys Network",
     "shortname": "",
-    "native_coin_id": "degen-base",
+    "native_coin_id": "genesys",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/209/thumb/degen.jpeg?1711946732",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/209/small/degen.jpeg?1711946732",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/209/large/degen.jpeg?1711946732"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/177/thumb/genesys.png?1706680778",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/177/small/genesys.png?1706680778",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/177/large/genesys.png?1706680778"
     }
   },
   {
@@ -724,15 +712,15 @@
     }
   },
   {
-    "id": "mint",
-    "chain_identifier": 185,
-    "name": "Mint",
+    "id": "provenance",
+    "chain_identifier": null,
+    "name": "Provenance",
     "shortname": "",
-    "native_coin_id": "weth",
+    "native_coin_id": "hash-2",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/293/thumb/mint.jpg?1724895620",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/293/small/mint.jpg?1724895620",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/293/large/mint.jpg?1724895620"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/32236/thumb/provenance_blockchain.png?1749530481",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/32236/small/provenance_blockchain.png?1749530481",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/32236/large/provenance_blockchain.png?1749530481"
     }
   },
   {
@@ -748,18 +736,6 @@
     }
   },
   {
-    "id": "xai",
-    "chain_identifier": 660279,
-    "name": "XAI",
-    "shortname": "",
-    "native_coin_id": "xai-blockchain",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/189/thumb/xai.png?1708573604",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/189/small/xai.png?1708573604",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/189/large/xai.png?1708573604"
-    }
-  },
-  {
     "id": "tezos",
     "chain_identifier": null,
     "name": "Tezos",
@@ -768,15 +744,15 @@
     "image": { "thumb": null, "small": null, "large": null }
   },
   {
-    "id": "harmony-shard-0",
-    "chain_identifier": 1666600000,
-    "name": "Harmony Shard 0",
-    "shortname": "Harmony Shard 0",
-    "native_coin_id": "harmony",
+    "id": "zero-network",
+    "chain_identifier": null,
+    "name": "Zero Network",
+    "shortname": "",
+    "native_coin_id": "ethereum",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/20/thumb/harmony.jpg?1724898618",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/20/small/harmony.jpg?1724898618",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/20/large/harmony.jpg?1724898618"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22217/thumb/zero.jpg?1744084632",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22217/small/zero.jpg?1744084632",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22217/large/zero.jpg?1744084632"
     }
   },
   {
@@ -792,15 +768,27 @@
     }
   },
   {
-    "id": "stargaze",
-    "chain_identifier": null,
-    "name": "Stargaze",
+    "id": "xai",
+    "chain_identifier": 660279,
+    "name": "XAI",
     "shortname": "",
-    "native_coin_id": "stargaze",
+    "native_coin_id": "xai-blockchain",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/174/thumb/stargaze.jpeg?1706606807",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/174/small/stargaze.jpeg?1706606807",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/174/large/stargaze.jpeg?1706606807"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/189/thumb/xai.png?1708573604",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/189/small/xai.png?1708573604",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/189/large/xai.png?1708573604"
+    }
+  },
+  {
+    "id": "rari",
+    "chain_identifier": 1380012617,
+    "name": "Rari",
+    "shortname": "",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/286/thumb/rari.png?1722501053",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/286/small/rari.png?1722501053",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/286/large/rari.png?1722501053"
     }
   },
   {
@@ -820,27 +808,27 @@
     "image": { "thumb": null, "small": null, "large": null }
   },
   {
-    "id": "bahamut",
-    "chain_identifier": 5165,
-    "name": "Bahamut",
+    "id": "unichain",
+    "chain_identifier": 130,
+    "name": "Unichain",
     "shortname": "",
-    "native_coin_id": "fasttoken",
+    "native_coin_id": "ethereum",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/256/thumb/bahamut.jpeg?1715338015",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/256/small/bahamut.jpeg?1715338015",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/256/large/bahamut.jpeg?1715338015"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22206/thumb/unichain.png?1739323630",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22206/small/unichain.png?1739323630",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22206/large/unichain.png?1739323630"
     }
   },
   {
-    "id": "starknet",
-    "chain_identifier": null,
-    "name": "StarkNet",
-    "shortname": "",
-    "native_coin_id": "starknet",
+    "id": "harmony-shard-0",
+    "chain_identifier": 1666600000,
+    "name": "Harmony Shard 0",
+    "shortname": "Harmony Shard 0",
+    "native_coin_id": "harmony",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/151/thumb/starknet.png?1706606812",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/151/small/starknet.png?1706606812",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/151/large/starknet.png?1706606812"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/20/thumb/harmony.jpg?1724898618",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/20/small/harmony.jpg?1724898618",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/20/large/harmony.jpg?1724898618"
     }
   },
   {
@@ -1056,6 +1044,30 @@
     }
   },
   {
+    "id": "corn",
+    "chain_identifier": 21000000,
+    "name": "Corn",
+    "shortname": "",
+    "native_coin_id": "bitcorn-3",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22209/thumb/corn.jpg?1740129684",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22209/small/corn.jpg?1740129684",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22209/large/corn.jpg?1740129684"
+    }
+  },
+  {
+    "id": "solana",
+    "chain_identifier": null,
+    "name": "Solana",
+    "shortname": "Solana",
+    "native_coin_id": "solana",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/5/thumb/solana.png?1706606708",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/5/small/solana.png?1706606708",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/5/large/solana.png?1706606708"
+    }
+  },
+  {
     "id": "drc-20",
     "chain_identifier": null,
     "name": "DRC-20",
@@ -1065,18 +1077,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/169/thumb/drc20.png?1706606826",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/169/small/drc20.png?1706606826",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/169/large/drc20.png?1706606826"
-    }
-  },
-  {
-    "id": "berachain",
-    "chain_identifier": null,
-    "name": "Berachain",
-    "shortname": "",
-    "native_coin_id": "berachain-bera",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/176/thumb/berachain.jpeg?1706606828",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/176/small/berachain.jpeg?1706606828",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/176/large/berachain.jpeg?1706606828"
     }
   },
   {
@@ -1092,27 +1092,27 @@
     }
   },
   {
-    "id": "shiden network",
-    "chain_identifier": 336,
-    "name": "Shiden Network",
+    "id": "zircuit",
+    "chain_identifier": 48900,
+    "name": "Zircuit",
     "shortname": "",
-    "native_coin_id": "shiden",
+    "native_coin_id": "weth",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/65/thumb/tFOtjrr3_400x400.jpeg?1706606564",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/65/small/tFOtjrr3_400x400.jpeg?1706606564",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/65/large/tFOtjrr3_400x400.jpeg?1706606564"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/287/thumb/zircuit.png?1722845779",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/287/small/zircuit.png?1722845779",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/287/large/zircuit.png?1722845779"
     }
   },
   {
-    "id": "syscoin",
-    "chain_identifier": 57,
-    "name": "Syscoin NEVM",
-    "shortname": "syscoin",
-    "native_coin_id": "syscoin",
+    "id": "stellar",
+    "chain_identifier": null,
+    "name": "Stellar",
+    "shortname": "",
+    "native_coin_id": "stellar",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/63/thumb/xDiIFaKO_400x400.jpg?1706606573",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/63/small/xDiIFaKO_400x400.jpg?1706606573",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/63/large/xDiIFaKO_400x400.jpg?1706606573"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/100/thumb/stellar.jpeg?1708492494",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/100/small/stellar.jpeg?1708492494",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/100/large/stellar.jpeg?1708492494"
     }
   },
   {
@@ -1170,18 +1170,6 @@
     "shortname": "",
     "native_coin_id": "chromaway",
     "image": { "thumb": null, "small": null, "large": null }
-  },
-  {
-    "id": "sx-network",
-    "chain_identifier": null,
-    "name": "SX Network",
-    "shortname": "sxn",
-    "native_coin_id": "sx-network",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/80/thumb/yIxICJL7_400x400.jpeg?1706606514",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/80/small/yIxICJL7_400x400.jpeg?1706606514",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/80/large/yIxICJL7_400x400.jpeg?1706606514"
-    }
   },
   {
     "id": "cube",
@@ -1276,18 +1264,6 @@
     }
   },
   {
-    "id": "cosmos",
-    "chain_identifier": null,
-    "name": "Cosmos",
-    "shortname": "",
-    "native_coin_id": "cosmos",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/1481/thumb/cosmos.png?1706606771",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/1481/small/cosmos.png?1706606771",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/1481/large/cosmos.png?1706606771"
-    }
-  },
-  {
     "id": "hypra-network",
     "chain_identifier": 622277,
     "name": "Hypra Network",
@@ -1340,15 +1316,15 @@
     "image": { "thumb": null, "small": null, "large": null }
   },
   {
-    "id": "stellar",
-    "chain_identifier": null,
-    "name": "Stellar",
+    "id": "rss3-vsl",
+    "chain_identifier": 12553,
+    "name": "RSS3 VSL",
     "shortname": "",
-    "native_coin_id": "stellar",
+    "native_coin_id": "rss3",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/100/thumb/stellar.jpeg?1708492494",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/100/small/stellar.jpeg?1708492494",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/100/large/stellar.jpeg?1708492494"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/235/thumb/rss3_vsl.jpg?1733384918",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/235/small/rss3_vsl.jpg?1733384918",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/235/large/rss3_vsl.jpg?1733384918"
     }
   },
   {
@@ -1376,15 +1352,15 @@
     }
   },
   {
-    "id": "re-al",
-    "chain_identifier": 111188,
-    "name": "Re.al",
+    "id": "mantra",
+    "chain_identifier": null,
+    "name": "Mantra",
     "shortname": "",
-    "native_coin_id": "weth",
+    "native_coin_id": "mantra-dao",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/264/thumb/re.al.jpeg?1717754295",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/264/small/re.al.jpeg?1717754295",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/264/large/re.al.jpeg?1717754295"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22201/thumb/mantra.jpg?1739418544",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22201/small/mantra.jpg?1739418544",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22201/large/mantra.jpg?1739418544"
     }
   },
   {
@@ -1400,30 +1376,6 @@
     }
   },
   {
-    "id": "osmosis",
-    "chain_identifier": null,
-    "name": "Osmosis",
-    "shortname": "Osmo",
-    "native_coin_id": "osmosis",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/25/thumb/osmosis-osmo-logo.png?1708335599",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/25/small/osmosis-osmo-logo.png?1708335599",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/25/large/osmosis-osmo-logo.png?1708335599"
-    }
-  },
-  {
-    "id": "ancient8",
-    "chain_identifier": 888888888,
-    "name": "Ancient8",
-    "shortname": "",
-    "native_coin_id": "weth",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/259/thumb/ancient8.jpeg?1715926598",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/259/small/ancient8.jpeg?1715926598",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/259/large/ancient8.jpeg?1715926598"
-    }
-  },
-  {
     "id": "akash",
     "chain_identifier": null,
     "name": "Akash",
@@ -1436,15 +1388,15 @@
     }
   },
   {
-    "id": "gravity-alpha",
-    "chain_identifier": 1625,
-    "name": "Gravity Alpha",
-    "shortname": "gravity-alpha",
-    "native_coin_id": "g-token",
+    "id": "vanar-chain",
+    "chain_identifier": 2040,
+    "name": "Vanar Chain",
+    "shortname": "",
+    "native_coin_id": "vanar-chain",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/290/thumb/Gravity_Logo_Icon_Black.png?1724722766",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/290/small/Gravity_Logo_Icon_Black.png?1724722766",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/290/large/Gravity_Logo_Icon_Black.png?1724722766"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/269/thumb/vanar.jpeg?1717500553",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/269/small/vanar.jpeg?1717500553",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/269/large/vanar.jpeg?1717500553"
     }
   },
   {
@@ -1520,15 +1472,27 @@
     }
   },
   {
-    "id": "immutable",
-    "chain_identifier": 13371,
-    "name": "Immutable zkEVM",
+    "id": "flow",
+    "chain_identifier": null,
+    "name": "Flow",
     "shortname": "",
-    "native_coin_id": "immutable-x",
+    "native_coin_id": "flow",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/159/thumb/immutable.jpeg?1706606759",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/159/small/immutable.jpeg?1706606759",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/159/large/immutable.jpeg?1706606759"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/152/thumb/flow.jpeg?1706606393",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/152/small/flow.jpeg?1706606393",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/152/large/flow.jpeg?1706606393"
+    }
+  },
+  {
+    "id": "ancient8",
+    "chain_identifier": 888888888,
+    "name": "Ancient8",
+    "shortname": "",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/259/thumb/ancient8.jpeg?1715926598",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/259/small/ancient8.jpeg?1715926598",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/259/large/ancient8.jpeg?1715926598"
     }
   },
   {
@@ -1556,18 +1520,6 @@
     }
   },
   {
-    "id": "zora-network",
-    "chain_identifier": 7777777,
-    "name": "Zora",
-    "shortname": "",
-    "native_coin_id": "weth",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/196/thumb/zora.jpeg?1709871117",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/196/small/zora.jpeg?1709871117",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/196/large/zora.jpeg?1709871117"
-    }
-  },
-  {
     "id": "merlin-chain",
     "chain_identifier": 4200,
     "name": "Merlin Chain",
@@ -1580,6 +1532,18 @@
     }
   },
   {
+    "id": "zora-network",
+    "chain_identifier": 7777777,
+    "name": "Zora",
+    "shortname": "",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/196/thumb/zora.jpeg?1709871117",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/196/small/zora.jpeg?1709871117",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/196/large/zora.jpeg?1709871117"
+    }
+  },
+  {
     "id": "injective",
     "chain_identifier": null,
     "name": "Injective",
@@ -1589,18 +1553,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/134/thumb/injective.jpeg?1706606600",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/134/small/injective.jpeg?1706606600",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/134/large/injective.jpeg?1706606600"
-    }
-  },
-  {
-    "id": "binance-smart-chain",
-    "chain_identifier": 56,
-    "name": "BNB Smart Chain",
-    "shortname": "BSC",
-    "native_coin_id": "binancecoin",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/1/thumb/bnb_smart_chain.png?1706606721",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/1/small/bnb_smart_chain.png?1706606721",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/1/large/bnb_smart_chain.png?1706606721"
     }
   },
   {
@@ -1648,18 +1600,6 @@
     "image": { "thumb": null, "small": null, "large": null }
   },
   {
-    "id": "solana",
-    "chain_identifier": null,
-    "name": "Solana",
-    "shortname": "Solana",
-    "native_coin_id": "solana",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/5/thumb/solana.png?1706606708",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/5/small/solana.png?1706606708",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/5/large/solana.png?1706606708"
-    }
-  },
-  {
     "id": "cyber",
     "chain_identifier": 7560,
     "name": "Cyber",
@@ -1681,6 +1621,18 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/58/thumb/Oasis_Emerald.jpg?1724842810",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/58/small/Oasis_Emerald.jpg?1724842810",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/58/large/Oasis_Emerald.jpg?1724842810"
+    }
+  },
+  {
+    "id": "funki",
+    "chain_identifier": 33979,
+    "name": "Funki",
+    "shortname": "",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22204/thumb/funki.jpg?1738923402",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22204/small/funki.jpg?1738923402",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22204/large/funki.jpg?1738923402"
     }
   },
   {
@@ -1728,6 +1680,18 @@
     }
   },
   {
+    "id": "abstract",
+    "chain_identifier": 2741,
+    "name": "Abstract",
+    "shortname": "",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22196/thumb/abstract.jpg?1735611808",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22196/small/abstract.jpg?1735611808",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22196/large/abstract.jpg?1735611808"
+    }
+  },
+  {
     "id": "ordinals",
     "chain_identifier": null,
     "name": "Bitcoin",
@@ -1752,15 +1716,15 @@
     }
   },
   {
-    "id": "elrond",
-    "chain_identifier": null,
-    "name": "MultiversX",
-    "shortname": "elrond",
-    "native_coin_id": "elrond-erd-2",
+    "id": "parex-network",
+    "chain_identifier": 322202,
+    "name": "Parex Network",
+    "shortname": "",
+    "native_coin_id": "parex",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/50/thumb/multiverse.jpeg?1711356002",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/50/small/multiverse.jpeg?1711356002",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/50/large/multiverse.jpeg?1711356002"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22195/thumb/parex.jpg?1734922976",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22195/small/parex.jpg?1734922976",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22195/large/parex.jpg?1734922976"
     }
   },
   {
@@ -1800,15 +1764,15 @@
     }
   },
   {
-    "id": "mantle",
-    "chain_identifier": 5000,
-    "name": "Mantle",
+    "id": "movement",
+    "chain_identifier": null,
+    "name": "Movement",
     "shortname": "",
-    "native_coin_id": "mantle",
+    "native_coin_id": "movement",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/140/thumb/mantle.jpeg?1706606701",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/140/small/mantle.jpeg?1706606701",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/140/large/mantle.jpeg?1706606701"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/32234/thumb/movement.jpg?1748918830",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/32234/small/movement.jpg?1748918830",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/32234/large/movement.jpg?1748918830"
     }
   },
   {
@@ -1896,6 +1860,18 @@
     }
   },
   {
+    "id": "elrond",
+    "chain_identifier": null,
+    "name": "MultiversX",
+    "shortname": "elrond",
+    "native_coin_id": "elrond-erd-2",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/50/thumb/multiverse.jpeg?1711356002",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/50/small/multiverse.jpeg?1711356002",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/50/large/multiverse.jpeg?1711356002"
+    }
+  },
+  {
     "id": "furya",
     "chain_identifier": null,
     "name": "Furya",
@@ -1920,15 +1896,15 @@
     }
   },
   {
-    "id": "planq-network",
-    "chain_identifier": 7070,
-    "name": "Planq Network",
+    "id": "mode",
+    "chain_identifier": 34443,
+    "name": "Mode",
     "shortname": "",
-    "native_coin_id": "planq",
+    "native_coin_id": "mode",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/275/thumb/planq.jpeg?1717991052",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/275/small/planq.jpeg?1717991052",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/275/large/planq.jpeg?1717991052"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/191/thumb/mode.jpeg?1708666179",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/191/small/mode.jpeg?1708666179",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/191/large/mode.jpeg?1708666179"
     }
   },
   {
@@ -1980,39 +1956,39 @@
     }
   },
   {
-    "id": "rss3-vsl",
-    "chain_identifier": null,
-    "name": " RSS3 VSL",
-    "shortname": "",
-    "native_coin_id": "rss3",
+    "id": "ethereum",
+    "chain_identifier": 1,
+    "name": "Ethereum",
+    "shortname": "Ethereum",
+    "native_coin_id": "ethereum",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/235/thumb/rss3.jpeg?1713000882",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/235/small/rss3.jpeg?1713000882",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/235/large/rss3.jpeg?1713000882"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/279/thumb/ethereum.png?1706606803",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/279/small/ethereum.png?1706606803",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/279/large/ethereum.png?1706606803"
     }
   },
   {
-    "id": "sui",
-    "chain_identifier": null,
-    "name": "Sui",
+    "id": "rollux",
+    "chain_identifier": 570,
+    "name": "Rollux",
     "shortname": "",
-    "native_coin_id": "sui",
+    "native_coin_id": "syscoin",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/126/thumb/sui-ocean-square.png?1727791325",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/126/small/sui-ocean-square.png?1727791325",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/126/large/sui-ocean-square.png?1727791325"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/136/thumb/logo_rollux_%281%29.png?1706606481",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/136/small/logo_rollux_%281%29.png?1706606481",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/136/large/logo_rollux_%281%29.png?1706606481"
     }
   },
   {
-    "id": "canto",
-    "chain_identifier": 7700,
-    "name": "Canto",
+    "id": "axelar",
+    "chain_identifier": null,
+    "name": "Axelar",
     "shortname": "",
-    "native_coin_id": "canto",
+    "native_coin_id": "axelar",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/92/thumb/canto-network.png?1706606584",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/92/small/canto-network.png?1706606584",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/92/large/canto-network.png?1706606584"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22177/thumb/axelar.webp?1727842598",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22177/small/axelar.webp?1727842598",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22177/large/axelar.webp?1727842598"
     }
   },
   {
@@ -2088,18 +2064,6 @@
     }
   },
   {
-    "id": "arbitrum-one",
-    "chain_identifier": 42161,
-    "name": "Arbitrum One",
-    "shortname": "Arbitrum",
-    "native_coin_id": "ethereum",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/33/thumb/AO_logomark.png?1706606717",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/33/small/AO_logomark.png?1706606717",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/33/large/AO_logomark.png?1706606717"
-    }
-  },
-  {
     "id": "ki-chain",
     "chain_identifier": null,
     "name": "Ki Chain",
@@ -2124,63 +2088,39 @@
     }
   },
   {
-    "id": "fantom",
-    "chain_identifier": 250,
-    "name": "Fantom",
-    "shortname": "",
-    "native_coin_id": "fantom",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/17/thumb/fantom.png?1706606773",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/17/small/fantom.png?1706606773",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/17/large/fantom.png?1706606773"
-    }
-  },
-  {
-    "id": "base",
-    "chain_identifier": 8453,
-    "name": "Base",
-    "shortname": "",
-    "native_coin_id": "ethereum",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/131/thumb/base-network.png?1720533039",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/131/small/base-network.png?1720533039",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/131/large/base-network.png?1720533039"
-    }
-  },
-  {
-    "id": "optimistic-ethereum",
-    "chain_identifier": 10,
-    "name": "Optimism",
-    "shortname": "Optimism",
-    "native_coin_id": "ethereum",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/41/thumb/optimism.png?1706606778",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/41/small/optimism.png?1706606778",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/41/large/optimism.png?1706606778"
-    }
-  },
-  {
-    "id": "linea",
-    "chain_identifier": 59144,
-    "name": "Linea",
-    "shortname": "",
-    "native_coin_id": "ethereum",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/135/thumb/linea.jpeg?1706606705",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/135/small/linea.jpeg?1706606705",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/135/large/linea.jpeg?1706606705"
-    }
-  },
-  {
-    "id": "scroll",
-    "chain_identifier": 534352,
-    "name": "Scroll",
+    "id": "astar-zkevm",
+    "chain_identifier": 3776,
+    "name": "Astar zkEVM",
     "shortname": "",
     "native_coin_id": "weth",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/153/thumb/scroll.jpeg?1706606782",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/153/small/scroll.jpeg?1706606782",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/153/large/scroll.jpeg?1706606782"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/198/thumb/astar.png?1710138207",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/198/small/astar.png?1710138207",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/198/large/astar.png?1710138207"
+    }
+  },
+  {
+    "id": "reactive-network",
+    "chain_identifier": 1597,
+    "name": "Reactive Network",
+    "shortname": "",
+    "native_coin_id": "reactive-network",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22231/thumb/Symbol_ColorBlack_H32.png?1747974794",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22231/small/Symbol_ColorBlack_H32.png?1747974794",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22231/large/Symbol_ColorBlack_H32.png?1747974794"
+    }
+  },
+  {
+    "id": "osmosis",
+    "chain_identifier": null,
+    "name": "Osmosis",
+    "shortname": "Osmo",
+    "native_coin_id": "osmosis",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/25/thumb/osmosis-osmo-logo.png?1708335599",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/25/small/osmosis-osmo-logo.png?1708335599",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/25/large/osmosis-osmo-logo.png?1708335599"
     }
   },
   {
@@ -2220,18 +2160,6 @@
     }
   },
   {
-    "id": "mode",
-    "chain_identifier": 34443,
-    "name": "Mode",
-    "shortname": "",
-    "native_coin_id": "mode",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/191/thumb/mode.jpeg?1708666179",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/191/small/mode.jpeg?1708666179",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/191/large/mode.jpeg?1708666179"
-    }
-  },
-  {
     "id": "aptos",
     "chain_identifier": null,
     "name": "Aptos",
@@ -2241,6 +2169,18 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/116/thumb/aptos_round.png?1706606789",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/116/small/aptos_round.png?1706606789",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/116/large/aptos_round.png?1706606789"
+    }
+  },
+  {
+    "id": "elysium",
+    "chain_identifier": 1339,
+    "name": "Elysium",
+    "shortname": "",
+    "native_coin_id": "lava",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/303/thumb/elysium.jpeg?1724915402",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/303/small/elysium.jpeg?1724915402",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/303/large/elysium.jpeg?1724915402"
     }
   },
   {
@@ -2277,6 +2217,30 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/213/thumb/cudos.jpeg?1711958110",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/213/small/cudos.jpeg?1711958110",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/213/large/cudos.jpeg?1711958110"
+    }
+  },
+  {
+    "id": "artela",
+    "chain_identifier": 11820,
+    "name": "Artela",
+    "shortname": "",
+    "native_coin_id": "artela-network",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22203/thumb/artela.jpg?1738914249",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22203/small/artela.jpg?1738914249",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22203/large/artela.jpg?1738914249"
+    }
+  },
+  {
+    "id": "shido",
+    "chain_identifier": 9008,
+    "name": "Shido",
+    "shortname": "",
+    "native_coin_id": "shido-2",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22202/thumb/shido.jpg?1738909286",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22202/small/shido.jpg?1738909286",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22202/large/shido.jpg?1738909286"
     }
   },
   {
@@ -2492,15 +2456,15 @@
     }
   },
   {
-    "id": "flow-evm",
-    "chain_identifier": 747,
-    "name": "Flow EVM",
+    "id": "swellchain",
+    "chain_identifier": 1923,
+    "name": "Swellchain",
     "shortname": "",
-    "native_coin_id": "flow",
+    "native_coin_id": "ethereum",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22173/thumb/flow.jpg?1727072603",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/22173/small/flow.jpg?1727072603",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/22173/large/flow.jpg?1727072603"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22197/thumb/swell.jpg?1735814687",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22197/small/swell.jpg?1735814687",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22197/large/swell.jpg?1735814687"
     }
   },
   {
@@ -2520,7 +2484,7 @@
     "chain_identifier": 766,
     "name": "QL1",
     "shortname": "",
-    "native_coin_id": "shiba-predator",
+    "native_coin_id": "wrapped-qom",
     "image": {
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22176/thumb/qom.png?1727689494",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22176/small/qom.png?1727689494",
@@ -2600,27 +2564,15 @@
     }
   },
   {
-    "id": "bsquared-network",
-    "chain_identifier": null,
-    "name": "BSquared Network",
+    "id": "fraxtal",
+    "chain_identifier": 252,
+    "name": "Fraxtal",
     "shortname": "",
-    "native_coin_id": "bitcoin",
+    "native_coin_id": "fraxtal",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/239/thumb/bsquared-network.jpeg?1713432732",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/239/small/bsquared-network.jpeg?1713432732",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/239/large/bsquared-network.jpeg?1713432732"
-    }
-  },
-  {
-    "id": "flow",
-    "chain_identifier": null,
-    "name": "Flow",
-    "shortname": "",
-    "native_coin_id": "flow",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/152/thumb/flow.jpeg?1706606393",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/152/small/flow.jpeg?1706606393",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/152/large/flow.jpeg?1706606393"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/193/thumb/fraxtal.jpeg?1709564289",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/193/small/fraxtal.jpeg?1709564289",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/193/large/fraxtal.jpeg?1709564289"
     }
   },
   {
@@ -2633,18 +2585,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/105/thumb/KADENA.jpg?1712302262",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/105/small/KADENA.jpg?1712302262",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/105/large/KADENA.jpg?1712302262"
-    }
-  },
-  {
-    "id": "massa",
-    "chain_identifier": null,
-    "name": "Massa",
-    "shortname": "",
-    "native_coin_id": "massa",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/241/thumb/massa.jpeg?1713847307",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/241/small/massa.jpeg?1713847307",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/241/large/massa.jpeg?1713847307"
     }
   },
   {
@@ -2669,18 +2609,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/199/thumb/lukso.jpeg?1710834078",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/199/small/lukso.jpeg?1710834078",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/199/large/lukso.jpeg?1710834078"
-    }
-  },
-  {
-    "id": "bevm",
-    "chain_identifier": 11501,
-    "name": "BEVM",
-    "shortname": "",
-    "native_coin_id": "bitcoin",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/245/thumb/bevm.jpeg?1713945524",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/245/small/bevm.jpeg?1713945524",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/245/large/bevm.jpeg?1713945524"
     }
   },
   {
@@ -2716,18 +2644,6 @@
     }
   },
   {
-    "id": "polkadot",
-    "chain_identifier": null,
-    "name": "Polkadot",
-    "shortname": "",
-    "native_coin_id": "polkadot",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/12171/thumb/polkadot.jpeg?1706606400",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/12171/small/polkadot.jpeg?1706606400",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/12171/large/polkadot.jpeg?1706606400"
-    }
-  },
-  {
     "id": "blast",
     "chain_identifier": 81457,
     "name": "Blast",
@@ -2752,27 +2668,27 @@
     }
   },
   {
-    "id": "cronos",
-    "chain_identifier": 25,
-    "name": "Cronos",
-    "shortname": "CRO",
-    "native_coin_id": "crypto-com-chain",
+    "id": "laikachain",
+    "chain_identifier": 6942,
+    "name": "Laika",
+    "shortname": "",
+    "native_coin_id": "laikachain",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/46/thumb/cronos.jpeg?1706606792",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/46/small/cronos.jpeg?1706606792",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/46/large/cronos.jpeg?1706606792"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22187/thumb/laika_chain.jpg?1731895152",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22187/small/laika_chain.jpg?1731895152",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22187/large/laika_chain.jpg?1731895152"
     }
   },
   {
-    "id": "wax",
+    "id": "pundi-aifx-omnilayer",
     "chain_identifier": null,
-    "name": "WAX",
+    "name": "Pundi AIFX Omnilayer",
     "shortname": "",
-    "native_coin_id": "wax",
+    "native_coin_id": "pundi-aifx",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/254/thumb/wax.png?1715049433",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/254/small/wax.png?1715049433",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/254/large/wax.png?1715049433"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22211/thumb/pundiai.png?1740975669",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22211/small/pundiai.png?1740975669",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22211/large/pundiai.png?1740975669"
     }
   },
   {
@@ -2824,15 +2740,15 @@
     }
   },
   {
-    "id": "xrp",
+    "id": "the-open-network",
     "chain_identifier": null,
-    "name": "XRP Ledger",
-    "shortname": "xrp",
-    "native_coin_id": "ripple",
+    "name": "TON",
+    "shortname": "TON",
+    "native_coin_id": "the-open-network",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/36/thumb/xrp-logo.jpg?1706606750",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/36/small/xrp-logo.jpg?1706606750",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/36/large/xrp-logo.jpg?1706606750"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/142/thumb/tonblockchain.jpeg?1706606805",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/142/small/tonblockchain.jpeg?1706606805",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/142/large/tonblockchain.jpeg?1706606805"
     }
   },
   {
@@ -2908,18 +2824,6 @@
     }
   },
   {
-    "id": "lisk",
-    "chain_identifier": 1135,
-    "name": "Lisk",
-    "shortname": "lisk",
-    "native_coin_id": "lisk",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/283/thumb/lisk.webp?1720782445",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/283/small/lisk.webp?1720782445",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/283/large/lisk.webp?1720782445"
-    }
-  },
-  {
     "id": "astar",
     "chain_identifier": 592,
     "name": "Astar",
@@ -2968,18 +2872,6 @@
     }
   },
   {
-    "id": "xdc-network",
-    "chain_identifier": 50,
-    "name": "XDC Network",
-    "shortname": "xdc xinfin",
-    "native_coin_id": "xdce-crowd-sale",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/27/thumb/xdc_%281%29.png?1706606530",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/27/small/xdc_%281%29.png?1706606530",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/27/large/xdc_%281%29.png?1706606530"
-    }
-  },
-  {
     "id": "terra-2",
     "chain_identifier": null,
     "name": "Terra",
@@ -2992,15 +2884,15 @@
     }
   },
   {
-    "id": "bob-network",
-    "chain_identifier": null,
-    "name": "Bob Network",
+    "id": "soneium",
+    "chain_identifier": 1868,
+    "name": "Soneium",
     "shortname": "",
-    "native_coin_id": "weth",
+    "native_coin_id": "ethereum",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/255/thumb/bob.jpeg?1715229826",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/255/small/bob.jpeg?1715229826",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/255/large/bob.jpeg?1715229826"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22200/thumb/soneium-removebg-preview.png?1737099934",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22200/small/soneium-removebg-preview.png?1737099934",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22200/large/soneium-removebg-preview.png?1737099934"
     }
   },
   {
@@ -3136,15 +3028,15 @@
     }
   },
   {
-    "id": "hydra",
-    "chain_identifier": null,
-    "name": "Hydra",
+    "id": "iota-evm",
+    "chain_identifier": 8822,
+    "name": "Iota EVM",
     "shortname": "",
-    "native_coin_id": "hydra",
+    "native_coin_id": "iota",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/85/thumb/hydra.jpeg?1706606737",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/85/small/hydra.jpeg?1706606737",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/85/large/hydra.jpeg?1706606737"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/276/thumb/iota_logo_black_symbol_only.png?1718858198",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/276/small/iota_logo_black_symbol_only.png?1718858198",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/276/large/iota_logo_black_symbol_only.png?1718858198"
     }
   },
   {
@@ -3168,27 +3060,39 @@
     }
   },
   {
-    "id": "saakuru",
-    "chain_identifier": 7225878,
-    "name": "Saakuru",
+    "id": "hydra",
+    "chain_identifier": null,
+    "name": "Hydra",
     "shortname": "",
-    "native_coin_id": "wrapped-oasys",
+    "native_coin_id": "hydra",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/280/thumb/saakuru.jpg?1719803308",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/280/small/saakuru.jpg?1719803308",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/280/large/saakuru.jpg?1719803308"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/85/thumb/hydra.jpeg?1706606737",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/85/small/hydra.jpeg?1706606737",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/85/large/hydra.jpeg?1706606737"
     }
   },
   {
-    "id": "hyperliquid",
-    "chain_identifier": null,
-    "name": "Hyperliquid",
+    "id": "saga",
+    "chain_identifier": 5464,
+    "name": "Saga",
     "shortname": "",
-    "native_coin_id": "usd-coin",
+    "native_coin_id": "saga-2",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/243/thumb/hyperliquid.png?1713924434",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/243/small/hyperliquid.png?1713924434",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/243/large/hyperliquid.png?1713924434"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/234/thumb/saga.jpg?1742379426",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/234/small/saga.jpg?1742379426",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/234/large/saga.jpg?1742379426"
+    }
+  },
+  {
+    "id": "immutable",
+    "chain_identifier": 13371,
+    "name": "Immutable zkEVM",
+    "shortname": "",
+    "native_coin_id": "immutable-x",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/159/thumb/immutable.jpeg?1706606759",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/159/small/immutable.jpeg?1706606759",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/159/large/immutable.jpeg?1706606759"
     }
   },
   {
@@ -3204,30 +3108,6 @@
     }
   },
   {
-    "id": "vanar-chain",
-    "chain_identifier": 2040,
-    "name": "Vanar Chain",
-    "shortname": "",
-    "native_coin_id": "vanar-chain",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/269/thumb/vanar.jpeg?1717500553",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/269/small/vanar.jpeg?1717500553",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/269/large/vanar.jpeg?1717500553"
-    }
-  },
-  {
-    "id": "iota-evm",
-    "chain_identifier": 8822,
-    "name": "Iota EVM",
-    "shortname": "",
-    "native_coin_id": "iota",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/276/thumb/iota_logo_black_symbol_only.png?1718858198",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/276/small/iota_logo_black_symbol_only.png?1718858198",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/276/large/iota_logo_black_symbol_only.png?1718858198"
-    }
-  },
-  {
     "id": "nahmii",
     "chain_identifier": 4061,
     "name": "Nahmii",
@@ -3237,6 +3117,18 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/270/thumb/nahmii.jpeg?1717568564",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/270/small/nahmii.jpeg?1717568564",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/270/large/nahmii.jpeg?1717568564"
+    }
+  },
+  {
+    "id": "hela",
+    "chain_identifier": 8668,
+    "name": "Hela",
+    "shortname": "",
+    "native_coin_id": "hela-usd",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22205/thumb/hlusd.jpg?1739178811",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22205/small/hlusd.jpg?1739178811",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22205/large/hlusd.jpg?1739178811"
     }
   },
   {
@@ -3276,18 +3168,6 @@
     }
   },
   {
-    "id": "astar-zkevm",
-    "chain_identifier": 3776,
-    "name": "Astar zkEVM",
-    "shortname": "",
-    "native_coin_id": "weth",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/198/thumb/astar.png?1710138207",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/198/small/astar.png?1710138207",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/198/large/astar.png?1710138207"
-    }
-  },
-  {
     "id": "oasys",
     "chain_identifier": 248,
     "name": "Oasys",
@@ -3324,15 +3204,15 @@
     }
   },
   {
-    "id": "genesys-network",
-    "chain_identifier": 16507,
-    "name": "Genesys Network",
+    "id": "sui",
+    "chain_identifier": null,
+    "name": "Sui",
     "shortname": "",
-    "native_coin_id": "genesys",
+    "native_coin_id": "sui",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/177/thumb/genesys.png?1706680778",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/177/small/genesys.png?1706680778",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/177/large/genesys.png?1706680778"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/126/thumb/sui-ocean-square.png?1727791325",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/126/small/sui-ocean-square.png?1727791325",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/126/large/sui-ocean-square.png?1727791325"
     }
   },
   {
@@ -3348,27 +3228,27 @@
     }
   },
   {
-    "id": "polygon-pos",
-    "chain_identifier": 137,
-    "name": "Polygon POS",
-    "shortname": "MATIC",
-    "native_coin_id": "matic-network",
+    "id": "berachain",
+    "chain_identifier": 80094,
+    "name": "Berachain",
+    "shortname": "",
+    "native_coin_id": "berachain-bera",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/15/thumb/polygon_pos.png?1706606645",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/15/small/polygon_pos.png?1706606645",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/15/large/polygon_pos.png?1706606645"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/176/thumb/berachain.jpeg?1706606828",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/176/small/berachain.jpeg?1706606828",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/176/large/berachain.jpeg?1706606828"
     }
   },
   {
-    "id": "avalanche",
-    "chain_identifier": 43114,
-    "name": "Avalanche",
-    "shortname": "AVAX",
-    "native_coin_id": "avalanche-2",
+    "id": "bittensor",
+    "chain_identifier": null,
+    "name": "Bittensor",
+    "shortname": "",
+    "native_coin_id": "bittensor",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/12/thumb/avalanche.png?1706606775",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/12/small/avalanche.png?1706606775",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/12/large/avalanche.png?1706606775"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/32235/thumb/Bittensor_%281%29.jpg?1749176116",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/32235/small/Bittensor_%281%29.jpg?1749176116",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/32235/large/Bittensor_%281%29.jpg?1749176116"
     }
   },
   {
@@ -3384,6 +3264,14 @@
     }
   },
   {
+    "id": "deepbrain-chain",
+    "chain_identifier": 19880818,
+    "name": "DeepBrain Chain",
+    "shortname": "",
+    "native_coin_id": "deepbrain-chain",
+    "image": { "thumb": null, "small": null, "large": null }
+  },
+  {
     "id": "moonriver",
     "chain_identifier": 1285,
     "name": "Moonriver",
@@ -3393,30 +3281,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/38/thumb/moonriver.jpg?1725875159",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/38/small/moonriver.jpg?1725875159",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/38/large/moonriver.jpg?1725875159"
-    }
-  },
-  {
-    "id": "sanko",
-    "chain_identifier": 1996,
-    "name": "Sanko",
-    "shortname": "",
-    "native_coin_id": "dream-machine-token",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/262/thumb/dmt.png?1717607022",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/262/small/dmt.png?1717607022",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/262/large/dmt.png?1717607022"
-    }
-  },
-  {
-    "id": "zircuit",
-    "chain_identifier": 48900,
-    "name": "Zircuit",
-    "shortname": "",
-    "native_coin_id": "weth",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/287/thumb/zircuit.png?1722845779",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/287/small/zircuit.png?1722845779",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/287/large/zircuit.png?1722845779"
     }
   },
   {
@@ -3432,15 +3296,15 @@
     }
   },
   {
-    "id": "morph-l2",
-    "chain_identifier": 2818,
-    "name": "Morph L2",
+    "id": "sanko",
+    "chain_identifier": 1996,
+    "name": "Sanko",
     "shortname": "",
-    "native_coin_id": "weth",
+    "native_coin_id": "dream-machine-token",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22185/thumb/morph.jpg?1729659940",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/22185/small/morph.jpg?1729659940",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/22185/large/morph.jpg?1729659940"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/262/thumb/dmt.png?1717607022",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/262/small/dmt.png?1717607022",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/262/large/dmt.png?1717607022"
     }
   },
   {
@@ -3552,39 +3416,15 @@
     }
   },
   {
-    "id": "tomochain",
-    "chain_identifier": 88,
-    "name": "Viction",
+    "id": "icb-network",
+    "chain_identifier": 73115,
+    "name": "ICB Network",
     "shortname": "",
-    "native_coin_id": "tomochain",
+    "native_coin_id": "icb-network",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/3416/thumb/viction.jpg?1724843158",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/3416/small/viction.jpg?1724843158",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/3416/large/viction.jpg?1724843158"
-    }
-  },
-  {
-    "id": "world-chain",
-    "chain_identifier": 480,
-    "name": "World Chain",
-    "shortname": "",
-    "native_coin_id": "weth",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22180/thumb/Worldcoin-logomark-light.png?1728377966",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/22180/small/Worldcoin-logomark-light.png?1728377966",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/22180/large/Worldcoin-logomark-light.png?1728377966"
-    }
-  },
-  {
-    "id": "enuls",
-    "chain_identifier": 119,
-    "name": "ENULS",
-    "shortname": "",
-    "native_coin_id": "nuls",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/298/thumb/enuls.jpg?1724912998",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/298/small/enuls.jpg?1724912998",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/298/large/enuls.jpg?1724912998"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22210/thumb/icbx.jpg?1740645694",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22210/small/icbx.jpg?1740645694",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22210/large/icbx.jpg?1740645694"
     }
   },
   {
@@ -3600,15 +3440,27 @@
     }
   },
   {
-    "id": "moonbeam",
-    "chain_identifier": 1284,
-    "name": "Moonbeam",
+    "id": "tomochain",
+    "chain_identifier": 88,
+    "name": "Viction",
     "shortname": "",
-    "native_coin_id": "moonbeam",
+    "native_coin_id": "tomochain",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/56/thumb/cropped-Moonbeam-Favicon-550px.png?1706606533",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/56/small/cropped-Moonbeam-Favicon-550px.png?1706606533",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/56/large/cropped-Moonbeam-Favicon-550px.png?1706606533"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/3416/thumb/viction.jpg?1724843158",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/3416/small/viction.jpg?1724843158",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/3416/large/viction.jpg?1724843158"
+    }
+  },
+  {
+    "id": "hemi",
+    "chain_identifier": 43111,
+    "name": "Hemi",
+    "shortname": "",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22232/thumb/hemi.jpg?1748333319",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22232/small/hemi.jpg?1748333319",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22232/large/hemi.jpg?1748333319"
     }
   },
   {
@@ -3622,14 +3474,6 @@
       "small": "https://coin-images.coingecko.com/asset_platforms/images/299/small/moonchain.png?1724913384",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/299/large/moonchain.png?1724913384"
     }
-  },
-  {
-    "id": "taraxa",
-    "chain_identifier": 841,
-    "name": "Taraxa",
-    "shortname": "",
-    "native_coin_id": "taraxa",
-    "image": { "thumb": null, "small": null, "large": null }
   },
   {
     "id": "lung-chain",
@@ -3656,15 +3500,15 @@
     }
   },
   {
-    "id": "elysium",
-    "chain_identifier": 1339,
-    "name": "Elysium",
+    "id": "flow-evm",
+    "chain_identifier": 747,
+    "name": "Flow EVM",
     "shortname": "",
-    "native_coin_id": "lava",
+    "native_coin_id": "flow",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/303/thumb/elysium.jpeg?1724915402",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/303/small/elysium.jpeg?1724915402",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/303/large/elysium.jpeg?1724915402"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22173/thumb/flow.jpg?1727072603",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22173/small/flow.jpg?1727072603",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22173/large/flow.jpg?1727072603"
     }
   },
   {
@@ -3680,18 +3524,6 @@
     }
   },
   {
-    "id": "pulsechain",
-    "chain_identifier": 369,
-    "name": "Pulsechain",
-    "shortname": "",
-    "native_coin_id": "pulsechain",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/130/thumb/pulse.jpeg?1706606525",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/130/small/pulse.jpeg?1706606525",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/130/large/pulse.jpeg?1706606525"
-    }
-  },
-  {
     "id": "multivac",
     "chain_identifier": 62621,
     "name": "MultiVAC",
@@ -3701,6 +3533,18 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/307/thumb/multivac.jpeg?1724917227",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/307/small/multivac.jpeg?1724917227",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/307/large/multivac.jpeg?1724917227"
+    }
+  },
+  {
+    "id": "redbelly-network",
+    "chain_identifier": 151,
+    "name": "Redbelly Network",
+    "shortname": "",
+    "native_coin_id": "redbelly-network-token",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22212/thumb/redbelly.jpg?1741146062",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22212/small/redbelly.jpg?1741146062",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22212/large/redbelly.jpg?1741146062"
     }
   },
   {
@@ -3752,15 +3596,27 @@
     }
   },
   {
-    "id": "ethereum",
-    "chain_identifier": 1,
-    "name": "Ethereum",
-    "shortname": "Ethereum",
-    "native_coin_id": "ethereum",
+    "id": "taraxa",
+    "chain_identifier": 841,
+    "name": "Taraxa",
+    "shortname": "",
+    "native_coin_id": "taraxa",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/279/thumb/ethereum.png?1706606803",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/279/small/ethereum.png?1706606803",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/279/large/ethereum.png?1706606803"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22183/thumb/taraxa.jpg?1749459522",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22183/small/taraxa.jpg?1749459522",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22183/large/taraxa.jpg?1749459522"
+    }
+  },
+  {
+    "id": "scroll",
+    "chain_identifier": 534352,
+    "name": "Scroll",
+    "shortname": "",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/153/thumb/scroll.jpeg?1706606782",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/153/small/scroll.jpeg?1706606782",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/153/large/scroll.jpeg?1706606782"
     }
   },
   {
@@ -3776,15 +3632,15 @@
     }
   },
   {
-    "id": "zksync",
-    "chain_identifier": 324,
-    "name": "zkSync",
-    "shortname": "zkSync",
-    "native_coin_id": "ethereum",
+    "id": "shiden network",
+    "chain_identifier": 336,
+    "name": "Shiden Network",
+    "shortname": "",
+    "native_coin_id": "shiden",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/121/thumb/zksync.jpeg?1706606814",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/121/small/zksync.jpeg?1706606814",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/121/large/zksync.jpeg?1706606814"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/65/thumb/tFOtjrr3_400x400.jpeg?1706606564",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/65/small/tFOtjrr3_400x400.jpeg?1706606564",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/65/large/tFOtjrr3_400x400.jpeg?1706606564"
     }
   },
   {
@@ -3812,27 +3668,15 @@
     }
   },
   {
-    "id": "sei-network",
-    "chain_identifier": null,
-    "name": "Sei Network",
+    "id": "rootstock",
+    "chain_identifier": 30,
+    "name": "Rootstock RSK",
     "shortname": "",
-    "native_coin_id": "sei-network",
+    "native_coin_id": "rootstock",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/148/thumb/Sei_Logo_-_Transparent.png?1706606762",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/148/small/Sei_Logo_-_Transparent.png?1706606762",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/148/large/Sei_Logo_-_Transparent.png?1706606762"
-    }
-  },
-  {
-    "id": "axelar",
-    "chain_identifier": null,
-    "name": "Axelar",
-    "shortname": "",
-    "native_coin_id": "axelar",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22177/thumb/axelar.webp?1727842598",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/22177/small/axelar.webp?1727842598",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/22177/large/axelar.webp?1727842598"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/5070/thumb/Rootstock_RSK.jpg?1724842928",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/5070/small/Rootstock_RSK.jpg?1724842928",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/5070/large/Rootstock_RSK.jpg?1724842928"
     }
   },
   {
@@ -3872,27 +3716,299 @@
     }
   },
   {
-    "id": "klay-token",
-    "chain_identifier": 8217,
-    "name": "Kaia",
+    "id": "superseed",
+    "chain_identifier": 5330,
+    "name": "Superseed",
     "shortname": "",
-    "native_coin_id": "kaia",
+    "native_coin_id": "ethereum",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/9672/thumb/klatyn.png?1706606810",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/9672/small/klatyn.png?1706606810",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/9672/large/klatyn.png?1706606810"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22215/thumb/superseed.jpg?1743574896",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22215/small/superseed.jpg?1743574896",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22215/large/superseed.jpg?1743574896"
     }
   },
   {
-    "id": "sei-v2",
-    "chain_identifier": 1329,
-    "name": "Sei V2",
+    "id": "world-chain",
+    "chain_identifier": 480,
+    "name": "World Chain",
     "shortname": "",
-    "native_coin_id": "wrapped-sei",
+    "native_coin_id": "weth",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/273/thumb/sei.png?1717643675",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/273/small/sei.png?1717643675",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/273/large/sei.png?1717643675"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22180/thumb/Worldcoin-logomark-light.png?1728377966",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22180/small/Worldcoin-logomark-light.png?1728377966",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22180/large/Worldcoin-logomark-light.png?1728377966"
+    }
+  },
+  {
+    "id": "kroma",
+    "chain_identifier": 255,
+    "name": "Kroma",
+    "shortname": "",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22186/thumb/kroma.jpg?1730788629",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22186/small/kroma.jpg?1730788629",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22186/large/kroma.jpg?1730788629"
+    }
+  },
+  {
+    "id": "skale",
+    "chain_identifier": 2046399126,
+    "name": "Skale",
+    "shortname": "",
+    "native_coin_id": "skale",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/96/thumb/skale.png?1706606673",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/96/small/skale.png?1706606673",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/96/large/skale.png?1706606673"
+    }
+  },
+  {
+    "id": "bsquared-network",
+    "chain_identifier": null,
+    "name": "BSquared Network",
+    "shortname": "",
+    "native_coin_id": "bitcoin",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/239/thumb/bsquared-network.jpeg?1713432732",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/239/small/bsquared-network.jpeg?1713432732",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/239/large/bsquared-network.jpeg?1713432732"
+    }
+  },
+  {
+    "id": "polkadot",
+    "chain_identifier": null,
+    "name": "Polkadot",
+    "shortname": "",
+    "native_coin_id": "polkadot",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/12171/thumb/polkadot.jpeg?1706606400",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/12171/small/polkadot.jpeg?1706606400",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/12171/large/polkadot.jpeg?1706606400"
+    }
+  },
+  {
+    "id": "gravity-alpha",
+    "chain_identifier": 1625,
+    "name": "Gravity",
+    "shortname": "gravity-alpha",
+    "native_coin_id": "g-token",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/290/thumb/Gravity_Logo_Icon_Black.png?1724722766",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/290/small/Gravity_Logo_Icon_Black.png?1724722766",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/290/large/Gravity_Logo_Icon_Black.png?1724722766"
+    }
+  },
+  {
+    "id": "cosmos",
+    "chain_identifier": null,
+    "name": "Cosmos",
+    "shortname": "",
+    "native_coin_id": "cosmos",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/1481/thumb/cosmos.png?1706606771",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/1481/small/cosmos.png?1706606771",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/1481/large/cosmos.png?1706606771"
+    }
+  },
+  {
+    "id": "bob-network",
+    "chain_identifier": null,
+    "name": "Bob Network",
+    "shortname": "",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/255/thumb/bob.jpeg?1715229826",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/255/small/bob.jpeg?1715229826",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/255/large/bob.jpeg?1715229826"
+    }
+  },
+  {
+    "id": "starknet",
+    "chain_identifier": null,
+    "name": "StarkNet",
+    "shortname": "",
+    "native_coin_id": "starknet",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/151/thumb/starknet.png?1706606812",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/151/small/starknet.png?1706606812",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/151/large/starknet.png?1706606812"
+    }
+  },
+  {
+    "id": "zksync",
+    "chain_identifier": 324,
+    "name": "zkSync",
+    "shortname": "zkSync",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/121/thumb/zksync.jpeg?1706606814",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/121/small/zksync.jpeg?1706606814",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/121/large/zksync.jpeg?1706606814"
+    }
+  },
+  {
+    "id": "sophon",
+    "chain_identifier": 50104,
+    "name": "Sophon",
+    "shortname": "",
+    "native_coin_id": "sophon",
+    "image": { "thumb": null, "small": null, "large": null }
+  },
+  {
+    "id": "wax",
+    "chain_identifier": null,
+    "name": "WAX",
+    "shortname": "",
+    "native_coin_id": "wax",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/254/thumb/wax.png?1715049433",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/254/small/wax.png?1715049433",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/254/large/wax.png?1715049433"
+    }
+  },
+  {
+    "id": "binance-smart-chain",
+    "chain_identifier": 56,
+    "name": "BNB Smart Chain",
+    "shortname": "BSC",
+    "native_coin_id": "binancecoin",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/1/thumb/bnb_smart_chain.png?1706606721",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/1/small/bnb_smart_chain.png?1706606721",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/1/large/bnb_smart_chain.png?1706606721"
+    }
+  },
+  {
+    "id": "airdao",
+    "chain_identifier": 16718,
+    "name": "AirDAO",
+    "shortname": "",
+    "native_coin_id": "amber",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22191/thumb/airdao.jpg?1733465204",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22191/small/airdao.jpg?1733465204",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22191/large/airdao.jpg?1733465204"
+    }
+  },
+  {
+    "id": "syscoin",
+    "chain_identifier": 57,
+    "name": "Syscoin NEVM",
+    "shortname": "syscoin",
+    "native_coin_id": "syscoin",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/63/thumb/xDiIFaKO_400x400.jpg?1706606573",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/63/small/xDiIFaKO_400x400.jpg?1706606573",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/63/large/xDiIFaKO_400x400.jpg?1706606573"
+    }
+  },
+  {
+    "id": "vana",
+    "chain_identifier": 1480,
+    "name": "Vana",
+    "shortname": "",
+    "native_coin_id": "vana",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22198/thumb/vana.jpg?1735899932",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22198/small/vana.jpg?1735899932",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22198/large/vana.jpg?1735899932"
+    }
+  },
+  {
+    "id": "sonic",
+    "chain_identifier": 146,
+    "name": "Sonic",
+    "shortname": "sonic",
+    "native_coin_id": "sonic-3",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22192/thumb/128xS_token_Black-BG_2x.png?1735963719",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22192/small/128xS_token_Black-BG_2x.png?1735963719",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22192/large/128xS_token_Black-BG_2x.png?1735963719"
+    }
+  },
+  {
+    "id": "duckchain",
+    "chain_identifier": 5545,
+    "name": "DuckChain",
+    "shortname": "",
+    "native_coin_id": "the-open-network",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22190/thumb/duckchain.jpg?1733401377",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22190/small/duckchain.jpg?1733401377",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22190/large/duckchain.jpg?1733401377"
+    }
+  },
+  {
+    "id": "algorand",
+    "chain_identifier": null,
+    "name": "Algorand",
+    "shortname": "",
+    "native_coin_id": "algorand",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/3/thumb/algorand_logo_mark_black.png?1706606710",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/3/small/algorand_logo_mark_black.png?1706606710",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/3/large/algorand_logo_mark_black.png?1706606710"
+    }
+  },
+  {
+    "id": "sonic-svm",
+    "chain_identifier": null,
+    "name": "Sonic SVM",
+    "shortname": "",
+    "native_coin_id": "solana",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22222/thumb/sonic_svm.jpg?1744878399",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22222/small/sonic_svm.jpg?1744878399",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22222/large/sonic_svm.jpg?1744878399"
+    }
+  },
+  {
+    "id": "arbitrum-nova",
+    "chain_identifier": 42170,
+    "name": "Arbitrum Nova",
+    "shortname": "",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/93/thumb/AN_logomark.png?1706606703",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/93/small/AN_logomark.png?1706606703",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/93/large/AN_logomark.png?1706606703"
+    }
+  },
+  {
+    "id": "fantom",
+    "chain_identifier": 250,
+    "name": "Fantom",
+    "shortname": "",
+    "native_coin_id": "fantom",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/17/thumb/fantom.png?1706606773",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/17/small/fantom.png?1706606773",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/17/large/fantom.png?1706606773"
+    }
+  },
+  {
+    "id": "avalanche",
+    "chain_identifier": 43114,
+    "name": "Avalanche",
+    "shortname": "AVAX",
+    "native_coin_id": "avalanche-2",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/12/thumb/avalanche.png?1706606775",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/12/small/avalanche.png?1706606775",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/12/large/avalanche.png?1706606775"
+    }
+  },
+  {
+    "id": "cronos",
+    "chain_identifier": 25,
+    "name": "Cronos",
+    "shortname": "CRO",
+    "native_coin_id": "crypto-com-chain",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/46/thumb/cronos.jpeg?1706606792",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/46/small/cronos.jpeg?1706606792",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/46/large/cronos.jpeg?1706606792"
     }
   },
   {
@@ -3908,15 +4024,495 @@
     }
   },
   {
-    "id": "kroma",
-    "chain_identifier": 255,
-    "name": "Kroma",
+    "id": "polygon-pos",
+    "chain_identifier": 137,
+    "name": "Polygon POS",
+    "shortname": "MATIC",
+    "native_coin_id": "matic-network",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/15/thumb/polygon_pos.png?1706606645",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/15/small/polygon_pos.png?1706606645",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/15/large/polygon_pos.png?1706606645"
+    }
+  },
+  {
+    "id": "electroneum",
+    "chain_identifier": 52014,
+    "name": "Electroneum",
+    "shortname": "",
+    "native_coin_id": "electroneum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22214/thumb/electroneum.jpg?1741575232",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22214/small/electroneum.jpg?1741575232",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22214/large/electroneum.jpg?1741575232"
+    }
+  },
+  {
+    "id": "hyperliquid",
+    "chain_identifier": null,
+    "name": "Hyperliquid",
+    "shortname": "",
+    "native_coin_id": "usd-coin",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/243/thumb/hyperliquid.png?1713924434",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/243/small/hyperliquid.png?1713924434",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/243/large/hyperliquid.png?1713924434"
+    }
+  },
+  {
+    "id": "sei-network",
+    "chain_identifier": null,
+    "name": "Sei Network (Deprecating)",
+    "shortname": "",
+    "native_coin_id": "sei-network",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/148/thumb/Sei_Logo_-_Transparent.png?1706606762",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/148/small/Sei_Logo_-_Transparent.png?1706606762",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/148/large/Sei_Logo_-_Transparent.png?1706606762"
+    }
+  },
+  {
+    "id": "xrp",
+    "chain_identifier": null,
+    "name": "XRP Ledger",
+    "shortname": "xrp",
+    "native_coin_id": "ripple",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/36/thumb/xrp-logo.jpg?1706606750",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/36/small/xrp-logo.jpg?1706606750",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/36/large/xrp-logo.jpg?1706606750"
+    }
+  },
+  {
+    "id": "graphite-network",
+    "chain_identifier": 440017,
+    "name": "Graphite Network",
+    "shortname": "",
+    "native_coin_id": "graphite-network",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22220/thumb/graphite_network.jpg?1744596598",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22220/small/graphite_network.jpg?1744596598",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22220/large/graphite_network.jpg?1744596598"
+    }
+  },
+  {
+    "id": "zilliqa-evm",
+    "chain_identifier": 32769,
+    "name": "Zilliqa EVM",
+    "shortname": "",
+    "native_coin_id": "zilliqa",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22223/thumb/zilliqa.jpg?1745199643",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22223/small/zilliqa.jpg?1745199643",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22223/large/zilliqa.jpg?1745199643"
+    }
+  },
+  {
+    "id": "stargaze",
+    "chain_identifier": null,
+    "name": "Stargaze",
+    "shortname": "",
+    "native_coin_id": "stargaze",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/174/thumb/stargaze.jpeg?1706606807",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/174/small/stargaze.jpeg?1706606807",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/174/large/stargaze.jpeg?1706606807"
+    }
+  },
+  {
+    "id": "units-network",
+    "chain_identifier": 88811,
+    "name": "Unit Zero Network",
+    "shortname": "",
+    "native_coin_id": "unit0",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22193/thumb/unit0.jpg?1734076011",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22193/small/unit0.jpg?1734076011",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22193/large/unit0.jpg?1734076011"
+    }
+  },
+  {
+    "id": "plume-network",
+    "chain_identifier": 98866,
+    "name": "Plume Network",
+    "shortname": "",
+    "native_coin_id": "plume",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22226/thumb/Logomark-BG-Red.png?1746672975",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22226/small/Logomark-BG-Red.png?1746672975",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22226/large/Logomark-BG-Red.png?1746672975"
+    }
+  },
+  {
+    "id": "hyperevm",
+    "chain_identifier": 999,
+    "name": "HyperEVM",
+    "shortname": "",
+    "native_coin_id": "hyperliquid",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22208/thumb/hyperliquid.jpg?1740125774",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22208/small/hyperliquid.jpg?1740125774",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22208/large/hyperliquid.jpg?1740125774"
+    }
+  },
+  {
+    "id": "sx-rollup",
+    "chain_identifier": 4162,
+    "name": "SX Rollup",
+    "shortname": "",
+    "native_coin_id": "sx-network-2",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22219/thumb/sx_network.jpg?1744352289",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22219/small/sx_network.jpg?1744352289",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22219/large/sx_network.jpg?1744352289"
+    }
+  },
+  {
+    "id": "initia",
+    "chain_identifier": null,
+    "name": "Initia",
+    "shortname": "",
+    "native_coin_id": "initia",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22224/thumb/initia_symbol_white.png?1745664437",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22224/small/initia_symbol_white.png?1745664437",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22224/large/initia_symbol_white.png?1745664437"
+    }
+  },
+  {
+    "id": "story",
+    "chain_identifier": 1514,
+    "name": "Story",
+    "shortname": "",
+    "native_coin_id": "story-2",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22207/thumb/story.jpg?1739437182",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22207/small/story.jpg?1739437182",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22207/large/story.jpg?1739437182"
+    }
+  },
+  {
+    "id": "voi-network",
+    "chain_identifier": null,
+    "name": "Voi Network",
+    "shortname": "",
+    "native_coin_id": "voi-network",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22227/thumb/voi_network.jpg?1746070576",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22227/small/voi_network.jpg?1746070576",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22227/large/voi_network.jpg?1746070576"
+    }
+  },
+  {
+    "id": "xdc-network",
+    "chain_identifier": 50,
+    "name": "XDC Network",
+    "shortname": "xdc xinfin",
+    "native_coin_id": "xdce-crowd-sale",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/27/thumb/xdc_%281%29.png?1706606530",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/27/small/xdc_%281%29.png?1706606530",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/27/large/xdc_%281%29.png?1706606530"
+    }
+  },
+  {
+    "id": "klay-token",
+    "chain_identifier": 8217,
+    "name": "Kaia",
+    "shortname": "",
+    "native_coin_id": "kaia",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/9672/thumb/kaia.png?1734946776",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/9672/small/kaia.png?1734946776",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/9672/large/kaia.png?1734946776"
+    }
+  },
+  {
+    "id": "arbitrum-one",
+    "chain_identifier": 42161,
+    "name": "Arbitrum One",
+    "shortname": "Arbitrum",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/33/thumb/AO_logomark.png?1706606717",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/33/small/AO_logomark.png?1706606717",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/33/large/AO_logomark.png?1706606717"
+    }
+  },
+  {
+    "id": "hydration",
+    "chain_identifier": null,
+    "name": "Hydration",
+    "shortname": "",
+    "native_coin_id": "hydradx",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22230/thumb/hydration.jpg?1747213427",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22230/small/hydration.jpg?1747213427",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22230/large/hydration.jpg?1747213427"
+    }
+  },
+  {
+    "id": "moonbeam",
+    "chain_identifier": 1284,
+    "name": "Moonbeam",
+    "shortname": "",
+    "native_coin_id": "moonbeam",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/56/thumb/cropped-Moonbeam-Favicon-550px.png?1706606533",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/56/small/cropped-Moonbeam-Favicon-550px.png?1706606533",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/56/large/cropped-Moonbeam-Favicon-550px.png?1706606533"
+    }
+  },
+  {
+    "id": "optimistic-ethereum",
+    "chain_identifier": 10,
+    "name": "Optimism",
+    "shortname": "Optimism",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/41/thumb/optimism.png?1706606778",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/41/small/optimism.png?1706606778",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/41/large/optimism.png?1706606778"
+    }
+  },
+  {
+    "id": "linea",
+    "chain_identifier": 59144,
+    "name": "Linea",
+    "shortname": "",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/135/thumb/linea.jpeg?1706606705",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/135/small/linea.jpeg?1706606705",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/135/large/linea.jpeg?1706606705"
+    }
+  },
+  {
+    "id": "mantle",
+    "chain_identifier": 5000,
+    "name": "Mantle",
+    "shortname": "",
+    "native_coin_id": "mantle",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/140/thumb/mantle.jpeg?1706606701",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/140/small/mantle.jpeg?1706606701",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/140/large/mantle.jpeg?1706606701"
+    }
+  },
+  {
+    "id": "lens",
+    "chain_identifier": 232,
+    "name": "Lens",
+    "shortname": "",
+    "native_coin_id": "gho",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22228/thumb/light-removebg-preview.png?1746161920",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22228/small/light-removebg-preview.png?1746161920",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22228/large/light-removebg-preview.png?1746161920"
+    }
+  },
+  {
+    "id": "base",
+    "chain_identifier": 8453,
+    "name": "Base",
+    "shortname": "",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/131/thumb/base-network.png?1720533039",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/131/small/base-network.png?1720533039",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/131/large/base-network.png?1720533039"
+    }
+  },
+  {
+    "id": "ink",
+    "chain_identifier": 57073,
+    "name": "Ink",
+    "shortname": "ink",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22194/thumb/ink.jpg?1737600222",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22194/small/ink.jpg?1737600222",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22194/large/ink.jpg?1737600222"
+    }
+  },
+  {
+    "id": "eclipse",
+    "chain_identifier": null,
+    "name": "Eclipse",
+    "shortname": "eclipse",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22189/thumb/eclipse.jpg?1733211580",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22189/small/eclipse.jpg?1733211580",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22189/large/eclipse.jpg?1733211580"
+    }
+  },
+  {
+    "id": "defiverse",
+    "chain_identifier": 16116,
+    "name": "DeFiVerse",
+    "shortname": "",
+    "native_coin_id": "oasys",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22188/thumb/defiverse_%281%29.jpg?1732002206",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22188/small/defiverse_%281%29.jpg?1732002206",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22188/large/defiverse_%281%29.jpg?1732002206"
+    }
+  },
+  {
+    "id": "morph-l2",
+    "chain_identifier": 2818,
+    "name": "Morph L2",
     "shortname": "",
     "native_coin_id": "weth",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22186/thumb/kroma.jpg?1730788629",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/22186/small/kroma.jpg?1730788629",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/22186/large/kroma.jpg?1730788629"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22185/thumb/morph.jpg?1729659940",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22185/small/morph.jpg?1729659940",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22185/large/morph.jpg?1729659940"
+    }
+  },
+  {
+    "id": "enuls",
+    "chain_identifier": 119,
+    "name": "ENULS",
+    "shortname": "",
+    "native_coin_id": "nuls",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/298/thumb/enuls.jpg?1724912998",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/298/small/enuls.jpg?1724912998",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/298/large/enuls.jpg?1724912998"
+    }
+  },
+  {
+    "id": "mint",
+    "chain_identifier": 185,
+    "name": "Mint",
+    "shortname": "",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/293/thumb/mint.jpg?1724895620",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/293/small/mint.jpg?1724895620",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/293/large/mint.jpg?1724895620"
+    }
+  },
+  {
+    "id": "saakuru",
+    "chain_identifier": 7225878,
+    "name": "Saakuru",
+    "shortname": "",
+    "native_coin_id": "wrapped-oasys",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/280/thumb/saakuru.jpg?1719803308",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/280/small/saakuru.jpg?1719803308",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/280/large/saakuru.jpg?1719803308"
+    }
+  },
+  {
+    "id": "planq-network",
+    "chain_identifier": 7070,
+    "name": "Planq Network",
+    "shortname": "",
+    "native_coin_id": "planq",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/275/thumb/planq.jpeg?1717991052",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/275/small/planq.jpeg?1717991052",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/275/large/planq.jpeg?1717991052"
+    }
+  },
+  {
+    "id": "re-al",
+    "chain_identifier": 111188,
+    "name": "Re.al",
+    "shortname": "",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/264/thumb/re.al.jpeg?1717754295",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/264/small/re.al.jpeg?1717754295",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/264/large/re.al.jpeg?1717754295"
+    }
+  },
+  {
+    "id": "bevm",
+    "chain_identifier": 11501,
+    "name": "BEVM",
+    "shortname": "",
+    "native_coin_id": "bitcoin",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/245/thumb/bevm.jpeg?1713945524",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/245/small/bevm.jpeg?1713945524",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/245/large/bevm.jpeg?1713945524"
+    }
+  },
+  {
+    "id": "edu-chain",
+    "chain_identifier": 41923,
+    "name": "EDU Chain",
+    "shortname": "",
+    "native_coin_id": "edu-coin",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22213/thumb/educhain.jpg?1749455492",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22213/small/educhain.jpg?1749455492",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22213/large/educhain.jpg?1749455492"
+    }
+  },
+  {
+    "id": "pulsechain",
+    "chain_identifier": 369,
+    "name": "Pulsechain",
+    "shortname": "",
+    "native_coin_id": "pulsechain",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/130/thumb/pulse.jpeg?1706606525",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/130/small/pulse.jpeg?1706606525",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/130/large/pulse.jpeg?1706606525"
+    }
+  },
+  {
+    "id": "canto",
+    "chain_identifier": 7700,
+    "name": "Canto",
+    "shortname": "",
+    "native_coin_id": "canto",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/92/thumb/canto-network.png?1706606584",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/92/small/canto-network.png?1706606584",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/92/large/canto-network.png?1706606584"
+    }
+  },
+  {
+    "id": "massa",
+    "chain_identifier": null,
+    "name": "Massa",
+    "shortname": "",
+    "native_coin_id": "massa",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/241/thumb/massa.jpeg?1713847307",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/241/small/massa.jpeg?1713847307",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/241/large/massa.jpeg?1713847307"
+    }
+  },
+  {
+    "id": "goat",
+    "chain_identifier": 2345,
+    "name": "Goat",
+    "shortname": "",
+    "native_coin_id": "wrapped-bitcoin",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22221/thumb/goat_network.jpg?1744603529",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22221/small/goat_network.jpg?1744603529",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22221/large/goat_network.jpg?1744603529"
+    }
+  },
+  {
+    "id": "supra",
+    "chain_identifier": null,
+    "name": "Supra",
+    "shortname": "",
+    "native_coin_id": "supra",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22225/thumb/supra.png?1745914351",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22225/small/supra.png?1745914351",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22225/large/supra.png?1745914351"
     }
   }
 ]

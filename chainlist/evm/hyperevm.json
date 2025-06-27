@@ -1,0 +1,25 @@
+{
+  "chain": "hyperemv",
+  "name": "Hyper EVM",
+  "type": "mainnet",
+  "network": "evm",
+  "id": 999,
+  "hexId": "0x3e7",
+  "logo_id": "hyperliquid",
+  "logo": "https://avatars.githubusercontent.com/u/129421375?s=200&v=4",
+  "rpc": ["https://rpc.hyperliquid.xyz/evm", "https://hyperliquid.drpc.org"],
+  "native_token": {
+    "name": "Hyperliquid",
+    "symbol": "HYPE",
+    "decimals": 18,
+    "coingecko_id": "hyperliquid"
+  },
+  "explorers": [
+    {
+      "name": "Hyperscan",
+      "url": "explorer.hyperlend.finance"
+    }
+  ],
+  "gecko_terminal_chain_id": "hyperliquid",
+  "dexscreener_chain_id": "hyperliquid"
+}

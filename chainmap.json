@@ -38,5 +38,6 @@
   "solana": "solana",
   "sui": "sui",
   "godwoken": "ckb",
-  "base": "base"
+  "base": "base",
+  "hyperevm": "hyperevm"
 }
