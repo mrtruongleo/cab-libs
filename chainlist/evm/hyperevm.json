@@ -1,5 +1,5 @@
 {
-  "chain": "hyperemv",
+  "chain": "hyperevm",
   "name": "Hyper EVM",
   "type": "mainnet",
   "network": "evm",
