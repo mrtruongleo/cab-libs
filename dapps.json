@@ -38,6 +38,13 @@
     "mainNetwork": "evm"
   },
   {
+    "name": "AsterDex",
+    "url": "https://www.asterdex.com/en/spot/ASTERUSDT",
+    "logo": "https://static.asterdex.com/cloud-futures/static/images/aster/logo.svg",
+    "mainNetwork": "evm",
+    "preferChain": "bsc"
+  },
+  {
     "name": "QuickSwap",
     "url": "https://quickswap.exchange/#/swap",
     "logo": "https://avatars.githubusercontent.com/u/77100292?s=200&v=4",
