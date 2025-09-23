@@ -8959,6 +8959,35 @@
     "dexscreener_chain_id": "optimism"
   },
   {
+    "chain": "peaq",
+    "name": "Peaq Network",
+    "type": "mainnet",
+    "network": "evm",
+    "id": 3338,
+    "hexId": "0xd0a",
+    "logo_id": "peaq-2",
+    "logo": "https://avatars.githubusercontent.com/u/93540734?s=200&v=4",
+    "rpc": [
+      "https://quicknode1.peaq.xyz",
+      "https://quicknode2.peaq.xyz",
+      "https://quicknode3.peaq.xyz"
+    ],
+    "native_token": {
+      "name": "PEAQ",
+      "symbol": "PEAQ",
+      "decimals": 18,
+      "coingecko_id": "peaq-2"
+    },
+    "explorers": [
+      {
+        "name": "SubScan EVM",
+        "url": "https://peaq.subscan.io/"
+      }
+    ],
+    "gecko_terminal_chain_id": "peaq",
+    "dexscreener_chain_id": "peaq"
+  },
+  {
     "chain": "polygon",
     "name": "Polygon Mainnet",
     "type": "mainnet",

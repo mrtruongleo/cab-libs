@@ -8851,6 +8851,7 @@
     "type": "mainnet",
     "network": "evm",
     "id": 1088,
+    "hexId": "0x440",
     "rpc": [
       "https://andromeda.metis.io/?owner=1088",
       "https://metis-rpc.gateway.pokt.network"
