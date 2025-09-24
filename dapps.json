@@ -83,7 +83,8 @@
     "name": "NetSwap",
     "url": "https://netswap.io/#/swap",
     "logo": "https://avatars.githubusercontent.com/u/91089732?s=280&v=4",
-    "mainNetwork": "metis-andromeda"
+    "mainNetwork": "evm",
+    "preferChain": "metis-andromeda"
   },
   {
     "name": "Hercules",
@@ -112,12 +113,5 @@
     "logo": "https://syncswap.xyz/images/syncswap.svg",
     "mainNetwork": "evm",
     "preferChain": "zksync"
-  },
-  {
-    "name": "Osmosis",
-    "url": "https://app.osmosis.zone/",
-    "logo": "https://avatars.githubusercontent.com/u/79296913?s=48&v=4",
-    "mainNetwork": "cosmos",
-    "preferChain": "cosmos"
   }
 ]
