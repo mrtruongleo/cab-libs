@@ -53,32 +53,11 @@
     "preferChain": "polygon"
   },
   {
-    "name": "1Inch",
-    "url": "https://app.1inch.io/#/137/simple/swap/MATIC",
-    "logo": "https://cdn.1inch.io/logo.png",
-    "mainNetwork": "evm",
-    "preferChain": "eth"
-  },
-  {
     "name": "SushiSwap",
     "url": "https://www.sushi.com/swap",
     "logo": "https://avatars.githubusercontent.com/u/72222929?s=200&v=4",
     "mainNetwork": "evm",
     "preferChain": "eth"
-  },
-  {
-    "name": "ParaSwap",
-    "url": "https://app.paraswap.io",
-    "logo": "https://avatars.githubusercontent.com/u/52015910?s=200&v=4",
-    "mainNetwork": "evm",
-    "preferChain": "eth"
-  },
-  {
-    "name": "Tethys Finance",
-    "url": "https://v1.tethys.finance/swap",
-    "logo": "https://assets.coingecko.com/coins/images/22141/large/wjoZJvzA_400x400.jpg",
-    "mainNetwork": "evm",
-    "preferChain": "metis-andromeda"
   },
   {
     "name": "NetSwap",
@@ -93,13 +72,6 @@
     "logo": "https://docs.hercules.exchange/~gitbook/image?url=https:%2F%2F1837607513-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F4PaAdnJwvfoXKFVsZVGE%252Ficon%252FhZ2uYriQUXldwdRUZGhn%252FOfficial.png%3Falt=media%26token=17371519-edb3-4859-8c62-f6a614988fd3&width=32&dpr=1&quality=100&sign=087c574151b0c450ed7bc5336d074d70f20084ee56bb553522497a91202d52cc",
     "mainNetwork": "evm",
     "preferChain": "metis-andromeda"
-  },
-  {
-    "name": "Velodrome Finance",
-    "url": "https://velodrome.finance/swap",
-    "logo": "https://velodrome.finance/velodrome.svg",
-    "mainNetwork": "evm",
-    "preferChain": "optimism"
   },
   {
     "name": "Camelot Dex",
