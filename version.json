@@ -274,5 +274,15 @@
     "build": 5,
     "description": ["- Bugs fix.", "- Fix scan QR code from screen in Dapps."],
     "release_date": "2025-03-22"
+  },
+  {
+    "version": 2.69,
+    "build": 0,
+    "description": [
+      "- Bugs fix.",
+      "- Direct wallet with Dapps.",
+      "- Kết nối Dapps trực tiếp với ví CAB hoặc Metamask icon hoặc Phantom icon, không cần qua Walletconnect"
+    ],
+    "release_date": "2025-10-07"
   }
 ]
