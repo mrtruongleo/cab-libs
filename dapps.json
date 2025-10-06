@@ -46,27 +46,6 @@
     "preferChain": "bsc"
   },
   {
-    "name": "QuickSwap",
-    "url": "https://quickswap.exchange/#/swap",
-    "logo": "https://avatars.githubusercontent.com/u/77100292?s=200&v=4",
-    "mainNetwork": "evm",
-    "preferChain": "polygon"
-  },
-  {
-    "name": "SushiSwap",
-    "url": "https://www.sushi.com/swap",
-    "logo": "https://avatars.githubusercontent.com/u/72222929?s=200&v=4",
-    "mainNetwork": "evm",
-    "preferChain": "eth"
-  },
-  {
-    "name": "NetSwap",
-    "url": "https://netswap.io/#/swap",
-    "logo": "https://avatars.githubusercontent.com/u/91089732?s=280&v=4",
-    "mainNetwork": "evm",
-    "preferChain": "metis-andromeda"
-  },
-  {
     "name": "Hercules",
     "url": "https://app.hercules.exchange/",
     "logo": "https://docs.hercules.exchange/~gitbook/image?url=https:%2F%2F1837607513-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F4PaAdnJwvfoXKFVsZVGE%252Ficon%252FhZ2uYriQUXldwdRUZGhn%252FOfficial.png%3Falt=media%26token=17371519-edb3-4859-8c62-f6a614988fd3&width=32&dpr=1&quality=100&sign=087c574151b0c450ed7bc5336d074d70f20084ee56bb553522497a91202d52cc",
